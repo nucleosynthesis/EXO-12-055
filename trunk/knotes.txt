@@ -1,0 +1,100 @@
+
+title:
+- only mention V-jet? not monojet?
+
+line 11:
+- "containing and energetic" -> "containing an energetic"
+
+line 13:
+- "the first to target" -> "the first by CMS to target"? Since ATLAS has a
+mono-V analysis already...
+
+line 39:
+- "Yuakwa" -> "Yukawa"
+
+line 41,43:
+- "stralung" -> "strahlung"
+
+line 46:
+- "darkmatter" -> "dark matter"
+
+Section 2:
+From PubComm: https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/PubGuidelines#Symbols
+We no longer need to define x,y,z or phi or eta; I suggest we reduce the text in this section as much as possible
+
+line 80:
+- is the detail that we modified a Z' model to generate mono-V needed? Seems a bit technical for a PAS (though it doesn't take much text)
+
+line 84:
+- Doesn't make sense: "...and it is one have xi=1 for xi=0". Do you mean "...and it is zero for xi=0"?
+
+
+line 90:
+- "both" doesn't seem to make sense here
+
+line 91-92:
+- "corrections to higher orders can become sensitive"... suggest re-phase to something with "become sensitive to higher order corrections"
+
+line 92:
+- "stralung" -> "strahlung"
+
+lines 107-111:
+- is it agreed that we use the jet cleaning cuts? I thought the MET filters takes care of the noise issue. I can add these cuts but currently my selection does not apply them.
+
+line 113:
+- Remove jargon: "(L2, L3 and residual)"
+
+line 114:
+- "which" -> "that"
+
+line 114-115:
+- I'm also using PFMET150, which isn't documented here. If we don't wish to use that, I can drop it from my trigger requirements, otherwise a description should be added.
+
+line 126, 127:
+- I think we agreed that we only consider central jets, |eta|<2.5 instead of |eta|<4.5.
+
+line 131:
+- isn't the dphi cut 2.0 instead of 1.8?
+
+line 132:
+- veto also on tau with pT > 15
+
+line 155:
+- change "met" to "E_T^{miss}"
+
+line 222:
+- just quote "1.44" instead of "1.442" (the fully precise value is 1.4442 right?)
+
+line 234:
+- "boosted, category" -> "boosted category"
+
+line 244:
+- "by as" -> "as"
+
+line 247:
+- "exlcusive" -> "exclusive"
+
+line 262:
+- missing text? "The post fit values of a are used..."
+
+line 269:
+- for the single muon region, we want to use muon pT > 20 and not pT > 30? Leo?
+
+line 271:
+- "as for" -> "as with"
+
+line 286:
+- "reweigthing" -> "reweighting"
+
+line 290:
+- "As for" -> "As with"
+- "functions" -> "function's"
+
+line 296:
+- "assesed" -> "assessed"
+
+line 298-299:
+- Better to just say remaining backgrounds are model from MC, otherwise it reads as we use the MC because we don't need so much accuracy (which may be true, but don't need to state that)
+
+line 305
+- omit "is included"

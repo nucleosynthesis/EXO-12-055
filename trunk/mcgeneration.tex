@@ -1,0 +1,70 @@
+\section{Monte Carlo Simulation}\label{sec:mcgen}
+The signature of monojet and hadronic mono-V production is a large value of missing \ETm recoiling against jets. The largest backgrounds 
+are due to Z+jet production in which the Z decays to neutrinos, and leptonically decaying W+jet production where the charged lepton falls 
+outside of the detector acceptance or fails the reconstruction criteria, thus producing real \ETm.   
+
+Simulated events are used throughout the analysis to determine both the expected signal and background contributions.
+Where possible, data-driven corrections are applied to the simulation so that it more accurately describes the data.
+The Z+jets, W+jets, $t\bar{t}$ and QCD background Monte Carlo (MC) samples are produced using Madgraph~\cite{amcatnlo} interfaced with Pythia6~\cite{Sjostrand:2006za} for hadronization and 
+fragmentation, where jets from the matrix element are matched to the parton shower following the MLM matching prescription~\cite{Mangano:2006rw}. 
+The single-top background sample is generated with POWHEG~\cite{powheg},  
+whereas diboson samples are produced directly with Pythia6.  
+All signal and background samples are processed using Geant4~\cite{geant4}, providing a full simulation of the CMS detector.  
+The MC samples are corrected to account for the distribution of the number of additional (pileup or PU) interactions 
+observed in 2012 dataset. Both signal and background samples are additionally corrected to account for the mis-modelling of hadronic recoil in simulation following 
+the procedure described in~\cite{CMS-PAS-JME-12-002}.
+
+The production of fermionic DM is considered via both spin-0 and spin-1 mediators. In the vector/axial-vector mediator scenario, hard initial state radiation gives 
+rise to the monojet topology (Figure~\ref{fig:monojet1}), while the mono-V signature results from the associated production of vector bosons 
+(Figure~\ref{fig:monoV1}). The mono-V signature produced via a spin-1 mediator is modelled as a $Z'$ boson~\cite{zprimemodel}, implemented in Madgraph~\cite{amcatnlo}, 
+with either pure vector or pure axial-vector couplings to SM and DM fermions, while for the monojet signature MCFM~\cite{mcfm} is used. 
+
+
+\begin{figure}[htbp]
+  \centering
+  \subfloat[][]{
+  	\includegraphics[angle=0,width=0.36\textwidth]{fig/monojet.png}
+	\label{fig:monojet1}
+  }	
+  \subfloat[][]{
+	\includegraphics[angle=0,width=0.36\textwidth]{fig/monoV.png}
+	\label{fig:monoV1}
+  }
+  \caption{Diagrams for the monojet (a) and mono-V (b) processes with a spin-1 mediator.}
+\end{figure}
+
+MCFM is also used for the scalar and pseudoscalar models, shown in Figure~\ref{fig:monoXfeyn}. With this choice of generator, the \pt spectra are provided at leading order accuracy and 
+with finite top mass, which has a large effect on the spectrum~\cite{Buckley:2014fba}.
+The mono-V signature in the scalar mediator model is generated as Higgs-strahlung (Figure~\ref{fig:monoV0}) with JHUgen~\cite{Anderson:2013afp}, where the Higgs boson mass 
+is modified to match the scalar mediator mass. The predicted cross-section is scaled using known next-to-next-to-leading order (NNLO) k-factors~\cite{Heinemeyer:2013tqa}.
+
+In the scalar and pseudoscalar scenarios, Yukawa couplings ($g_{SM}=g_{q}m_{q}/\nu$, in which $m_{q}$ is the quark mass and $\nu$ is the vacuum expectation value) 
+between the mediator and SM quarks are assumed. The scaling parameter, $g_{q}$ is assumed to be flavour-universal and set constant at $g_{q}=1$.
+Due to this, the spin-0 mediator in the monojet channel is produced primarily through a top-quark loop (Figure~\ref{fig:monojet0}). 
+For all interpretations shown, the coupling of the mediator to the DM particle, $g_{DM}$ is assumed to be 1. The minimum mediator widths are determined from the formulae given in~\cite{Harris:2014hga}.
+%A range of mediator-SM coupling strengths is considered and  
+
+For the specific case where the scalar mediator is assumed to be the SM Higgs, the monojet signature is produced with POWHEG, which is tuned so that the \pt spectrum reproduce predictions at 
+NLO~\cite{Heinemeyer:2013tqa}. Instead, the Higgs-strahlung process is produced using Pythia6 for comparison with previous Higgs invisible searches in the V-boson associated production mode at CMS~\cite{zllhinv,monoZHbb}. 
+In all interpretations, the DM particle is assumed to be a Dirac fermion. 
+
+
+\begin{figure}[htbp]
+  \centering
+  \subfloat[][]{
+	\includegraphics[angle=0,width=0.36\textwidth]{fig/scalarbox.png}
+	\label{fig:monojet0}
+  }
+  \subfloat[][]{
+  	\includegraphics[angle=0,width=0.36\textwidth]{fig/scalarV.png}
+  	\label{fig:monoV0}
+  }
+  \caption{Diagrams for production of the monojet (a) and mono-V signature through Higgs-strahlung (b), through a scalar mediator.\label{fig:monoXfeyn}}
+\end{figure}
+
+%For the vector(axial) mediator of the monojet,  
+%For the mono-V, we use a modified minimal $Z'$ model~\cite{zprimemodel} to generate both the mono-W and mono-Z 
+%channels~\cite{Basso:2008iv}, this allows for leading order simplified models of the mono-V production.  The $\xi$ parameter, 
+%which parametrizes the mediator coupling strength to d-type quarks ($\lambda_{d}$) is then varied over all the models. 
+%
+

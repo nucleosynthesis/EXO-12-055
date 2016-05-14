@@ -1,0 +1,350 @@
+NOTE: While the list of comments here is quite long, please note that I find the paper to be very well-written and most are just trivial corrections of style.
+
+title— quite long, suggest:
+Search for dark matter in events with jets and missing energy with CMS at 8 TeV
+
+Abstract
+8 TeV (space needed)
+The last 2 sentences need to be reversed.
+vector, or axial vector mediator.
+
+2 dark matter (no caps)
+2-3 containing an energetic jet and and an imbalance of missing transverse energy
+3-4 in pp collisions at the
+7 dark matter (no caps)
+8 standard model (no caps)
+10 the production of DM is possible at the LHC.
+12 Monojet searches [1,2] provide
+13 at the LHC, while mono-V searches [3-6] target the 
+19 models [9-11] (remove comma after models)
+19 delete this line so it reads
+… simplified DM models [9-11], which span a broad range of mediator and DM particle properties [12]. 
+25 jets from moderately
+26-27 available in jet substructure. (no hyphen)
+27 categorized
+27 in the event.
+28 The signal extraction is 
+29 category, providing improved
+31 as follows: 
+31 DM maodels
+32 hypotheses; Section 3
+32-33 of physics object reconstruction, event selection, and categorization used in the search; Section 4
+34 extraction; Section 5 presents the results
+35 for DM production.
+50 Signal hypotheses (no cap)
+52 need ref. for models
+53 of DM.
+55 DM particle
+56 m_DM DM not italics
+56 m_MED MED not italics
+
+equations (1) - (4) get rid of the sideways U symbol
+equation (4)  end with comma
+
+57 axial vector  (no hyphen)
+58 add ref. for the Lagrangians
+58 mediators, respectively. (add comma)
+58 DM and SM not italics
+60 axial vector  (no hyphen)
+62 remove comma
+64 axial vector  (no hyphen)
+65 and thus have limited
+66 experiments [14].
+67 pseudoscalar
+70 fermionic DM production.  (no italics)
+71 DM
+72 (Fig. 1a)  remove see
+73 through a radiative process (Fig. 1b).
+74 DM
+75 production (Fig. 1c). add the diagram
+76 delete radiated
+77 mediator in the SM is
+77 g_SM not italics
+77 DM
+78 DM not italics
+79 SM particles.
+79-80 width is fixed by requiring that only the DM couple to the mediator [22].
+82 signals, simulation events are  (choose between MC and simulation but not both, I like simulation better)
+83 V-boson
+84-5 All MC events are generated at leading order, using PYTHIA6 [25] for parton showers and GEANT4 [26] for CMS detector simulation.
+
+Figure 1. Diagrams for production of DM via a scalar mediator giving (a) monojet and (b) V-boson signatures. (c) Diagram for production of DM via a vector mediator.
+
+91 Event selection and categorization
+92-3 high-p_T jets.  (delete the isolation part as it is mentioned in detail below) 
+99 [27] together with a jet of
+99-101 An offline cut of E_T^miss > 200 GeV is made to maintain a trigger efficiency > 99%.
+102 using both the
+103 and the Cambridge/Aachen (no space)
+106 of the observed energy density.
+107 applied to calibrate the absolute
+109 using PF.  (already referenced so remove [27]).
+111 tracker, ECAL, HCAL, and muon detector data [xx].  (add reference, is this part of standard PF?) 
+113 QCD multijet
+115 state (if simple) or reference the isolation requirement.
+116 Selected events are classified based on the 
+117-21 distinguish initial or final state radiation from hadronic V-boson decays which can be either highly-boosted or resolved into 2 jets. This results in 3 categories of events which are referred to as monojet, V-boosted, or V-tagged.
+123 “fat” jet. (no hyphen)
+126 on the “subjetiness” quantity tau_1/tau_2 as defined in [31,32], which
+128-9 and m_prune must be in the range 60—110 GeV.
+133 ak5 jet with
+135 remove parentheses
+135 jet mass cut,
+135-6 V-boosted category.
+136 remove Monte Carlo
+137 simulation; this
+137 resulting from
+138 delete well
+139 in Ref. [34].
+140 insufficient boost for its
+141 fat jet
+142 event (V-tagged).
+143 djiet has mass in the rage 60–110 GeV,
+146-7 the MVA V-tagger are the likelihood-based discriminators which distinguish quark from gluon jets [35], the jet pull angle [36], and
+149 highest MVA value is taken
+149 the MVA V-tagger
+151 Fig. 3
+153 defined using an MVA containing secondary vertex information (CSV medium)[38].
+
+Figure 2(a). remove C-A 0.8 Jet as that information will be put in caption
+Figure 2(a) and (b) Data/sim.
+Figure 4. right x axis label [GeV]
+
+Figure 2. Distributions in boosted events before the jet mass cut of (a) tau_2/tau_1 with ca8 = 0.8 and (b) m_prune. A cut of tau_2/tau_1 < 0.5 has been applied in (b). The discrepancy between data and simulation is part of the of systematic uncertainty (not shown). The dashed red line shows the expected distribution for scalar-mediated DM production with m_DM = 10 GeV and m_MED = 125 GeV.
+
+Figure 3(a) and (b) remove (diet p_T < 160) and (diet p_T > 160)
+Figure 3(a) and (b) Data/sim.
+
+Figure 3. The MVA distribution for V-tagged events in simulation and data after signal cuts for (a) p_T < 160 GeV and (b) p_T > 160 GeV. At a p_T  of about 160 GeV, the jets begin to overlap. The dashed red line shows the expected distribution for scalar-mediated DM production with m_DM = 10 GeV and m_MED = 125 GeV.
+
+158 this monojet category
+159 V-boosted category
+163 To compute the SM expectation
+164 t t-bar not italics
+164 multijet
+165 PYTHIA6  remove [25] as it is already referenced previously
+168 PYTHIA6
+169 pileup interactions   remove PU as it is never used subsequently
+169-70 observed in the 8 TeV dataset
+171 Ref. [42].
+
+MAJOR EDIT
+move 163-171 to just after 121. The reason is the simulation is shown in Figs. 2 and 3 before it is discussed in the text.
+
+
+176 of both detector resolution
+179 Background estimation
+180-1 The presence of DM will e observable as an excess of events above SM backgrounds in a region of high E_T^miss.
+186-7 250—1000 GeV (200—1000 GeV) for V-boosted and V-tagged (monodies) events, where 
+188 bin is chosen to provide ease
+190 The background contributions from Z+jets (W+jets) is determined using data from dimuon and photon (single-muon) control regions.
+195-6 In the control regions, the dimuon
+197-8 fake E_T^miss in the control
+
+Figure 4(a) and (b) Data/sim.
+Figure 4. p_T no italics on T
+Figure 4. right x axis label [GeV]
+Figure 4. left x axis label p_T [GeV]  (delete Lead Jet)
+
+Figure 4. Distributions of (a) E_T^miss and (b) leading jet p_T in simulated events and data, after
+Figure 4. m_DM no italics
+Figure 4. m_MED no itslics
+Figure 4. The gray bands in the bottom panels indicate the statistical uncertainty from the limited number of simulated events.
+
+
+201 Z(nu nu)+jets background becomes
+203 p_T no italics on T
+204 delete template
+205 +jets, resulting
+211 The quantities
+211 put subscript i (italics) on each of the parameters
+211 are free parameters (delete the)
+213 delete transfer
+213-4 extrapolation of specific backgrounds from the signal to control regions.
+214-5 particular category is given by
+
+equation (5) The notation is suddenly cumbersome and slightly confusing. Suggest eliminating c altogether and it will look cleaner without loosing meaning.
+
+216 d_i^gamma/Z/W
+218 B^gamma, B_^Z, and B^W.  insert comma and change order to match equation
+220 delete transfer
+222 $/gamma$+jet  use symbol
+223 $/gamma$+jet
+224 The differential cross sections  (no hyphen)
+225-6 [39], to the distributions
+225-6 deriving the factors R_i^gamma and R_i^Z.
+228 nuisance parameters, which allow  (delete theta as it is not used)
+229 delete transfer
+229 remove commas
+229 fit,  (insert comma)
+243 in the jet resolution and energy scale.
+245 in the V-tagged category.
+250 backgrounds derived from simulation.
+251 in each bin of E_T^miss for all SM
+
+
+Figure 5. remove Components from each legend
+Figure 5. change x axis label to fake E_T^miss [GeV]
+
+Figure 5. V-tagged and V-boosted event categories, respectively.
+Figure 5. before fitting the control regions
+Figure 5. The bottom panels show the ratio of the observed data to the expectations, pre- and post-fit.
+Figure 5. uncertainties of the fit.
+
+254 The potential correlations
+257 A simultaneous fit was performed to the
+258 uncertainties in the background expectations.
+260 Fig. 6
+263 (Fig. 6)
+268 cross section
+269 cross section
+260 TH no italics
+270 delete either
+270 vector, or axial vector   (and to or and no hyphen)
+274-5 20% (30%) for the vector and axial vector (scalar and pseudoscalar) models due to
+275 delete instead
+279 given in Eq. (1).
+280 t-channel  (t in italics)
+281 delete mediator
+282-3 axial vector
+283 DM-proton scattering  (delete second hyphen)
+287 galaxy,   (insert comma)
+293 beyond SM
+294 axial vector  (no hyphen)
+295-6 of the excluded cross section to the predicted cross section
+300 cross section
+303 region of low DM masses that this analysis in not expected
+306 delete mediator 
+307 plane of Fig. 7(a),
+307 axial vector  (no hyphen)
+308 as shown in Fig. 7(b).
+309 small DM masses as shown in Fig. 7(c).
+310 delete larger
+310 delete in this scenario
+310 geV,  (insert comma)
+310 cross section
+312 beyond
+314 Figures 8(a), (b), and (c)
+315-6 axial vector
+316 cross section
+319 delete however
+319 paricular,  (insert comma)
+321 delete mediator
+323 light-quark
+324 DM
+325 less than about 6 GeV.
+325 axial vector  (no hyphen)
+329 DM
+329 b quarks,   (no hyphen insert comma)
+330 Figure 8(d)
+331 cross section
+322 delete (top and bottom quarks)
+336 q q-bar 
+
+
+Figure (b). Axial vector  (add word vector) 
+
+351 axial vector  (no hyphen)
+
+
+Table 2-3 rotate to match orientation of Table 1. 
+
+
+356  proton proton (space needed)
+356 Eur. Phys. J. (spaces needed)
+356 delete , no.5,
+360 delete , no. 7,
+362. J. C75 (space needed)
+362 delete ,no.9,
+362 .] (period inside bracket)
+365 Phys. Rev. (space needed)
+372 delete , no. 4,
+374 replace sqrt(s) with $\sqrt{s]$
+365 delete , no. 9,
+368 $\sqrt {s}$ = 8 (space needed)
+377 remove caps in title
+378 124 (delete —127)
+380 remove caps in title
+381 Phys. Rev. (space needed)
+382 remove caps in title
+383 412. (delete —421).
+383 add arXiv/doi 
+384 remove caps in title
+389 remove caps in title
+395 remove ,no. 7,
+398 dark matter (no caps)
+405-6 remove caps in title
+414 D91
+418 remove —15
+420 delete , no. 3,
+426 Nucl. Phys. A506 (2003) 250.  add arXiv/doi 
+427 remove Technical Report and the words after CMS-PAS-PFT-09-001.
+429 missing journal name
+432 remove Technical Report and the words after CMS-PAS-JME-09-001.
+434 JINST 6 (2011) 11002.
+
+Comments of J. Rohlf, part 2
+
+336 $\tau^+ \tau^-$, or b b-bar
+343 with the CMS
+343 utilize substructure
+
+Figure 7(b)  Axial vector  (add word vector)  
+Figure 7(a) (b) (c) (d)  [GeV]
+
+Figure 7. The 90% CL exclusion
+Figure 7. assuming (a) vecgtor, (b) axial vector, (c) scalar, and (d) pseudoscalar mediators.
+Figure 7. bottom/left of the contours in all cases,  (delete shown insert comma)
+
+
+Figure 8(b) Axial vector  (add word vector)
+Figure 8(a) (b) (c) (d)  [GeV]
+
+Figure 8. The 90% CL exclusion
+Figure 8. assuming (a) vecgtor, (b) axial vector, (c) scalar, and (d) pseudoscalar mediators.
+Figure 8. top/left
+Figure 8. axial vector
+Figure 8. monodies, V-boosted, and V-tagged categories.
+Figure 8. V-tagged categories
+Figure 8. light quarks (q q-bar), tau^+ tau^-, and b b-bar
+Figure 8. regions, respectively.
+
+440 remove caps from title
+441 Phys. Rev. (space)
+448 remove caps from title
+448 Phys. Rev. Lett.  (spaces)
+451 remove ,no 4,
+462 Nuc. Phys. B Proc. Sup. 205 (2010)
+462 remove —41
+463 remove ,no 2,
+467 08-002 (2008),
+473 remove —272
+476 remove ,no. 11,
+479 submitted to EPJC.
+481 13-001 (2013).
+482 J. Phys. G: Nucl. Part. Phys.
+482 remove ,no. 10,
+485 Phys. Rev.  (insert space)
+489 remove ArXiv e-prints (July, 2013)
+490 remove caps from title
+493 Phys. Rev. Lett.  (insert spaces)
+493 remove , no. 9,
+498 remove ,no. 23,
+500 remove caps from title
+501 Phys. Rev. Lett.  (insert spaces)
+504 Astrophys. J. (insert space)
+505 remove —23
+510 remove caps from title
+511 Phys. Dark Univ. 5-6 (2015) 18,
+514 Astron. Atrophies. (insert space)
+516 remove caps in title
+519 remove —58
+521 remove caps in title
+523 remove caps in title
+525 remove , no. 6,
+527 remove caps in title
+529 remove ,no. 18,
+531 remove caps in title
+ 
+
+NB I see that I have made a mistake in earlier comments that V-tagged means both V-boosted and V-resolved. I will need to correct this on the next reading.
