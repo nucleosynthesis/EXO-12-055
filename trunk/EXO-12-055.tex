@@ -83,8 +83,10 @@ universe. In many theories which extend the SM, the production of DM particles
 is possible at the LHC. Monojet searches~\cite{monojet1,monojet2} provide 
 a model-independent means of exploring DM production at the LHC, while mono-V, 
 V=W or Z boson, searches~\cite{monolep,Aad:2014vka,Aad:2013oja,ATLAS:2014wra} target the
-associated production of DM with SM vector bosons, which can be enhanced in
-theories with non-universal DM couplings~\cite{IVDM}.  The interpretation of
+associated production of DM with SM vector bosons.
+%which can be enhanced in
+%theories with non-universal DM couplings~\cite{IVDM}.  
+The interpretation of
 results from these and other DM searches at the LHC have generally utilized
 effective field theories (EFT) that assume heavy mediators and DM production via
 contact interactions~\cite{Fox:2011pm}.  The results of this analysis are
@@ -99,11 +101,12 @@ This search is the first at CMS to target the hadronic decay modes of the vector
 bosons in the mono-V channels. A multivariate V-tagging technique is employed to
 identify the individual jets from moderately boosted vector bosons. The
 exploration of mono-V production at high boost utilises recently developed
-techniques designed to exploit information available in jet substructure of.  
+techniques designed to exploit information available in jet substructure.  
 The events are categorized according to the nature of the jets in the
 event. The signal extraction is performed by considering the $\ETm$
-distribution in each event category, providing improved
-sensitivity compared to the previous CMS monojet analysis~\cite{monojet1}. 
+distribution in each event category, and using additional data control regions 
+to constrain the dominant backgrounds yielding improvements of roughly 60\% and 40\% respectively 
+in exclusion limits compared to the previous CMS monojet analysis~\cite{monojet1}.
 
 This paper is structured as follows: Section 2 outlines the DM models
 explored as signal hypotheses; Section 3 provides a description of the
@@ -167,19 +170,19 @@ or scalar mediated interactions, between which direct detection makes no
 distinction, while spin-dependent interactions refer to axial vector mediated
 processes.
  
-Pseudoscalar interactions are velocity suppressed in DM-nucleon interactions and
-thus have limited sensitivity from the direct detection experiments~\cite{Haisch:2012kf}.  
+Pseudoscalar DM-nucleon interaction cross sections are suppressed at non-relativitstic DM 
+velocities therefore the sensitivity from the direct detection experiments is limited~\cite{Haisch:2012kf,LopezHonorez:2012kv}.  
 An extension to the scalar and pseudoscalar can
 be performed by allowing the scalar and pseudoscalar interactions to undergo
-electroweak symmetry breaking (EWSB) in an analogous way to the Higgs
-mechanism~\cite{Khoze:2015sra,Hambye:2013sna,Khoze:2014xha,Khoze:2014woa,Altmannshofer:2014vra,Carone:2013wla,Heikinheimo:2013fta}.
-Scalar and pseudoscalar models where EWSB is not present are denoted herein as 
-fermionic DM production.
-
+electroweak symmetry breaking in an analogous way to the Higgs
+mechanism~\cite{Khoze:2015sra,Hambye:2013sna,Khoze:2014xha,Khoze:2014woa,Altmannshofer:2014vra,Carone:2013wla,Heikinheimo:2013fta}.  
 In collider experiments, the production of Dark Matter in spin-0 mediated
 interactions is predominantly through gluon-fusion via a top-quark loop 
-(Fig. ~\ref{fig:monoXfeyn}(a)).  When EWSB is present in the model, mono-V
+(Fig. ~\ref{fig:monoXfeyn}(a)).  When couplings of the mediator to vector bosons are 
+present, mono-V 
 signatures are produced through a radiative process (Fig.~\ref{fig:monoXfeyn}(b)). 
+The scenario in which couplings between the mediator and vector bosons are not considered, is 
+denoted herein as $fermionic$. 
 For the spin-1 signatures, DM is produced in
 an analogous way to Z boson production (Fig.~\ref{fig:monoXfeyn}(c)). The
 mono-V or monojet signatures follow from the presence of a V-boson or
@@ -194,10 +197,10 @@ In order to model the expected contribution from these signals, simulation
 events are generated using MCFM~\cite{mcfm} for the monojet final state, and
 JHUGen~\cite{Anderson:2013afp} for the V-boson final state.
 All signal models are generated at leading order, using  
-PYTHIA6~\cite{Sjostrand:2006za} for parton showers and GEANT4~\cite{geant4} for simulation of the CMS detector.  
-For the monojet signal, the generation is performed using the mediator mass for both the generation and shower scale. 
-The impact of this choice was found to be up to 30\% in the expected signal yield in the relevant kinematic region 
-for mediator masses above 400 GeV. 
+PYTHIA6~\cite{Sjostrand:2006za} for parton showers and hadronization, and Geant4~\cite{geant4} for simulation of the CMS detector.  
+For the monojet signal, the generation is performed using the mediator mass for both the generation and hadronisation scale. 
+An alternative choice taking $\sqrt{\pt_{\textrm{MED}^{2}+m_{\textrm{MED}}^{2}}}$ for the hadronisation scale was found to result in differences of up to 
+80\% in the expected signal yield in the relevant kinematic region for mediator masses above 400 GeV. 
 For scalar and pseudoscalar mediated DM production, the finite top quark mass is taken 
 into account for both the inclusive cross-section 
 and kinematic properties of the signal. 
@@ -225,9 +228,11 @@ The data used for this analysis are collected using either of two triggers
 designed to record events containing large \ETm. The first requires an \ETm of
 greater than 120 \gev, calculated only using information from the calorimeter,
 while the second requires an \ETm greater than 95~\gev or 105~\gev, depending on
-the data-taking period, calculated using  the particle flow (PF) reconstruction
-algorithm~\cite{CMS-PAS-PFT-09-001} together with a jet of \pt$>80$ \gev and
-$|\eta|<2.6$. The lowest threshold on \ETm for event selection is set at 200 GeV 
+the data-taking period, together with a jet of \pt$>80$ \gev and
+$|\eta|<2.6$. The $\ETm$ is  calculated using the particle flow (PF) reconstruction
+algorithm~\cite{CMS-PAS-PFT-09-001} which optimally combines information from various components 
+of the CMS detector to reconstruct and identify individual particles. 
+The lowest threshold on \ETm for event selection is set at 200 GeV 
 in order to maintain a trigger efficiency greater than 99\%.
 
 Jets are reconstructed from the clustering of particle flow objects using both 
@@ -317,7 +322,7 @@ $m_{\mathrm{DM}} = 10$ GeV and $m_{\mathrm{MED}} = 125$ GeV.}
 In cases where the electroweak boson has insufficient boost for
 its hadronic decay to be fully contained in a single reconstructed fat jet, a
 selection that looks for decays into a pair of ak5 jets is applied to recover
-the event.  The selection requires that each jet
+the event if it fails the V-boosted selection.  The selection requires that each jet
 has $\pt>30$ GeV and $|\eta|<2.5$ and that the dijet has a mass in the range 
 60-110 \gev, consistent with originating from a W or Z boson. To further reduce
 the combinatorial background in the V-resolved category, a multivariate (MVA) variable 
@@ -381,10 +386,11 @@ The presence of DM production will be observable as an excess of events above SM
 backgrounds in a region of high $\ETm$. 
 Significant improvements in terms of sensitivity can be
 expected if several bins in $\ETm$ are considered simultaneously. Further
-improvement can be derived by adding control regions, regions which are
-orthogonal to the signal with negligible contributions expected from signal, to
-simultaneously constrain the predictions of the standard model background. A
-binned likelihood fit is performed in the range 250-1000 \gev (200-1000 \gev 
+improvement is achieved by using control regions in data to 
+reduce the uncertainties on the predictions of the standard model background. These regions are
+statistically independent from the signal region and designed such that the expected contribution 
+from a potential signal is negligible. 
+A binned likelihood fit is performed in the range 250-1000 \gev (200-1000 \gev 
 for the V-tag (monojet) events, where the binning is chosen to
 ensure each corresponding bin of a set of control regions is populated. The
 width of the highest $\ETm$ bin is chosen to provide ease of comparison to the previous
@@ -465,7 +471,7 @@ $R^{\gamma}_{i}$ account for the ratio of differential cross-sections between
 the $\Zjets$ and $\phojets$ processes and the efficiency times acceptance of the
 photon selection for the $\phojets$ control region. The differential cross sections 
 of photon and Z production are first corrected using NLO 
-k-factors derived by comparing their $\pt$ distributions in events generated
+K-factors derived by comparing their $\pt$ distributions in events generated
 with Madgraph5\_aMC@NLO~\cite{amcatnlo}, to the
 distributions produced at leading order before deriving the factors 
 $R^{\gamma}_{i}$ and $R^{Z}_{i}$. 
@@ -475,12 +481,14 @@ which allow for variation of the factors
 $R^{\gamma/Z/W}$ in the fit, and are treated as fully correlated between event
 categories.  These include theoretical uncertainties on the photon to Z
 differential cross-section ratio from renormalization and factorization scale
-uncertainties.  Electroweak corrections to the ratio are not accounted for in
-the simulation. The full correction is also taken as an uncertainty on the
-ratio, which is of the order of 15\% when the boson (Z or $\gamma$) \pt is at
-the TeV scale~\cite{Kuhn:2005gv}. A conservative choice is made in assuming this
-uncertainty to be uncorrelated across bins of \ETm. Additionally, the
-uncertainty in the muon selection efficiency, photon selection efficiency, and
+uncertainties which amount to 10\% across the relevant boson \pt range, 
+when summed in quadrature.  Electroweak corrections are not accounted for in
+the simulation. Additional K-factors are applied as a function 
+of the boson (Z or $\gamma$) \pt, to account for higher order electroweak effects which are around 15\% 
+for a boson \pt around 1 TeV~\cite{Kuhn:2005gv}. The full correction is taken as an uncertainty on the
+ratio. A conservative choice is made in assuming this
+uncertainty to be uncorrelated across bins of \ETm. The
+uncertainties in the muon selection efficiency, photon selection efficiency, and
 photon purity are included and fully correlated across the event categories and
 control regions, where relevant. A systematic uncertainty of 10\% is included
 for the top and diboson background normalisations~\cite{tagkey2015250} and
@@ -514,13 +522,15 @@ systematic uncertainties from the recoil corrections applied to these
 backgrounds are included to account for the uncertainty in the jet energy scale and
 resolution. Additionally, a systematic uncertainty of 4\% is included
 for the top backgrounds due to the uncertainty of the b-tagging efficiency for
-the b-jet veto in the V-resolved category. Systematic uncertainties of 7\%, 10\%
-and 50\% are included for the top~\cite{Khachatryan:2015oqa},
-diboson~\cite{tagkey2015250,Khachatryan:2015sga} and QCD
-backgrounds~\cite{monojet1} respectively to account for the uncertainty in their
+the b-jet veto in the V-resolved category~\cite{CMS-PAS-BTV-13-001}. Systematic uncertainties of 7\% and 10\%
+are included for the top~\cite{Khachatryan:2015oqa} and 
+diboson~\cite{tagkey2015250,Khachatryan:2015sga}, respectively to account for the uncertainty in their
 production cross-sections. These individual backgrounds have been studied
 separately using dedicated control regions in data in order to validate these
-systematic uncertainties. Finally, a systematic uncertainty of 2.6\% in the
+systematic uncertainties. A systematic uncertainty of 50\% is included on the expected 
+contribution from  QCD multijet events. This uncertainty was obtained by taking the largest differences 
+observed between data and simulation in events selected by inverting the requirement on $\mindphi$.
+Finally, a systematic uncertainty of 2.6\% in the
 luminosity measurement~\cite{lumi} is included for all of the  
 backgrounds derived from simulation.
 
@@ -532,82 +542,84 @@ sources of systematic uncertainty in each bin of \ETm.
 The potential correlations of the uncertainties between the different bins in \ETm are however not 
 reflected in these numbers.
 
-\begin{sidewaystable}[htbp]
+\begin{table}[htbp]
   \begin{center}
     \caption{Expected yields of the standard model processes and their uncertainties per bin for the monojet category signal region after applying all corrections to the MC.
       \label{tab:bkgmonojet}}
 	\scriptsize
-    \begin{tabular}{l|c|c|c|c|c|c|c|c}
+    \begin{tabular}{c|c|c|c|c|c|c|c}
 	\hline
-	$E_{T}^{miss} bin (GeV)$   & Observed &  Total Bkg & Z($\rightarrow ll$)+jets & top & QCD & W($\rightarrow l\nu$)+jets & Dibosons &  Z($\rightarrow \nu\nu$)+jets \\
+	$E_{T}^{miss}$ (GeV) & Obs.  & Z($\rightarrow \nu\nu$)+jets &  W($\rightarrow l\nu$)+jets & top & Dibosons &  Other  & Total Bkg. \\
 
-\hline 
-      200 - 210 & 17547  &  18332.2$\pm$598.0  &     59.8$\pm$1.5  &    132.1$\pm$11.3  &    479.3$\pm$216.7  &   6771.6$\pm$315.3  &    134.5$\pm$13.5  &  10742.2$\pm$274.3  \\ 
+\hline
 
-      210 - 220 & 14303  &  14500.1$\pm$606.5  &     44.9$\pm$1.2  &    103.6$\pm$12.5  &      6.5$\pm$3.0  &   4988.5$\pm$235.3  &    111.5$\pm$11.0  &   9234.4$\pm$225.4  \\ 
+      200 - 210 & 17547  &  10742.2$\pm$274.3  &   6771.6$\pm$315.3  &    132.1$\pm$11.3  &    134.5$\pm$13.5  &    539.1$\pm$216.7  &  18332.2$\pm$598.0  \\
 
-      220 - 230 & 11343  &  11371.7$\pm$395.6  &     31.5$\pm$0.8  &     82.1$\pm$7.3  &      4.4$\pm$2.0  &   3832.1$\pm$170.8  &     95.1$\pm$9.6  &   7316.4$\pm$189.8  \\ 
+      210 - 220 & 14303  &   9234.4$\pm$225.4  &   4988.5$\pm$235.3  &    103.6$\pm$12.5  &    111.5$\pm$11.0  &     58.0$\pm$4.3  &  14500.1$\pm$606.5  \\
 
-      230 - 240 & 8961  &   8942.9$\pm$395.8  &     26.1$\pm$0.7  &     62.0$\pm$5.8  &     21.3$\pm$9.6  &   3019.4$\pm$159.2  &     77.9$\pm$8.6  &   5727.5$\pm$170.6  \\ 
+      220 - 230 & 11343  &   7316.4$\pm$189.8  &   3832.1$\pm$170.8  &     82.1$\pm$7.3  &     95.1$\pm$9.6  &     44.8$\pm$3.6  &  11371.7$\pm$395.6  \\
 
-      240 - 250 & 6920  &   7293.5$\pm$333.3  &     18.6$\pm$0.5  &     46.6$\pm$4.4  &     12.0$\pm$5.4  &   2470.0$\pm$137.0  &     61.0$\pm$6.1  &   4678.0$\pm$150.1  \\ 
+      230 - 240 & 8961  &   5727.5$\pm$170.6  &   3019.4$\pm$159.2  &     62.0$\pm$5.8  &     77.9$\pm$8.6  &    111.2$\pm$19.3  &   8942.9$\pm$395.8  \\
 
-      250 - 260 & 5582  &   5670.9$\pm$369.5  &     14.3$\pm$0.4  &     34.2$\pm$3.7  &      5.6$\pm$2.5  &   1858.0$\pm$116.8  &     50.1$\pm$4.9  &   3702.5$\pm$139.4  \\ 
+      240 - 250 & 6920  &   4678.0$\pm$150.1  &   2470.0$\pm$137.0  &     46.6$\pm$4.4  &     61.0$\pm$6.1  &     78.7$\pm$12.2  &   7293.5$\pm$333.3  \\
 
-      260 - 270 & 4517  &   4949.1$\pm$318.4  &     10.2$\pm$0.3  &     27.7$\pm$2.3  &      0.2$\pm$0.1  &   1579.2$\pm$105.6  &     39.7$\pm$4.2  &   3287.0$\pm$125.0  \\ 
+      250 - 260 & 5582  &   3702.5$\pm$139.4  &   1858.0$\pm$116.8  &     34.2$\pm$3.7  &     50.1$\pm$4.9  &     48.1$\pm$6.3  &   5670.9$\pm$369.5  \\
 
-      270 - 280 & 3693  &   3741.1$\pm$161.4  &      6.3$\pm$0.2  &     25.0$\pm$3.1  &      2.1$\pm$1.0  &   1101.2$\pm$70.6  &     33.5$\pm$3.4  &   2567.8$\pm$107.2  \\ 
+      260 - 270 & 4517  &   3287.0$\pm$125.0  &   1579.2$\pm$105.6  &     27.7$\pm$2.3  &     39.7$\pm$4.2  &     11.9$\pm$0.4  &   4949.1$\pm$318.4  \\
 
-      280 - 290 & 2907  &   3074.7$\pm$181.5  &      5.4$\pm$0.1  &     17.8$\pm$1.9  &      0.0$\pm$0.0  &    933.7$\pm$70.9  &     28.1$\pm$3.0  &   2085.3$\pm$89.4  \\ 
+      270 - 280 & 3693  &   2567.8$\pm$107.2  &   1101.2$\pm$70.6  &     25.0$\pm$3.1  &     33.5$\pm$3.4  &     23.3$\pm$2.7  &   3741.1$\pm$161.4  \\
 
-      290 - 300 & 2406  &   2526.6$\pm$170.1  &      4.2$\pm$0.1  &     15.0$\pm$3.6  &      7.7$\pm$3.5  &    754.1$\pm$58.3  &     21.9$\pm$2.7  &   1721.1$\pm$85.2  \\ 
+      280 - 290 & 2907  &   2085.3$\pm$89.4  &    933.7$\pm$70.9  &     17.8$\pm$1.9  &     28.1$\pm$3.0  &      5.4$\pm$0.1  &   3074.7$\pm$181.5  \\
 
-      300 - 310 & 1902  &   1945.8$\pm$156.1  &      3.1$\pm$0.1  &      8.9$\pm$1.6  &      0.0$\pm$0.0  &    577.1$\pm$50.6  &     17.7$\pm$2.1  &   1336.6$\pm$78.9  \\ 
+      290 - 300 & 2406  &   1721.1$\pm$85.2  &    754.1$\pm$58.3  &     15.0$\pm$3.6  &     21.9$\pm$2.7  &     80.7$\pm$10.9  &   2526.6$\pm$170.1  \\
 
-      310 - 320 & 1523  &   1649.7$\pm$109.6  &      2.3$\pm$0.1  &      5.9$\pm$2.2  &      6.6$\pm$3.0  &    435.2$\pm$43.2  &     15.5$\pm$1.8  &   1181.6$\pm$58.3  \\ 
+      300 - 310 & 1902  &   1336.6$\pm$78.9  &    577.1$\pm$50.6  &      8.9$\pm$1.6  &     17.7$\pm$2.1  &      3.1$\pm$0.1  &   1945.8$\pm$156.1  \\
 
-      320 - 330 & 1316  &   1321.4$\pm$91.5  &      2.1$\pm$0.1  &      5.2$\pm$1.3  &      0.0$\pm$0.0  &    370.6$\pm$44.4  &     11.0$\pm$1.8  &    930.7$\pm$53.1  \\ 
+      310 - 320 & 1523  &   1181.6$\pm$58.3  &    435.2$\pm$43.2  &      5.9$\pm$2.2  &     15.5$\pm$1.8  &     81.3$\pm$10.3  &   1649.7$\pm$109.6  \\
 
-      330 - 340 & 1065  &   1069.7$\pm$116.3  &      1.8$\pm$0.0  &      4.9$\pm$1.1  &      0.0$\pm$0.0  &    246.0$\pm$28.7  &     11.9$\pm$1.8  &    803.5$\pm$50.9  \\ 
+      320 - 330 & 1316  &    930.7$\pm$53.1  &    370.6$\pm$44.4  &      5.2$\pm$1.3  &     11.0$\pm$1.8  &      2.1$\pm$0.1  &   1321.4$\pm$91.5  \\
 
-      340 - 360 & 1571  &   1652.0$\pm$109.4  &      2.0$\pm$0.1  &      6.8$\pm$1.2  &      0.2$\pm$0.1  &    398.5$\pm$38.5  &     16.4$\pm$1.6  &   1225.2$\pm$60.9  \\ 
+      330 - 340 & 1065  &    803.5$\pm$50.9  &    246.0$\pm$28.7  &      4.9$\pm$1.1  &     11.9$\pm$1.8  &      1.8$\pm$0.1  &   1069.7$\pm$116.3  \\
 
-      360 - 380 & 1091  &   1111.4$\pm$148.6  &      1.3$\pm$0.0  &      3.4$\pm$0.4  &      0.0$\pm$0.0  &    269.1$\pm$30.5  &     13.3$\pm$1.4  &    822.4$\pm$53.3  \\ 
+      340 - 360 & 1571  &   1225.2$\pm$60.9  &    398.5$\pm$38.5  &      6.8$\pm$1.2  &     16.4$\pm$1.6  &      5.6$\pm$0.4  &   1652.0$\pm$109.4  \\
 
-      380 - 420 & 1404  &   1387.1$\pm$114.1  &      1.4$\pm$0.0  &      5.5$\pm$0.6  &      0.0$\pm$0.0  &    324.4$\pm$30.4  &     17.1$\pm$1.7  &   1035.9$\pm$65.9  \\ 
+      360 - 380 & 1091  &    822.4$\pm$53.3  &    269.1$\pm$30.5  &      3.4$\pm$0.4  &     13.3$\pm$1.4  &      1.3$\pm$0.1  &   1111.4$\pm$148.6  \\
 
-      420 - 510 & 1126  &   1238.9$\pm$139.5  &      1.3$\pm$0.0  &      3.9$\pm$0.8  &      5.1$\pm$2.3  &    266.9$\pm$26.6  &     15.7$\pm$1.6  &    943.4$\pm$69.7  \\ 
+      380 - 420 & 1404  &   1035.9$\pm$65.9  &    324.4$\pm$30.4  &      5.5$\pm$0.6  &     17.1$\pm$1.7  &      1.4$\pm$0.1  &   1387.1$\pm$114.1  \\
 
-      510 - 1000 & 476  &    413.0$\pm$71.0  &      0.3$\pm$0.0  &      0.6$\pm$0.2  &      0.0$\pm$0.0  &     72.1$\pm$12.2  &      8.2$\pm$0.8  &    330.4$\pm$32.2  \\ 
+      420 - 510 & 1126  &    943.4$\pm$69.7  &    266.9$\pm$26.6  &      3.9$\pm$0.8  &     15.7$\pm$1.6  &     92.7$\pm$9.7  &   1238.9$\pm$139.5  \\
+
+      510 - 1000 & 476  &    330.4$\pm$32.2  &     72.1$\pm$12.2  &      0.6$\pm$0.2  &      8.2$\pm$0.8  &      0.3$\pm$0.1  &    413.0$\pm$71.0  \\
+
 \hline 
 
     \end{tabular}
   \end{center}
-\end{sidewaystable}
+\end{table}
 
 
-\begin{sidewaystable}[htbp]
+\begin{table}[htbp]
   \begin{center}
     \caption{Expected yields of the standard model processes and their uncertainties per bin for the V-resolved category signal region after applying all corrections to the MC.
       \label{tab:bkgresolved}}
 	\scriptsize
-    \begin{tabular}{l|c|c|c|c|c|c|c|c}
+    \begin{tabular}{l|c|c|c|c|c|c|c}
 	\hline
-	$E_{T}^{miss} bin (GeV)$ & Observed  & Total Bkg  & Z($\rightarrow ll$)+jets & top & QCD & W($\rightarrow l\nu$)+jets & Dibosons &  Z($\rightarrow \nu\nu$)+jets \\
+	$E_{T}^{miss}$ (GeV) & Obs.  & Z($\rightarrow \nu\nu$)+jets &  W($\rightarrow l\nu$)+jets & top & Dibosons &  Other  & Total Bkg. \\
 \hline
 
-      250 - 300 & 617  &    587.1$\pm$48.3  &      1.9$\pm$0.0  &     55.4$\pm$4.7  &     37.4$\pm$16.9  &    166.0$\pm$26.4  &     27.9$\pm$1.6  &    298.0$\pm$35.8  \\ 
+      250 - 300 & 617  &    298.0$\pm$35.8  &    166.0$\pm$26.4  &     55.4$\pm$4.7  &     27.9$\pm$1.6  &     39.2$\pm$16.9  &    587.1$\pm$48.3  \\
 
-      300 - 350 & 211  &    170.0$\pm$17.7  &      0.5$\pm$0.0  &     15.2$\pm$1.5  &      5.9$\pm$2.7  &     40.7$\pm$10.4  &      9.6$\pm$0.3  &     97.8$\pm$13.9  \\ 
+      300 - 350 & 211  &     97.8$\pm$13.9  &     40.7$\pm$10.4  &     15.2$\pm$1.5  &      9.6$\pm$0.3  &     12.3$\pm$3.8  &    170.0$\pm$17.7  \\
 
-      350 - 400 & 79  &     62.1$\pm$11.7  &      0.3$\pm$0.0  &      5.5$\pm$0.7  &      0.5$\pm$0.2  &     21.5$\pm$8.9  &      3.2$\pm$0.3  &     31.1$\pm$7.0  \\ 
+      350 - 400 & 79  &     31.1$\pm$7.0  &     21.5$\pm$8.9  &      5.5$\pm$0.7  &      3.2$\pm$0.3  &      2.0$\pm$0.4  &     62.1$\pm$11.7  \\
 
-      400 - 450 & 20  &     38.3$\pm$10.5  &      0.1$\pm$0.0  &      1.5$\pm$0.2  &      1.5$\pm$0.7  &     14.5$\pm$8.5  &      0.6$\pm$0.3  &     20.1$\pm$6.4  \\ 
+      400 - 450 & 20  &     20.1$\pm$6.4  &     14.5$\pm$8.5  &      1.5$\pm$0.2  &      0.6$\pm$0.3  &      6.3$\pm$1.4  &     38.3$\pm$10.5  \\
 
-      450 - 500 & 16  &      8.5$\pm$3.6  &      0.0$\pm$0.0  &      1.0$\pm$0.4  &      0.0$\pm$0.0  &      1.0$\pm$2.6  &      0.4$\pm$0.1  &      6.1$\pm$2.7  \\ 
+      450 - 500 & 16  &      6.1$\pm$2.7  &      1.0$\pm$2.6  &      1.0$\pm$0.4  &      0.4$\pm$0.1   & -  &      8.5$\pm$3.6  \\
 
-      500 - 1000 & 17  &     11.6$\pm$3.5  &      0.0$\pm$0.0  &      0.3$\pm$0.2  &      1.3$\pm$0.6  &      2.6$\pm$1.7  &      0.5$\pm$0.0  &      6.9$\pm$3.0  \\ 
- 
+      500 - 1000 & 17  &      6.9$\pm$3.0  &      2.6$\pm$1.7  &      0.3$\pm$0.2  &      0.5$\pm$0.0  &      7.6$\pm$1.4  &     11.6$\pm$3.5  \\
+
 \hline 
     \end{tabular}
 \bigskip
@@ -616,25 +628,27 @@ reflected in these numbers.
     \caption{Expected yields of the standard model processes and their uncertainties per bin for the V-boosted category signal region after applying all corrections to the MC.
       \label{tab:bkgboosted}}
 	\scriptsize
-    \begin{tabular}{l|c|c|c|c|c|c|c|c}
+    \begin{tabular}{l|c|c|c|c|c|c|c}
 	\hline
-	$E_{T}^{miss} bin (GeV)$ & Observed  & Total Bkg  & Z($\rightarrow ll$)+jets & top & QCD & W($\rightarrow l\nu$)+jets & Dibosons &  Z($\rightarrow \nu\nu$)+jets \\
+	$E_{T}^{miss}$ (GeV) & Obs.  & Z($\rightarrow \nu\nu$)+jets &  W($\rightarrow l\nu$)+jets & top & Dibosons &  Other  & Total Bkg. \\
 \hline 
-     250 - 300 & 1073  &   1103.0$\pm$63.4  &      2.5$\pm$0.0  &     35.4$\pm$3.7  &      0.0$\pm$0.0  &    278.8$\pm$32.5  &    103.2$\pm$14.6  &    682.5$\pm$40.1  \\ 
 
-      300 - 350 & 453  &    445.7$\pm$33.9  &      0.7$\pm$0.0  &     12.7$\pm$1.3  &      0.0$\pm$0.0  &    114.3$\pm$19.6  &     46.5$\pm$6.9  &    271.4$\pm$22.8  \\ 
+      250 - 300 & 1073  &    682.5$\pm$40.1  &    278.8$\pm$32.5  &     35.4$\pm$3.7  &    103.2$\pm$14.6  &      2.5$\pm$0.1  &   1103.0$\pm$63.4  \\
 
-      350 - 400 & 160  &    184.0$\pm$18.1  &      0.2$\pm$0.0  &      5.6$\pm$1.0  &      0.0$\pm$0.0  &     38.3$\pm$8.7  &     22.2$\pm$3.3  &    117.4$\pm$12.8  \\ 
+      300 - 350 & 453  &    271.4$\pm$22.8  &    114.3$\pm$19.6  &     12.7$\pm$1.3  &     46.5$\pm$6.9  &      0.7$\pm$0.1  &    445.7$\pm$33.9  \\
 
-      400 - 450 & 81  &     72.1$\pm$28.9  &      0.0$\pm$0.0  &      1.5$\pm$0.8  &      0.0$\pm$0.0  &      9.8$\pm$3.4  &     11.0$\pm$1.8  &     49.7$\pm$7.3  \\ 
+      350 - 400 & 160  &    117.4$\pm$12.8  &     38.3$\pm$8.7  &      5.6$\pm$1.0  &     22.2$\pm$3.3  &      0.2$\pm$0.1  &    184.0$\pm$18.1  \\
 
-      450 - 500 & 30  &     44.3$\pm$6.6  &      0.0$\pm$0.0  &      0.5$\pm$0.1  &      0.0$\pm$0.0  &      5.0$\pm$2.6  &      7.4$\pm$1.1  &     31.2$\pm$6.1  \\ 
+      400 - 450 & 81  &     49.7$\pm$7.3  &      9.8$\pm$3.4  &      1.5$\pm$0.8  &     11.0$\pm$1.8   & -  &     72.1$\pm$28.9  \\
 
-      500 - 1000 & 39  &     54.3$\pm$8.5  &      0.0$\pm$0.0  &      0.2$\pm$0.0  &      0.0$\pm$0.0  &      6.4$\pm$3.4  &      7.8$\pm$1.1  &     39.8$\pm$7.8  \\ 
+      450 - 500 & 30  &     31.2$\pm$6.1  &      5.0$\pm$2.6  &      0.5$\pm$0.1  &      7.4$\pm$1.1   & -  &     44.3$\pm$6.6  \\
+
+      500 - 1000 & 39  &     39.8$\pm$7.8  &      6.4$\pm$3.4  &      0.2$\pm$0.0  &      7.8$\pm$1.1   & -  &     54.3$\pm$8.5  \\
+
 \hline 
     \end{tabular}
   \end{center}
-\end{sidewaystable}
+\end{table}
 
 \begin{section}{Results}
 
@@ -648,7 +662,7 @@ categories. A local significance of the data in each bin is calculated by
 comparing the likelihood between the background only fit  
 (Fig.~\ref{fig:post_fit_plots}) and another setting the expected total yield of
 events in that bin to the observation in data. The largest local significance
-observed using this procedure is $1.9\sigma$ and corresponds to the largest \ETm
+observed using this procedure is $1.9$ standard deviations, corresponding to the largest \ETm
 bin of the monojet category.
 
 
@@ -673,7 +687,8 @@ limits are placed on the ratio of the signal cross-section to the predicted
 cross-section, denoted as $\mu=\sigma/\sigma_{\mathrm{TH}}$. Limits are presented in
 terms of excluded regions in the $m_{\mathrm{MED}}-m_{\textrm{DM}}$ plane,
 assuming scalar, pseudoscalar, vector, and axial-vector mediators, and
-determining the points for which $\mu\ge1$ is excluded at 90\% CL or more.
+determining the points for which $\mu\ge1$ is excluded at 90\% CL or more. The choice 
+of determining 90\% CL is to allow for comparison with other experiments. 
 Experimental systematic uncertainties, including jet and \ETm response and
 resolution, are included on the signal model as nuisance parameters, while the
 theoretical systematic uncertainties on the inclusive cross section (20\% and
@@ -695,7 +710,7 @@ For axial vector couplings, the limits are compared with DM-proton scattering li
 from PICO-2L~\cite{Amole:2015lsj}.  For pseudoscalar interactions, direct
 detection bounds are strongly velocity suppressed.  The most appropriate
 comparison is therefore to the most sensitive bounds from indirect detection
-from FermiLAT~\cite{Ackermann:2011wa,Abdo:2010ex}.  These limits apply to the
+from Fermi LAT~\cite{Ackermann:2011wa,Abdo:2010ex}.  These limits apply to the
 scenario in which dark matter is annihilated in the center of a galaxy, producing
 a $\gamma$ ray signature.  The results are also compared, for all four types of
 mediators, to constraints obtained from the observed cosmological relic density
@@ -720,8 +735,8 @@ masses between 150 and 280 GeV for which the decrease in
 cross-section with larger mediator mass is balanced by an increase in acceptance for the 
 signal so that the expected signal contribution remains roughly constant. The expected 
 value of $\mu_{\mathrm{up}}$ is larger than 1 for this region resulting in an  
-island at low dark matter masses for which this analysis is not expected to exclude.
-Instead, the observed value of $\mu_{\mathrm{up}}$ is smaller than 1 throughout this 
+island at low dark matter masses. No exclusion is expected at the 90\% CL therefore in this region. 
+However, the observed value of $\mu_{\mathrm{up}}$ is smaller than 1 throughout this 
 region at 90\% CL so no such island appears in the observed limits. 
 
 
@@ -733,7 +748,7 @@ small DM masses as shown in Fig.~\ref{fig:masslims}(c). Additional sensitivity i
 masses above 350 \GeV, due to the rise in cross section of the
 gluon fusion loop process for masses greater than twice the top quark mass. In
 the pseudoscalar mediator scenario, the limits from this analysis exceed the
-reach in $m_{\mathrm{MED}}$ beyond those from FermiLAT over the whole region.
+reach in $m_{\mathrm{MED}}$ beyond those from Fermi LAT over the whole region.
 
 \begin{figure}[htbp] \centering \subfloat[][]{
 \includegraphics[angle=0,width=0.50\textwidth]{figures/MassLimit_1_800_0_Both.pdf}
@@ -775,8 +790,10 @@ analysis except in the scenario where the DM mass is less than around 6
 \GeV. For the axial-vector mediator model, the limits obtained in this analysis
 dominate up to around $m_{\mathrm{DM}}=300$ \GeV. 
  
-The excess observed in FermiLAT data has led to speculations that Dark Matter
-annihilation is mediated by a light pseudoscalar~\cite{Calore:2014nla}.  The
+An excess in $\gamma$ ray emmision, consistent with the annihilation of DM, at the galactic 
+centre has been reported in several studies using data from Fermi LAT~\cite{Gordon:2013vta,Abazajian:2012pn,Hooper:2010mq}. 
+Further studies of this excess suggest that DM 
+annihilation could be mediated by a light pseudoscalar~\cite{Calore:2014nla}.  The
 production mechanism for these $\gamma$ rays can be interpreted under DM 
 annihilation to b quarks allowing for direct comparison with limits from
 this analysis~\cite{Buchmueller:2015eea,Buckley:2014fba,Harris:2014hga}.
@@ -786,11 +803,14 @@ $m_{\textrm{DM}}$.  Again, it is assumed that only heavy quarks
 contribute in the production of the mediator while for  the
 interpretation of the limits in the annihilation cross-section, it is assumed
 that the mediator only decays to b quark pairs. 
-As with all interpretations, the DM particle is assumed to be a Dirac fermion.
+As with all interpretations, the DM particle is assumed to be a Dirac fermion. 
+The results shown from Fermi LAT have been scaled by a factor of 2 compared 
+to Ref.~\cite{Ackermann:2011wa} to translate the assumtion of a Majorana DM 
+fermion used in that analysis. 
 The 68\% CL preferred regions in this plane assuming the annihilation of DM
 pairs to light-quarks ($\mathrm{q\bar{q}}$), $\tau^{+}\tau^{-}$ or $\mathrm{b\bar{b}}$, 
-using data from FermiLAT, are shown as solid colour regions. Under the simplified model used, all of these
-regions are excluded by this analysis.
+using data from Fermi LAT, are shown as solid colour regions. 
+Under the simplified model used, all of these regions are excluded by this analysis.
 
 
 \begin{figure}[htbp] \centering \subfloat[][]{
@@ -811,7 +831,7 @@ independently for monojet, V-boosted and V-resolved categories. The partial
 combination of the V-tag categories categories is
 shown for which the V-boosted category provides the dominant contribution.  In all
 of the mediator models, a minimum width is assumed. For the pseudoscalar, 68\%
-CL preferred regions, using data from FermiLAT, for DM annihilation to
+CL preferred regions, using data from Fermi LAT, for DM annihilation to
 light-quarks ($\mathrm{q\bar{q}}$), ($\tau^{+}\tau^{-}$) and $\mathrm{b\bar{b}}$ are shown
 by the solid green, pink and brown coloured regions, respectively.\label{fig:xslims} } 
 \end{figure}
@@ -823,8 +843,8 @@ data sample of proton-proton interactions at centre-of-mass energy of 8 TeV. The
 data correspond to an integrated luminosity of 19.7\fbinv collected with the CMS
 detector at the LHC.  This search is the first at CMS to utilize sub-structure
 techniques in order to identify hadronically decaying vector bosons in both
-boosted and resolved scenarios. The sensitivity to a mono-V signature is
-enhanced by categorising the events according to the origin of the jets in the
+boosted and resolved scenarios. Sensitivity to a potential mono-V signature is
+achieved by categorising the events according to the origin of the jets in the
 event as either quark/gluon radiation or from a hadronically decaying vector
 boson through these techniques.  The sensitivity is further increased by using
 the full shape of the $\ETm$ distribution to discriminate signal from standard
