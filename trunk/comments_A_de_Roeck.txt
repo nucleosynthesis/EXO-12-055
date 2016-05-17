@@ -1,0 +1,182 @@
+Albert de Roeck
+
+- do we follow the recommendations of the dark matter working group, as formulated in
+   arXiv:1603.04156? I noted some (but perhaps not all) deviations and will report some below.
+- This analysis replaces the previous monojet DM analysis result on the same data set, I presume.
+  We should say that explicitly in the paper, so people know what they should show and discuss
+  in future for CMS. Can we say how much better this one is in sensitivity, compared to the old
+   analysis?
+
+We make mention of the use of a shape analysis and additional control regions. A direct comparison is however not so meaningful (model independent/EFT vs SMDM) so would rather not state specific cases. We have however added numbers which refer to a study performed for large mass vector mediators which show ~40% improvement from shape and ~60% from addition of control regions
+
+- what is the contribution of the boosted processes to the sensitivity at the end? It would be
+   useful give some numbers on the relative contribution to the sensitivity of the different
+   channels.
+
+It is limited for the Axial and vector cases (and in the other cases, not so well defined). The information can be seen in the mass-xs limits where separate lines are given. We feel this is enough.
+
+- We use 90% CL, which is a bit unusual for limit seeing at the collider, but clearly we do this
+  for compatibility with the non-collider data. While known to the DM enthusiasts, for the other
+  readers I recommend that we spell that out explicitly in the text.
+
+Stated.
+
+- The way the analysis reads now the reader has the impression that there is overlap between
+   the AC and Kt algorithm in the use of the same particles. I strongly recommend you spell out
+   very clearly how these two algorithms are used together in the analysis
+
+It is stated that the three event categories are orthogonal and the text reads as to how the selection flow is performed. Not sure what else can be spelled out.
+
+- We give our results assuming Dirac fermions (as recommended by the DM group). I recommend
+   however that we also comment how these limits change in a straight forward way, for the
+   relevant channels, in case we deal with Majorana particles.
+
+Prefer not to give explicit mention of how results will change, that seems more appropriate for a pheno paper. Instead we already provide the Lagrangians and references for translation calculations which make assumptions on Dirac DM explicit.
+
+Details
+-line 10-12: are these related to the problems that are being discussed on e.g. the W/lepton
+  channel, i.e. these models can become very sick if some of these couplings are taken without
+  checking Unitarity or SU(2) conservation? If so I would rather tune that a bit down.
+
+  But of more generally true and not always leading to a sick model, then fine to keep.
+
+We have dropped the reference to non-universal  DM couplings reference.
+
+- line 24: this sentence ends funny! something wrong
+
+“of” needed to be removed at the end of the sentence.
+
+- line 61: Suggest to explain in 1/2 sentence for non-experts what is meant with “velocity
+
+    suppressed”, and why this is the case.
+
+rephrased to “interaction cross section is reduced for non-relativistic DM velocities.”
+We prefer not to try to give an explanation in this (experimental ) paper so we’ve in addition added http://arxiv.org/pdf/1203.2064v2.pdf which gives an account of how the effect comes about
+
+- lines 65-66 To most readers it may not be clear what you mean to say with this sentence.
+
+Agreed, we have removed the mention of EWSB beyond the first one and stated explicitly that we consider also the case where there is no mediator-Vector boson coupling.
+
+- line 79: add ‘…and hadronization’
+
+Done
+
+- line 80 Geant4” is not written in the standard format as the authors
+  like (see other CMS papers, or there Geant4 web page)
+
+This was a comment from our LE to use GEANT4, we have reverted back to Geant4
+
+- lines 82: “The impact of this choice was found to be 30%…” compared to what?
+
+     The default generator scale choice? which is what?
+
+In fact the difference is somewhat larger than originally thought (closer to 80%). This is comparing to using sqrt(pt^{2}+m_{med}^{2}) which is instead what has been used for the 13 TeV POWHEG samples.
+
+
+- line 94: despite that we in CMS are over-familiar with it, it remains useful to explain in a
+
+   few sentences what particle flow actually is, for the less CMS (or LHC experimental) readers.
+
+rephrased to read as
+"The \ETm is  calculated using the particle flow (PF) reconstruction
+algorithm [ref] which optimally combines information from various components
+of the CMS detector to reconstruct and identify individual particles."
+
+- line 97: anti-kT -> anti-kt (the notation the authors proposed)
+
+     I know we write kT in most of our papers, but it is in fact not accurate.
+
+Done
+
+- line 136: How exactly do we take this systematic into account in our analysis?
+
+There is a  v-tagging efficiency systematic (around 5-10%) applied to the signals and MC driven backgrounds.
+
+- line 173- 175: something not kosher with the grammar of this sentence.
+
+There was a request to clarify what is meant by a control region. The sentence has been split so as to read
+"Further improvement is achieved by using control regions in data to
+reduce the uncertainties on the predictions of the standard model background. These regions are
+statistically independent from the signal region and designed such that the expected contribution
+from a potential signal is negligible."
+
+- line 191: I see no reason to put “vector” in italics here.
+
+removed italics
+
+- line 221  k -factor -> K-factor
+
+Done
+
+-line 227: are these uncertainties significant? Difficult to judge from the information given
+
+   presently (and in absence of tables with systematic errors!)
+
+They are ~10% in the pT range of the boson used. A statement has been added for this.
+
+- line 239-241: is that determined in this analysis or do we have a reference for that?
+
+    If determined here, how was it determined?
+
+These are the recommended values from the b-tag POG. roughly corresponds to the gray band in the CSV loose here: https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsBTV13001/ttbar_comb.pdf
+
+Reference to BTV-13-001 added
+
+- line 260: I have seen this claim before but never closely looked at it
+    The 1.9 sigma deviation is coming from the highest monojet bin?
+    I do not see that neither in table 1 nor in table 6, where I see at best a 1 sigma
+
+    enhancement. What do I miss here?
+
+This is a limitation in presenting numbers in tables which do not (and cannot) reflect the correlation between
+different bins in missing energy. The description of how this number is obtained is in the previous sentence. That procedure
+correctly accounts for these correlations when deriving the local significance in each bin.
+
+- line 271: how are the scale and PDF uncertainties calculated? Please add in paper (apologies if
+    I missed that in the paper).
+    I miss a somewhat coherent discussion on systematic errors in this paper, they come up
+    at different places.
+
+These are calculated varying the scales up/down by a factor of 2. They do *not* however include the uncertainty due to the choice of the scale (i.e mMED -> sqrt(mMED^{2}+pt^{2}) which is mentioned at the start of the paper). We prefer to keep this discussion of signal systematics here rather than earlier with the others as they only pertain to the signal and more particular to the lines mentioned on the plot (they do not enter the limit setting)
+
+- line 288: The cold DM density determination has an uncertainty, which we should add here when
+    we give the value.
+    I assume we do not take this uncertainty into account anywhere, correct ? (presumably it
+    is small enough so that it does not affect any of our results/conclusions)
+
+It does not enter the analysis anywhere, only as additional lines on the plots. However,  value given in the paper references is 0.1199±0.0027 so to the precision we quote the uncertainty is 0.
+
+- check lines 298-301 something wrong with the grammar of this sentence. Not fully sure what
+    you want to say here.
+
+Slightly reworded. We wanted to explain the small island in the expected limits on the plot (dashed orange line) which is not present for the observed (solid orange line).
+
+- Fig 7: the choice of couplings is not according to the recommendation in arXiv:1603.04156
+    We use here all couplings equal to one, while it is recommended to use 0.25 for the g_q
+    for Axial and vector mediators. Probably we should also add in the figure legend that
+    this is for Dirac particles
+
+Indeed, the analysis was performed before the recommendation was released. Since this was also a recommendation aimed at Run-2, we feel it not necessary to update the limits which would require significant additional work. "Dirac fermion DM” has been added to the plots.
+
+- Figure 8 Did we rescale the FERM-LAT result from Majorana to Dirac fermion cross sections,
+    before comparing with our data. The cross section is a factor 2 different.
+    If we did we should say that explicitly.
+
+Indeed, this is what was done. We’ve added a statement stating that the factor of 2 is used to account for the translation.
+
+- line 323: Say in a few words what the Fermi LAT excess is. You are not just writing for experts
+   here.
+   Recommend to add a ref to the Fermi LAT excess
+   PS do not write it as one word: it is usually written as Fermi LAT or Fermi-LAT, or Fermi/LAT.
+
+References to excess reports added and a brief statement about the excess itself is given (GC, gamma-ray emmision). Now using Fermi LAT now throughout
+
+- lines 340-342: This looked like an analysis detail that does not fit in this conclusion.
+    Probably it was mentioned int he text (I did not look back for it) but what is the effective
+    sensitivity gain you have by this added categorisation?
+
+The gain is sensitivity to a potential mono-V like signature. Although the channel has a much smaller cross-section, and has a somewhat different signal/background than the monojet. Also this channel could help reveal the nature of the mediator (if we finish the proposal for spin-0 mediators) in the event of discovery. modified enhanced -> acheived
+
+ref 45: “backgrund”
+
+Fixed, thanks
