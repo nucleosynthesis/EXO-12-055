@@ -1,0 +1,186 @@
+Dear authors,
+
+we enjoyed reading your paper. Please find some minor comments below.
+Congratulations on bringing this important analysis to publication.
+
+The Rutgers group
+
+--------
+
+Title:  It’s a little awkward (especially since “jets” could refer to monojet signature).
+          suggest: “Search for dark matter pair production in association with a gluon or a vector boson
+          with CMS at sqrt(s)=8TeV”
+
+We think gluon is a bit specific. We leave this to the language editor
+
+6: How about
+    “Astrophysical observations suggest existence of dark matter (DM) - an unknown non-baryonic form
+     of matter in the Universe, and require physics beyond the standard model (SM).”
+
+We prefer to keep the sentence as is.
+
+10: It would be good to avoid “model-dependent” here. The production cross section here is
+      far from model-independent. You can say that mono-jet has sensitivity to a wider range of models,
+      while V/Z production is a more targeted (but lower background) final state. Also, V=W or Z boson would
+       be better incorporated as a parenthetical statement (Where V=W or Z boson)
+
+Agreed, we’ve adopted the suggestions
+
+22: The sentence “The exploration of …” is a fragment. Is it supposed to say anything except that we use
+       novel jet substructure methods? Suggest to rephrase the paragraph so it simply says that
+       mono-V search is done using jet substructure methods at high boosts and using multivariate V-tagging
+       at moderate boosts where jets from V decays are well-resolved.
+
+Agreed, the sentences now read :
+" The mono-V search uses recently developed techniques designed to exploit information available in the jet's substructure when the V-boson is highly boosted and uses a multivariate V-tagging technique to identify the individual jets from moderately boosted V-bosons. "
+
+24:  extraneous "of"
+
+Fixed
+
+27: The section numbers here are off.
+
+Fixed, thanks
+
+55:  Here the paper switches to standard model and dark matter instead of SM and DM
+
+Fixed throughout to use SM and DM
+
+61: This paragraph is either too much or too little information. Either expand on what is done, or
+      (probably better) just make reference to theory papers. Also, we did not find any mention of
+       “fermionic DM production” further in the paper. This is confusing.
+
+The discussion was added to be more explicit as requested during ARC review. We feel it is sufficient to follow the setup of the models used.
+“fermionic” is mentioned in Figs 7 and 8, now added also in the text and captions.
+
+71: the sentence “The mono-V or monojet signatures…”:  presumably it only refers to 1c?
+      Why not make diagrams with explicit gluon or V ISR and refer to them as 1c and 1d?
+
+Added additional Diagrams
+
+72: “In all models…”: talking about the choice of model parameters would make more sense above,
+       where you present the langrangians. Also, please rephrase the sentence about the width.
+       If we understand correctly, you assume that the mediator does not have any couplings except to
+       quarks and DM.
+
+We moved the “In all models” closer to the lagrangians. We have rephrased the width sentence to read “For the fermionic models considered, the width is determined under the minimum width constraint requiring that only quarks and DM particles couple to the mediator. For the case in which couplings between the mediator and V-bosons are allowed, the width is modified to account for the additional contributions which these couplings allow [14]."
+
+87: the purpose of this paragraph is unclear. Suggest to drop it and proceed directly to the trigger description.
+
+It gives a very brief introduction as to the key features of the selection. We’d prefer to keep it
+
+90: drop “either of”, and change to past tense. May be, instead say simply “The data used for this analysis were collected using two ETmiss triggers”
+
+Agree, done
+
+91(and elsewhere):  large space beside GeV compared to say L83
+
+We’ve now harmonised to use the usual \GeV everywhere.
+
+94: “together with at least one jet”
+
+Done
+
+95: “in order to maintain” -> “to ensure”
+
+Done
+
+97: “from clustering of “ -> “by clustering the “.
+      “Both” is confusing here. You probably should refer to the two different analyses here, (see comment
+      on line 22 above)
+
+Left this for LE
+
+102: “the absolute scale of the jet energy” -> “the jet energy scale”
+
+Was modified to this during review, we will re-discuss it with LE
+
+103: you define ETmiss as a magnitude, but then in the next sentence talk about the angle between
+        ETmiss and the leading jet.
+
+Replaced with ETmiss vector
+
+111:  This paragraph probably needs to move up in the text (see comment on line 22 above)
+
+We prefer to discuss the trigger before classification
+
+127: N-subjettiness
+
+Thanks, fixed
+
+133: suggest change \phi to some other letter, not to be confused with asimuthal angle.
+         the sentence may need rephrasing to spell out that even events with one additional ak5 jet are
+         rejected if the opening angle is greater then 2.
+
+We have removed the deltaphi(ca8,ak5) since its not used again. Added “, otherwise it is rejected” to spell out the cut.
+
+ Figure 2: why is the DM t2/t1 distribution different from diboson distribution?
+          You should mention the reason in the text.
+
+One small effect is due to the fact that its a stacked plot (diboson is on top of the others background). 
+Hoever, there is some difference due to the fact that the diboson also has the leptonic decays which tend to 
+be at higher values of tau2/tau1
+
+Also on Figure 2: The systematic uncertainties are not shown yet the statement is made that the
+  disagreement is covered.  It would be very useful to have an estimate of the systematic uncertainty band in
+  the plot.
+
+This is discussed later in the text, we prefer not to add systematics which are not so well defined on a single variable. Especially given the fact that the systematic accounts for a migration across the cut which is difficult to shown on the plot.
+
+Figure 4:  Same comment as on Figure 2 above because the statistical uncertainties are much too small to cover the disagreement, so it would be interesting to see if the systematics do indeed cover the (in some cases large) disagreement
+
+As above.
+
+141: you really need to spell out how events are classified to ensure the orthogonality of selection.
+        Which cuts on fat jet events do you make to separate them from the rest? All of the ones described in
+         the previous paragraph? If so, 141 should start with something like “Events failing the selection
+        above… “
+
+We say for the resolved category now, “ … selection that looks for decays into a pair of ak5 jets is applied to recover the event if it fails the V-boosted selection.
+
+153: is there a number of jets cut on the resolved V->jj category?
+
+No
+
+157: which category you are calling monojet? Your categories names are inconsistent throughout the paper. Please pick one set and stick to it.
+
+“this” was meant to refer to the monojet category just described (i.e events failing the other two “V-tag” categories. Originally, we had “The monojet category” but was asked to modify to this. Now we add a sentence to clarify which reads .. “ This final category is referred to herein as the monojet category. For the monojet category…"
+
+161: the paper would be much clearer if you make a table describing all the cuts in
+each category.
+
+A good idea, we have added such a table
+
+175: “)” is missing.
+        You have three categories, you mention two here.
+
+ V-tag refers to both V-resolved and V-boosted, rephrased to "A binned likelihood fit is performed in the ranges 250-1000 \GeV and 200-1000 \GeV for the V-tag (V-boosted and V-resolved) and monojet events, respectively."
+
+192: you already used word “category” to define fat jet, V-tag, and the gluon category. Use something
+    else - sub-category, may be?
+
+These really are the same categories as for the signal region so we leave it as category.
+
+199: this paragraph is out of order. You should say what it says above, line 180 or so.
+
+This has been moved
+
+205: you should mention that statistical improvement comes at a price of extra theory uncertainties.
+       at 1000 GeV, which is the end of your MET window, the electroweak corrections, for example, are
+       large (tens of %), and definitely different for photons and Z’s.
+
+Indeed, these systematics are discussed later in the text. We added this caveat and use it to motivate the use of both control regions
+
+Figure 7,8: we should somehow note the very different basic uncertainties that go into these contours.
+Our uncertainties are in luminosity,  cross-sections and acceptances while the direct measurements uncertainties are quantities like  DM density in the solar system and relative velocity of the DM wrt earth.
+A reader  looking at Fig 7, 8 should be aware of these differences in experimental technique.
+
+We only add these lines directly from the public plots available from the DD experiments. We feel a discussion of their systematics would be out of place in this paper.
+
+340: the sentence about mono-V signature should be rewritten. It’s unclear which category you mean (you have two V categories), and it is hard for a reader to understand what “origin of the jets”, for example.
+A convincing case could be made that the statements about sensitivity do not belong in the summary.
+They are better suited for the introduction, where you can talk about the improvements to the
+previous CMS analysis.
+
+This has been re-written to down play “sensitivity”. We wish to re-iterate the use of the mono-V(had) search which is a first for CMS so prefer to leave the statement there. However, we’ve re-written to
+"Sensitivity to a potential mono-V signature is achieved by the addition of two event categories which select hadronically decaying vector boson using novel jet substructure techniques.”
