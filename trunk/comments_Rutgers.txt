@@ -117,7 +117,9 @@ We have removed the deltaphi(ca8,ak5) since its not used again. Added “, other
  Figure 2: why is the DM t2/t1 distribution different from diboson distribution?
           You should mention the reason in the text.
 
-Kevin? Is it number of jets in the final state?
+One small effect is due to the fact that its a stacked plot (diboson is on top of the others background). 
+Hoever, there is some difference due to the fact that the diboson also has the leptonic decays which tend to 
+be at higher values of tau2/tau1
 
 Also on Figure 2: The systematic uncertainties are not shown yet the statement is made that the
   disagreement is covered.  It would be very useful to have an estimate of the systematic uncertainty band in
