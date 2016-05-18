@@ -1,0 +1,108 @@
+Dear Authors,
+
+It was nice to read about the paper. Here is the comments from the Kyungpook National University. Of particular this paper is important in view of using the Simplified DM model instead of EFT as a  first attempt. However it is not clear whether comparisons with direct detection experiments can be justified with the one choice of simple couplings(g_DM = g_SM = 1) or not. Maybe the two extreme choices of the coupling, that is, 0.25 and 1.45 instead of 1) may be better if we want to compare with DD experimental results.
+
+We have chosen here gSM=gDM=1. This analysis was performed before the reccomendations for Run2 were available and re-running results would require significant effort. We agree it is good to add different assumptions and 
+for sure this will be included in coming updates including the Run-2 data
+
+Comments Type A :
+L3-5: (suggestion) in pp collisions at a centre-of-mass energy of 8 TeV. The data sample correspond to an integrated luminosity of 19.7 fb^-1 collected using the Compact Muon Solenoid (CMS) at the Large Hadron Collider (LHC).
+
+That does sound cleaner. We have adopted this suggestion
+
+Abbreviation 1: "dark matter" --> "DM" L6, L48, 55, 67, 282, 299, 323
+
+Done, thanks
+
+L24 substructure of. --> substructure.
+Fixed
+
+L26 compared to --> in comparison with
+
+Done
+
+Abbreviation 2: "standard model" --> "SM" L55, L74, Table1, Table2, Table3,
+
+Done
+
+L55: "particles respectively" --> "particles, respectively"
+
+Done
+
+L33 "ref" -> "Ref"
+
+Done
+
+L97 "particle flow" -> "PF“
+
+Done
+
+
+L174 to simultaneously constrain --> to constrain simultaneously
+
+Fixed via another comment
+
+L176: "GeV for" --> "GeV) for"
+
+Done
+
+L191: "vector" should be in roman type
+Done
+
+L191: "GeV," --> "GeV."
+
+Done
+
+L206: "V+jets" --> "V + jets"
+
+Done
+
+L221: "NLO" -> "next-to-leading order" (to be consistent with "leading order")
+
+Done
+
+L220, L270, L327: "cross section" -> "cross-section"
+
+We have adopted “cross section” everywhere to be consistent (also with pub comm guidelines)
+
+L235: "Figure 5" --> "Fig. 5" (to be consistent with others (L151, L304, L305, ...)
+
+Done
+
+Caption of Figure2: "The discrepancy between data and simulation is covered by systematic uncertainties (not shown)." can be removed, It was already written in the text (L135-L140)
+
+Removed, replaced with “Uncertainty bands only include statistical precision of the simulation” which is now there
+
+Table1,2,3 : "bin(GeV)" should be in roman type
+
+Done
+
+Type B (or type B-like) :
+
+Figure 2 caption: /// systematic uncertainties (not shown) /// wondering why not to show them in the plots
+
+For the purposes of a plot, we prefer not to show systematic uncertainties since the dominant sources of the systematics are from the data-driven estimate used to determine the backgrounds which is not yet discussed.
+
+L.20 Just general question, does "hadronic decay" include heavy quark like b ?
+
+Yes but there are vetos on b-jets (to reduce top contribution)
+
+L.71 This sentence makes a confusion. Does this paper consider mono-V and mono-jet from initial states ? If so, the initial state radiation(ISR) diagrams are needed in fig 1(or diagram © is wrong and need to be replaced the diagram with ISR(??), too. and what is the generator for them ?
+
+Indeed, the diagram is updated to include an ISR jet. The generators are stated.
+
+L.75 The model in figure 1(b), the mediator couples with vector boson. How does this affect to width ?
+
+The width is calculated including this using in this case Higgs-like couplings.
+
+L.81 What is the mechanism for the mediator mass to give affect to shower scale ? It is better if there is a reference.
+
+That is not the point of this line, its not the mass which has the effect but rather  the choice is the mediator mass for the scale. Alternative choices for the scale give different yields. The text is now clarified a bit on this point.
+
+L.95 What samples to study trigger efficiency ? Trigger efficiency > 99% means for DM signal ?
+
+This means with respect to our offline selection (all events).
+
+L.292 Same issue with L.75. It looks this analysis is already using scalar mediator coupling with V, so X -> V V* is also possible. So "when assuming the mediator only couples to fermions" looks not appropriate sentence. It looks like the excluded limits are for Br(X->fermion pair)*sigma.
+
+We have also included the model where no coupling to V is present (described better in the earlier text now). This is what the blue scale is indicating.
