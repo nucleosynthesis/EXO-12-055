@@ -1,0 +1,64 @@
+Type B comments
+
+
+l.82. Please, clarify "... to be up to 30% in the expected signal yield..."
+
+What is 30 % ? Difference between what and what setup ?
+
+ This is now clarifed. It is relating the difference in the total signal yield changing the hadronisation scale from the mediator mass to the pt of the mediator.
+
+l.101 remove "Data-driven". Corrections are based both of MC (absolute) and
+
+data (for residual data/MC difference).
+Done
+
+l.241 Please, provide an arguments here about QCD uncertaunty of 50% even if you refer
+
+to the previous analysis [1].
+
+Added a sentence to mention the Data/MC comparison in inverted selection region used to determine 50%
+
+ll.267-273 Did you take into account the theoretical uncertainty of the signal acceptance ?
+
+ Yes, but these are by far much smaller than the variation from the scale uncertainties on the cross-section
+
+Fig.2: What is a meaning of dashed areas around MC histogram in fig. (b)?
+
+ This is (now) explained in the caption. They are MC Stat uncertainties
+
+Fig.7. Instead of limits on the signal strength it would be good to have the limits
+
+on the cross-sections. It will be more useful then for theorists.
+
+ true, but also not possible in a “shape” analysis. We assume a model (the simplified model) and it is that we which do/do not exclude.
+
+Type A comments
+
+
+l.24 remove "of"
+
+Done
+
+ll.27-30. Section 2 in a description of CMS detector. Other section numbers should be increased by one (Section i => Section i+1)
+
+ Done, thanks
+
+l.100 "jets are corrected for pileup" => "the jet energy is corrected for
+
+the contribution from pileup"
+
+ Detail added
+
+l.113 "othogonal" -> "orthogonal"
+
+ Fixed
+
+Fig.6: "resolved" -> "V-resolved", "boosted" -> "V-boosted" in the titles
+
+of fig.(b) and (c)
+
+Done
+
+With kind regards,
+
+A.Nikitenko and V.Gavrilov for ITEP
