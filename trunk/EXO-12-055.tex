@@ -201,8 +201,9 @@ events are generated using {\sc MCFM~6.8\cite{mcfm}} for the monojet final state
 {\sc JHUGen~5.2.5}~\cite{Anderson:2013afp} for the V-boson signature.
 All signal models are generated at leading order (LO), using  
 {\sc PYTHIA~6.4.26}~\cite{Sjostrand:2006za} for parton showers and hadronization, and {\sc Geant4}~\cite{geant4} for simulation of the CMS detector response.  
-For the monojet signal, the generation is performed using the mediator mass for both the generation and hadronisation scale. 
-An alternative choice taking the boson $\pt$ for the hadronisation scale was found to result in differences between  
+For the monojet signal, the generation is performed using the mediator mass for the renormalisation and factorisation scales used to generate the events. 
+The mediator mass is also used for the scale in the parton showering (PS).  
+An alternative choice taking the boson $\pt$ for the PS scale was found to result in reductions of    
 $30-80$\% in the expected signal yield in the relevant kinematic region for mediator masses above 400\GeV. 
 For scalar and pseudoscalar mediated DM production, the finite top quark mass is taken 
 into account for both the inclusive and differential cross section. NNPDF3.0 is used to
