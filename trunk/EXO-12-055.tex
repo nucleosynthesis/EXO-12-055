@@ -79,7 +79,7 @@ The existence of DM is one of the most compelling sources of evidence
 for physics beyond the standard model (SM) of particle physics with a number of astrophysical
 observations suggesting an abundance of a non-baryonic form of matter in the
 universe. In many theories which extend the SM, the production of DM particles
-is possible at the LHC. Monojet searches~\cite{monojet1,monojet2} provide 
+is possible at the LHC. Monojet searches~\cite{monojet1,monojet2} provide  
 sensitivity to a wide range of models for  DM production at the LHC, while mono-V 
 (where V=W or Z boson) searches~\cite{monolep,Aad:2014vka,Aad:2013oja,ATLAS:2014wra} target models with 
 associated production of DM with SM vector bosons. While the mono-V searches target more specific models, 
@@ -149,16 +149,16 @@ with mass $m_{\mathrm{DM}}$ and mediator~($S$, $P$, $Z'$, $Z''$) with mass $m_{\
 
 \begin{align} \label{eq:LS} \mathcal{L}_{\mathrm{scalar}}&\supset\,
 -\,\frac{1}{2}m_{\rm MED}^2 S^2 - g_{\rm DM}  S \, \bar{\chi}\chi - \sum_{q=b,t}
-g_{SM}^q S \, \bar{q}q  - m_{\rm DM} \bar{\chi}\chi \,, \\ \label{eq:LP}
+g_{\rm SM}^q S \, \bar{q}q  - m_{\rm DM} \bar{\chi}\chi \,, \\ \label{eq:LP}
 \mathcal{L}_{\rm{pseudoscalar}}&\supset\, -\,\frac{1}{2}m_{\rm MED}^2 P^2 - i
-g_{\rm DM}  P \, \bar{\chi} \gamma^5\chi -\sum_{q=b,t}  i g_{SM}^q  P \, \bar{q}
+g_{\rm DM}  P \, \bar{\chi} \gamma^5\chi -\sum_{q=b,t}  i g_{\rm SM}^q  P \, \bar{q}
 \gamma^5q  - m_{\rm DM} \bar{\chi}\chi\,, \\ \label{eq:LV}
 \mathcal{L}_{\mathrm{vector}}&\supset \, \frac{1}{2}m_{\rm MED}^2 Z'_{\mu}
-Z'^{\mu} - g_{\rm DM}Z'_{\mu} \bar{\chi}\gamma^{\mu}\chi -\sum_q g_{SM}^q
+Z'^{\mu} - g_{\rm DM}Z'_{\mu} \bar{\chi}\gamma^{\mu}\chi -\sum_q g_{\rm SM}^q
 Z'_{\mu} \bar{q}\gamma^{\mu}q - m_{\rm DM} \bar{\chi}\chi\,, \\ \label{eq:LA}
 \mathcal{L}_{\rm{axial-vector}}&\supset\,  \frac{1}{2}m_{\rm MED}^2 Z''_{\mu}
 Z''^{\mu} - g_{\rm DM} Z''_{\mu} \bar{\chi}\gamma^{\mu}\gamma^5\chi -\sum_q
-g_{SM}^q Z''_{\mu} \bar{q}\gamma^{\mu}\gamma^5q - m_{\rm DM} \bar{\chi}\chi,\,
+g_{\rm SM}^q Z''_{\mu} \bar{q}\gamma^{\mu}\gamma^5q - m_{\rm DM} \bar{\chi}\chi,\,
 \end{align}
 
 assuming pure scalar, pseudoscalar, vector, and axial vector mediated
@@ -175,7 +175,7 @@ distinction, while spin-dependent interactions refer to axial vector mediated
 processes.
  
 Pseudoscalar DM-nucleon interaction cross sections are suppressed at non-relativistic DM 
-velocities therefore the sensitivity from the direct detection experiments is limited~\cite{Haisch:2012kf,LopezHonorez:2012kv}.  
+velocities which limits the sensitivity from direct detection experiments~\cite{Haisch:2012kf,LopezHonorez:2012kv}.  
 An extension to the scalar and pseudoscalar can
 be performed by allowing the scalar and pseudoscalar interactions to undergo
 electroweak symmetry breaking in an analogous way to the Higgs
@@ -290,8 +290,7 @@ simulation following the procedure described in Ref.~\cite{CMS-PAS-JME-12-002}.
 %subsequently for a resolved vector boson (resolved category), and finally the
 %remaining events are collected into the monojet category. 
 
-If the vector boson decays hadronically and has sufficiently large transverse
-momentum, both its hadronic decay products are captured by a single
+If the vector boson decays hadronically and has sufficiently large~\pt, both its hadronic decay products are captured by a single
 reconstructed ``fat'' jet.  Events in the V-boosted category are
 required to have a reconstructed ca8 jet with $\pt>200$ \GeV and  $\ETm>250$
 \GeV.  Further selection criteria are applied to improve the vector boson jet purity by
@@ -304,7 +303,7 @@ Events which contain additional jets close to the ca8 jet, but no closer than $\
 0.5$, are selected to include the frequent cases in which initial state
 radiation yields additional jets. If an ak5 jet with $\pt>30$~\GeV and $|\eta|<2.5$
 is reconstructed, and the opening azimuthal angle between it and the ca8 jet
-is smaller than 2, the event is selected, otherwise it is rejected. Events
+is smaller than 2 radians, the event is selected, otherwise it is rejected. Events
 with more than one ak5 jet with $\pt>30$ \GeV and $|\eta|<2.5$, reconstructed
 at $\Delta R> 0.5$ with respect to the ca8 jet are rejected.
 Figure~\ref{fig:boostvtagvars} shows the distributions of $\tau_2/\tau_1$ and
@@ -356,7 +355,7 @@ for scalar-mediated DM production with $m_{\mathrm{DM}} = 10$\GeV and $m_{\mathr
 The gray bands in the bottom panels indicate the statistical uncertainty from the limited number
 of simulated events.}\label{fig:vtagger}\end{center}\end{figure*}
 
-To reduce contamination from background processes containing a top quark, the events are rejected if they
+To reduce contamination from background processes containing a Top quark, the events are rejected if they
 contain a b-tagged jet, defined using an MVA containing secondary vertex information  (``CSV
 medium'')~\cite{BTAG}. Finally, the events are required to have $\ETm>250$ \GeV. 
 
@@ -392,15 +391,16 @@ summary of the event selection in the three categories.
   $\tau_2/\tau_1$      		     &  $<0.5$          & -           & - \\
   $\mathrm{V}\rightarrow{\mathrm{jj}}$ MVA    &  -               & $>0.6$      & - \\
   $m_{\mathrm{prune}}/m_{\mathrm{jj}}^{1}$    & $60-110$\GeV & $60-110$\GeV & -  \\
-  $\Delta\phi(\ETm,\mathrm{j})$      	     & $>2$     & -  & $>2$ \\
+  $\Delta\phi(\ETm,\mathrm{j})$      	     & $>2$ rad     & -  & $>2$ rad \\
   $\mathrm{N}_{\mathrm{j}}^{2}$      & $=1$     & -  & $=1$ \\
  \hline
  \end{tabular}
  \end{center}\\
 \footnotesize{$^{1}$ The cut on the mass refers to $m_{\mathrm{prune}}$ in the V-boosted category and 
-the dijet invariant mass $m_{\mathrm{jj}}$ in the V-resolved category.\\ 
-\footnotesize{$^{2}$ An additional jet is allowed only if it falls within $\Delta\phi<2$ of the 
-leading ak5 or ca8 jet for the monojet or V-boosted category.}
+the dijet invariant mass $m_{\mathrm{jj}}$ in the V-resolved category.}\\ 
+\footnotesize{$^{2}$ An additional jet is allowed only if it falls within $\Delta\phi<2$ radians of the 
+leading ak5 or ca8 jet for the monojet or V-boosted category. The additional ak5 jets in the V-boosted category 
+must be further than $\Delta R>0.5$ for the event to fail this criteria.}
 \end{table}
 
 Figure~\ref{fig:ptandmet} shows the \ETm and leading jet $\pt$ distributions
@@ -430,7 +430,7 @@ of simulated events.} \label{fig:ptandmet}\end{center}\end{figure*}
 The presence of DM production will be observable as an excess of events above SM 
 backgrounds in a region of high $\ETm$. 
 Significant improvements in terms of sensitivity can be
-expected if several bins in $\ETm$ are considered simultaneously. Further
+expected if several bins in $\ETm$ are considered simultaneously, yielding the $\ETm$ shape. Further
 improvement is achieved by using control regions in data to 
 reduce the uncertainties on the predictions of the SM backgrounds. These regions are
 statistically independent from the signal region and designed such that the expected contribution 
@@ -515,7 +515,7 @@ the photon, dimuon and single-muon control regions. Additionally,
 $\boldsymbol{\phi,\theta}$ denote parameters profiled over during the
 likelihood minimization, and Poisson denotes its eponymous distribution.  The expected contributions
 from background processes in the photon, dimuon and single-muon control regions
-are denoted $B^{\gamma}$, $B^{Z}$ and $B^{W}$ in Equation~\ref{eqn:candclh},
+are denoted $B^{\gamma}$, $B^{Z}$ and $B^{W}$ in Eq.(~\ref{eqn:candclh}),
 respectively.
 
 The factors $R^{Z}_{i}$ account for the ratio of $BR(\Zvv)/BR(\Zmm)$
@@ -743,7 +743,8 @@ limits are placed on the ratio of the signal cross-section to the predicted
 cross-section, denoted as $\mu=\sigma/\sigma_{\mathrm{TH}}$. Limits are presented in
 terms of excluded regions in the $m_{\mathrm{MED}}-m_{\textrm{DM}}$ plane,
 assuming scalar, pseudoscalar, vector, and axial-vector mediators, and
-determining the points for which $\mu\ge1$ is excluded at 90\% CL or more. The choice 
+determining the points for which $\mu\ge1$ is excluded at the 90\% confidence level 
+(CL) or more. The choice 
 of determining 90\% CL is to allow for comparison with other experiments. 
 Experimental systematic uncertainties, including jet and \ETm response and
 resolution, are included on the signal model as nuisance parameters, while the
@@ -774,7 +775,16 @@ signal so that the expected signal contribution remains roughly constant. The ex
 value of $\mu_{\mathrm{up}}$ is larger than 1 for this region resulting in an  
 island at low dark matter masses. No exclusion is expected at the 90\% CL therefore in this region. 
 However, the observed value of $\mu_{\mathrm{up}}$ is smaller than 1 throughout this 
-region at 90\% CL so no such island appears in the observed limits. 
+The results are compared, for all four types of
+mediators, to constraints obtained from the observed cosmological relic density
+of DM as determined from measurements of the cosmic microwave background by the
+WMAP and Planck experiments~\cite{Bennett:2003ba,Planck:2006aa}. The expected DM
+abundance is estimated, separately for each model, using a thermal freeze-out
+mechanism implemented in MadDM~\cite{Backovic:2013dpa}, and compared to the
+observed cold DM density $\Omega_c h^2=0.12$~\cite{Ade:2013zuv} as described in 
+Ref.~\cite{Pree:2016hwc}. It is assumed that the simplified model hypothesised 
+provides the only relevant beyond SM dynamics for DM interactions.
+egion at 90\% CL so no such island appears in the observed limits. 
 
 
 \begin{figure}[htbp] \centering \subfloat[][]{
@@ -785,8 +795,8 @@ region at 90\% CL so no such island appears in the observed limits.
 \includegraphics[angle=0,width=0.50\textwidth]{figures/MassLimit_1_805_0_Both.pdf}
 \label{fig:mass_805} } \subfloat[][]{
 \includegraphics[angle=0,width=0.50\textwidth]{figures/MassLimit_1_806_0_Both.pdf}
-\label{fig:mass_806} } \caption{90\% CL Exclusion contours in the
-$m_{\textrm{med}}-m_{\textrm{DM}}$ plane assuming (a) vector, (b) axial vector, 
+\label{fig:mass_806} } \caption{90\% CL exclusion contours in the
+$m_{\mathrm{MED}}-m_{\textrm{DM}}$ plane assuming (a) vector, (b) axial vector, 
 (c) scalar, and (d) pseudoscalar mediators.  The blue scale shows the expected 
 90\% CL exclusion upper limit on the signal strength assuming the mediator only couples to
 fermions. For the scalar and pseudoscalar mediators, the exclusion contour
@@ -827,15 +837,7 @@ detection bounds are strongly velocity suppressed.  The most appropriate
 comparison is therefore to the most sensitive bounds from indirect detection
 from the Fermi LAT collaboration~\cite{Ackermann:2011wa,Abdo:2010ex}.  These limits apply to the
 scenario in which dark matter is annihilated in the center of a galaxy, producing
-a $\gamma$ ray signature.  The results are also compared, for all four types of
-mediators, to constraints obtained from the observed cosmological relic density
-of DM as determined from measurements of the cosmic microwave background by the
-WMAP and Planck experiments~\cite{Bennett:2003ba,Planck:2006aa}. The expected DM
-abundance is estimated, separately for each model, using a thermal freeze-out
-mechanism implemented in MadDM~\cite{Backovic:2013dpa}, and compared to the
-observed cold DM density $\Omega_c h^2=0.12$~\cite{Ade:2013zuv} as described in 
-Ref.~\cite{Pree:2016hwc}. It is assumed that the simplified model hypothesised 
-provides the only relevant beyond SM dynamics for DM interactions.
+a $\gamma$ ray signature.
 
 Under the vector mediator model, the direct detection bounds dominate across
 most of the plane, while for the axial vector, there is good complementarity
@@ -906,13 +908,13 @@ achieved by the addition of two event categories which select hadronically decay
 boson using novel jet substructure techniques. 
 The sensitivity of the search has been increased compared to the previous CMS result by using
 the full shape of the $\ETm$ distribution to discriminate signal from standard
-model backgrounds.  No significant deviation from the expectation from SM
-backgrounds is observed in the \ETm distributions.  The results of the search
+model backgrounds.  No significant deviation from the expectation from
+standard model backgrounds is observed in the \ETm distributions.  The results of the search
 are interpreted under a set of simplified models which describe the production
-of DM via vector, axial vector, scalar or pseudoscalar mediation and constraints
+of dark matter via vector, axial vector, scalar or pseudoscalar mediation and constraints
 on the parameter space of these simplified models are produced. The search is
-the first at CMS to be interpreted under these simplified models for DM
-production. 
+the first at CMS to be interpreted under these simplified models for
+dark matter production. 
 
 \clearpage
 %\appendix
