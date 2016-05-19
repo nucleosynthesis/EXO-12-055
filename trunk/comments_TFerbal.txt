@@ -1,0 +1,31 @@
+Thank you for your comments, we were able to read the PDF and have adopted most of the recommendations.
+
+Please find responses below to the overview comments
+
+(i) The chosen symbols are very confusing. Please consider the overall consistency of the nomenclature.
+
+We’re not sure to what this specifically refers but we have tried now to follow a consistent choice.
+
+(ii) Do you need the Lagrangian expressions of Eqs. (1)--(4)? They leave me quite cold without additional explanation.
+
+These were requested during the review as the (more familiar) reader is able to see directly the models which are assumed.
+
+(iii) You should become better acquainted with the CMS PubComm guidelines for authors, you have violated quite a few of these. Ask your LE to help with these issues. You use symbols that do not correspond to the CMS standards.
+
+(iv) The end of the intro should be fixed, as you do not give all the sections correctly.
+
+Fixed,  thankyou
+
+(v) Defining a vector or even a scalar ETmiss, especially when it is unnecessary, is like a horror from ancient time, as you already have the imbalance in transverse momentum pTslash and its magnitude pTslash. Let's forget how this quantity used to be measured. We now use PF tracks, with simpler jet definitions, and no need to involve incomprehensible quantities that bear little resemblance to science.
+
+We leave this to LE as we were asked to stick to ETmiss during the review from the LE.
+
+(vi) It's hard to imagine that the authors or their LE do not know about the CMS use of "cross section," or the Oxford comma! Please fix all those problems in the text, as I have indicated.
+
+(vii) I find it exceedingly annoying to see those special designations often used to confuse the readers, usually intended to represent choices, but never explained, such as "green/blue" or Table 1 (2) gives XXX (YYY) in June (July)... At times it's clear what is meant by those "space savers," but they do not belong in formal writing. Just spell out everything in all detail, as I have shown.
+
+We see no reason to drop these in all cases and do not see the guidelines which specify we should.
+
+(viii) Please set Tables 1-3 into reasonable format, e.g., landscape, but certainly do not leave the alternatively rotated formats.
+
+We have done this but at the cost of reducing the font size.
