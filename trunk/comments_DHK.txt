@@ -105,4 +105,4 @@ This means with respect to our offline selection (all events).
 
 L.292 Same issue with L.75. It looks this analysis is already using scalar mediator coupling with V, so X -> V V* is also possible. So "when assuming the mediator only couples to fermions" looks not appropriate sentence. It looks like the excluded limits are for Br(X->fermion pair)*sigma.
 
-We have also included the model where no coupling to V is present (described better in the earlier text now). This is what the blue scale is indicating.
+We have also included the model where no coupling to V is present (described better in the earlier text now). This is what the blue scale is indicating. We removed the sigma/sigma_TH as in fact that was a little misleading. We refer to yields now. 

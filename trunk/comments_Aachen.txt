@@ -1,4 +1,4 @@
-ype B:
+Type B:
 
 - l230: Is the choice really conservative? Is there an alternative choice that is (maybe not conservative, but) more exact?
 
@@ -6,7 +6,7 @@ ype B:
 
 - l267: Are the limits given at 90% CL to compare directly to the direct detection experiments? Are also plots at 95% CL available as supplement material?
 
-=> Yes, 90% is done to compare with Direct detection. We don't have 95% CL avaible however, one can go to a mu of roughly 1.2 to see the 95% CL. 
+=> Yes, 90% is done to compare with Direct detection, this is now stated in the paper. We don't have 95% CL avaible.  
 
 Type A:
 
@@ -48,7 +48,7 @@ Type A:
 => Added
 
 - Fig. 1: distinguish between "X" scalar mediator in (a,b) and "X" vector mediator in (c) using different labels and/or line styles?
-=> We would prefer to not
+=> We distinguish now in the figures to mimic the terms in the lagrangians 
 
 - l92: "only using" --> "using only"
 => Its only using in this case to be correct 
@@ -84,12 +84,13 @@ Type A:
 => Added
 
 - Figures 2 & 3: the colors for Z+jets and Dibosons are rather similar, at least in my printout. Can more differing colors be chosen? Also the text size in the legend is rather small.
-=> We prefer to keep these colors
+=> We have modified the colors to do this 
 
 - Fig. 3: might be useful to add the p_T cut to the legend.
-=> We prefer to not update the plot
+=> We prefer to not update the plot, asked in LE to remove 
+
 - Fig. 4: why is the plot style different from Figs. 3&4? why is a different model (red dashed line) used in these plots, compared to Figs. 3&4?
-=> We will consider updating the red line
+=> Fixed
 - l176: closing parenthesis after "GeV" is missing
 => Added
 - l180 regions -> region
@@ -159,16 +160,3 @@ Type A:
 =>Fixed
 
 
----- Figures
-- Fig. 1: distinguish between "X" scalar mediator in (a,b) and "X" vector mediator in (c) using different labels and/or line styles?
-=> Updated
-- Figures 2 & 3: the colors for Z+jets and Dibosons are rather similar, at least in my printout. Can more differing colors be chosen? Also the text size in the legend is rather small.
-=> We prefer to keep these colors
-- Fig. 3: might be useful to add the p_T cut to the legend.
-=>  LE told us to remove this
-- Fig. 4: why is the plot style different from Figs. 3&4? why is a different model (red dashed line) used in these plots, compared to Figs. 3&4?
-=> We will consider updating the red line
-- Fig. 5: write "E_T^miss" in plot axis labels, not "MET"
-=> We will consder
-- Fig. 6: in the plot top-labels, write "V-boosted" and "V-resolved" as in the text
-=> We will consder
