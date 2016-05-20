@@ -34,7 +34,7 @@ L61-62: The logic of this sentence should be inverted: it is not the interaction
 => Fixed
 
 L64: it is not clear what electroweak symmetry has to do in this context. Eq 1-4 do not involve any SM gauge fields and nothing is said about the DM fields representation in the SM gauge group. Also, it is not clear what are the phenomenological consequences of this kind of models.
-=> These are discussed later. We prefer to introduce this here, for presentation later.
+=> These are discussed later. We prefer to introduce this here, simplified not to reuse EWSB. 
 
 L67-76: The whole paragraph can be tough for a non-expert. Is there any paper dedicated to these theoretical aspects that can be referenced ? 
 => Yes, the references are already included in the paragraph
@@ -59,13 +59,13 @@ L172: ".. if several Etmiss bins are considered ... ": are you trying to say tha
 => Added some text
 
 L179 : Why only muons and not also electrons?
-=> Electrons require a nother trigger. The tigger used here is MET no muons.
+=> Electrons require another trigger. The trigger used here is MET no muons. This was added in 13 TeV and does not improve the senstivity very much. 
 
 L179: It is not clear if the control regions are used to derive the shape or the normalization of the backgrounds. Please clarify.
 => We have the current text " to simultaneously constrain the predictions of the standard model background" , we find this is sufficient
 
 L184 : what exactly are the selections for the photon control region? For the dimuon control region, it is specified that the selections are the same as for the signal region, but that is not specified in the definition of the photon control region. Also, what kind of ID/Isolation selection is applied to the photons? Do fake-photons play any role in this part of the analysis? 
-=> We are using the loose photon Id. The kinematic selections are the same. Fake photons do play a role and are treated as a background, we are using the POG recommended approach. As a result we added citation to the photon paper and we expicitly stated kinematics ar ethe same.
+=> We are using the loose photon Id. The kinematic selections are the same. Fake photons do play a role and are treated as a background, we are using the POG recommended approach. As a result we added citation to the photon paper and some text to allude to the use of results therein.
 
 L206: The liekelihood fit is probably the same as the one mentioned in line 175. Please make it clear.
 => Changed a likelihood fit to THE likelihood fit
@@ -111,19 +111,20 @@ It would be better to put "CMS" outside of the frame. In figure 5 you can then p
 Axes titles and label sizes should be increased in Figure 5. Also, the legend has a border in this figure but not in the others.
 
 L13: .. LHC has generally .... (subject is interpretation?)
-=> We prefer to keep as is. We appreciate the statement that this is vague
+=> updated to typically
 
 L13: utilized --> used
-=> we prefer utilized, it is less plebian
+=> updated
 
 L16: "DM pairs" --> "pairs of DM particles" 
 => we prefer as is ( matter particles is redundant)
 
 L23: "utilses" --> "uses"
-=> again, we find utilize more appripriate here
+=> update
 
 L24: jets --> hadronic jets
 => We prefer to keep it as is since jets can include hadronic tau decays or even misindentified leptons
+
 last par. of the introduction: the section numbers need to be updated, since not correct
 => >updated
 
@@ -185,7 +186,7 @@ L144: "from THE DECAY of a W or Z boson"
 => disagree, you don't originate from a decay, that incites it
 
 L146: "multivariate variable selection" is ugly in our opinion. It should be "a selection based on a multivariate discriminant" or "a multivariate selection criterion". 
-=> Agree, took the second choice
+=> Agree. 
 
 L152: "top backgrounds" --> "backgrounds processes involving the production of a top quark". 
 => Agree (slightly reworded)
@@ -243,7 +244,7 @@ Equation 5: several simbols are undefined: * Possion * phi, tetha * not clear on
 => updated
 
 L242: QCD backgrounds --> QCD multijet backgrounds
-=> we prefer to label it as QCD to be more generic
+=> Changed to QCD multijet  
 
 L253: "A simultaneous fit IS performed"
 => updated
