@@ -80,7 +80,7 @@ is added,
 "while mono-V, V=W or Z boson, searches [3–6] target ..." -->
 "while mono-V (where V = W or Z boson) searches [3–6] target ..."
 
-=> prefer to keep as is, minimize verbosity
+=> prefer to keep as is, minimize verbosity, we leave this to LE 
 
 (2) L14, as the "EFT" has not been used afterward in whole paper, it eventually
 can be removed, i.e."(EFT) that assume heavy mediators and ..." -->
@@ -109,7 +109,7 @@ i.e.
 the 1st one, i.e. "The couplings gDM and gSM denotes the coupling of" -->
 "The gDM and gSM denotes the coupling of"
 
-=> updated
+=> first use of couplings -> terms 
  
 (6) L57, L67 and L74, three places may be shortened from
   (a) L57: 
@@ -142,7 +142,7 @@ the 1st one, i.e. "The couplings gDM and gSM denotes the coupling of" -->
 "are generated at leading order," -->
 "are generated at the leading order,"
 
- => we prefer to keep as is
+ => we prefer to keep as is. This is common use 
 
 Page 3
 
@@ -224,7 +224,7 @@ i.e.
 or
 "with pT > 150 GeV and EmissT > 200 GeV ..."
 
-=>  We will abstain from implementing, since we feel  that a less dense use of symbols improves reading
+=> Updated where feasible  
 
   (b) L173-176: (three places; also a closing bracket should be added at the
 end of L176) 
@@ -239,7 +239,7 @@ negligible contributions expected from signal, to simultaneously constrain the
 predictions of the SM background. A binned likelihood fit is 
 performed in the range 250 (100)-1000"
 
-=> updated
+=> rephrased. 
 
 
   (c) L185:
@@ -665,7 +665,7 @@ Other ones which also need to be changed by the similar way are [29], [45] and
 "kT".
 I'm not sure whether they should be consistent.
 
- => updated
+ => updated, we use kt now throughout
 
 (41) L478, in [47], to be consistent in this Section, a space should be added
 after the symbol "=" in the article title at the end of line, i.e.

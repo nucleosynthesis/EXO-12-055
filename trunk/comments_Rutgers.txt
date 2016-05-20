@@ -24,7 +24,7 @@ We prefer to keep the sentence as is.
       while V/Z production is a more targeted (but lower background) final state. Also, V=W or Z boson would
        be better incorporated as a parenthetical statement (Where V=W or Z boson)
 
-Agreed, we’ve adopted the suggestions
+Agreed, we’ve adopted the suggestions, will consult LE for this
 
 22: The sentence “The exploration of …” is a fragment. Is it supposed to say anything except that we use
        novel jet substructure methods? Suggest to rephrase the paragraph so it simply says that
@@ -93,7 +93,7 @@ Left this for LE
 
 102: “the absolute scale of the jet energy” -> “the jet energy scale”
 
-Was modified to this during review, we will re-discuss it with LE
+Was modified to this during review, we will re-discuss it with LE. 
 
 103: you define ETmiss as a magnitude, but then in the next sentence talk about the angle between
         ETmiss and the leading jet.
@@ -117,9 +117,9 @@ We have removed the deltaphi(ca8,ak5) since its not used again. Added “, other
  Figure 2: why is the DM t2/t1 distribution different from diboson distribution?
           You should mention the reason in the text.
 
-One small effect is due to the fact that its a stacked plot (diboson is on top of the others background). 
-Hoever, there is some difference due to the fact that the diboson also has the leptonic decays which tend to 
-be at higher values of tau2/tau1
+One small effect is due to the fact that its a stacked plot (diboson is on top of the others background), making the difference look larger.  
+However, there is some difference due to the fact that the diboson also has the leptonic decays which tend to 
+be at higher values of tau2/tau1 and there is a kinematic dependence of the variable. VH is harder than WW/WZ or ZZ. 
 
 Also on Figure 2: The systematic uncertainties are not shown yet the statement is made that the
   disagreement is covered.  It would be very useful to have an estimate of the systematic uncertainty band in
@@ -140,7 +140,7 @@ We say for the resolved category now, “ … selection that looks for decays in
 
 153: is there a number of jets cut on the resolved V->jj category?
 
-No
+No, but the b-tag veto kills alot of the top background. 
 
 157: which category you are calling monojet? Your categories names are inconsistent throughout the paper. Please pick one set and stick to it.
 

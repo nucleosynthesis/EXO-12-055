@@ -78,7 +78,7 @@ using the Compact Muon Solenoid (CMS) experiment at the CERN Large Hadron Collid
 The existence of DM is one of the most compelling sources of evidence
 for physics beyond the standard model (SM) of particle physics, with astrophysical
 observations suggesting an abundance of a nonbaryonic form of matter in the
-universe. In theories which extend the SM, production of DM particles
+universe. In theories that extend the SM, production of DM particles
 is expected at the LHC. Monojet searches~\cite{monojet1,monojet2,ATLAS:2012ky,Aad:2011xw,Chatrchyan:2012me,Khachatryan:2016reg} provide  
 sensitivity to a wide range of models for  DM production at the LHC, while mono-V 
 (where V=W or Z boson) searches~\cite{monolep,Aad:2014vka,Aad:2013oja,ATLAS:2014wra} target models with 
@@ -88,7 +88,7 @@ they benefit from smaller contributions from SM backgrounds.
 %theories with non-universal DM couplings~\cite{IVDM}.  
 The interpretation of
 results from these and other DM searches at the LHC have generally utilised
-effective field theories (EFT) that assume heavy mediators and DM production via
+effective field theories that assume heavy mediators and DM production via
 contact interactions~\cite{Fox:2011pm}.  The results of this analysis are
 interpreted in the context of a spin-0 or spin-1 mediator decaying to DM pairs
 using a set of simplified DM
@@ -101,13 +101,13 @@ This is the first search at CMS to target the hadronic decay modes of the vector
 bosons in the mono-V channels. The 
 mono-V search uses recently developed techniques designed to exploit information 
 available in the jet's substructure when the V-boson is 
-highly boosted and uses a multivariate V-tagging technique to
+highly Lorentz-boosted and uses a multivariate V-tagging technique to
 identify the individual jets from moderately boosted V-bosons.  
 The events are categorised according to the nature of the jets in the
 event. The signal extraction is performed by considering the $\ETm$
 distribution in each event category, and using additional data control regions 
 to constrain the dominant backgrounds yielding improvements of roughly 60\% and 40\% respectively 
-in exclusion limits in comparison with the previous CMS monojet analysis~\cite{monojet1}.
+in exclusion limits in comparison with the previous CMS monojet analysis~\cite{monojet1}, using the same dataset.
 
 This paper is structured as follows: Section 2 provides a description of the 
 CMS detector; Section 3 outlines the DM models
@@ -121,7 +121,7 @@ the context of simplified models for DM production.
 \section{CMS detector}
 
 The CMS detector, described in Ref.~\cite{CMSdetector}, is a
-multi-purpose apparatus designed to study production processes at high-transverse momentum($\pt$) 
+multi-purpose apparatus designed to study production processes at high-transverse momentum ($\pt$) 
 proton-proton and heavy-ion collisions.  A superconducting solenoid occupies its
 central region, providing a magnetic field of 3.8\unit{T} parallel to the beam
 direction. Charged-particle trajectories are measured by the silicon pixel and
@@ -162,14 +162,14 @@ In all models considered, these couplings are assumed to be unity ($g_{\mathrm{S
 For the scalar and pseudoscalar models, $g_{\rm q}=1$ is assumed for all quark flavours. This implies 
 a Yukawa coupling of the mediator to the SM fermions.  
 The split in terms of axial vector and vector mediators in the Lagrangian is to
-parallel the existing separation with DD, into spin-dependent and
-spin-independent interactions. Spin-independent can refer to either vector
+parallel the existing separation with DD, into spin-dependent (SD) and
+spin-independent (SI) interactions. Spin-independent can refer to either vector
 or scalar mediated interactions, between which DD makes no
 distinction, while spin-dependent interactions refer to axial vector mediated
 processes.
  
 Pseudoscalar DM-nucleon interaction cross sections are suppressed at non-relativistic DM 
-velocities which limits the sensitivity from DD experiments~\cite{Haisch:2012kf,LopezHonorez:2012kv}.  
+velocities, which limits the sensitivity from DD experiments~\cite{Haisch:2012kf,LopezHonorez:2012kv}.  
 An extension to the scalar and pseudoscalar can
 be performed by allowing the scalar and pseudoscalar interactions to undergo
 electroweak symmetry breaking in an analogous way to the Higgs
@@ -188,16 +188,16 @@ quark or gluon, respectively.
 For the fermionic models, the width is determined under the minimum width constraint 
 requiring that only quarks and DM particles couple to the mediator. For the case in 
 which couplings between the mediator and V-bosons are allowed, the width is modified to 
-account for the additional contributions which arise~\cite{Harris:2014hga}.
+account for the additional contributions that arise~\cite{Harris:2014hga}.
 
 In order to model the contributions expected from these signals, simulated 
-events are generated using {\sc MCFM~6.8\cite{mcfm}} for the monojet final state, and
-{\sc JHUGen~5.2.5}~\cite{Anderson:2013afp} for the V-boson signature.
+events are generated using {\sc MCFM6.8\cite{mcfm}} for the monojet final state, and
+{\sc JHUGen5.2.5}~\cite{Anderson:2013afp} for the V-boson signature.
 All signal models are generated at leading order (LO), using  
-{\sc PYTHIA~6.4.26}~\cite{Sjostrand:2006za} for parton showers and hadronisation, and {\sc Geant4}~\cite{geant4} for simulation of the CMS detector response.  
+{\sc Pythia6.4.26}~\cite{Sjostrand:2006za} for parton showers and hadronisation, and {\sc Geant4}~\cite{geant4} for simulation of the CMS detector response.  
 For the monojet signal, the generation is performed using the mediator mass for the renormalisation and factorisation scales used to generate the events. 
 The mediator mass is also used for the scale in the parton showering (PS).  
-An alternative choice taking the boson $\pt$ for the PS scale was found to result in reductions of    
+An alternative choice taking the boson $\pt$ for the PS scale is found to result in reductions of    
 $30-80$\% in the expected signal yield in the relevant kinematic region for mediator masses above 400\GeV. 
 For scalar and pseudoscalar mediated DM production, the finite top quark mass is taken 
 into account for both the inclusive and differential cross section. NNPDF3.0 is used to
@@ -228,28 +228,29 @@ The data used for this analysis are collected using two \ETm triggers
 The first requires an \ETm of
 greater than 120 \GeV, calculated only using information from the calorimeters,
 while the second requires $\ETm>95$\GeV or $\ETm>105$\GeV, depending on
-the data-taking period, together with at least one jet of \pt$>80$ \GeV and
+the data taking period, together with at least one jet of \pt$>80$ \GeV and
 $|\eta|<2.6$. The $\ETm$ is  calculated using the particle flow (PF) reconstruction
-algorithm~\cite{CMS-PAS-PFT-09-001} which optimally combines information from various components 
+algorithm~\cite{CMS-PAS-PFT-09-001}, which optimally combines information from various components 
 of the CMS detector to reconstruct and identify individual particles. 
 The lowest threshold on \ETm for event selection is set at 200 \GeV  
 to ensure Done a trigger efficiency greater than 99\% for selected events. 
 
 Jets are reconstructed by clustering of PF objects using both 
 the anti-$k_{\textrm{T}}$ algorithm~\cite{Cacciari:2008gp} with 0.5 (AK5 jet) as
-the distance parameter, and the Cambridge-Aachen algorithm~\cite{cajets} with
+the distance parameter, and the Cambridge$-$Aachen algorithm~\cite{cajets} with
 0.8 distance parameter (CA8). The leading jet is required to pass standard 
 CMS identification criteria~\cite{jec}. The jets
 are corrected for contamination from additional, synchornous
-interactions (pileup, PU) on the basis of the observed event energy density~\cite{jec}. 
+interactions (pileup, PU) on the basis of the observed event energy density~\cite{Cacciari:2011ma}. 
 Further corrections are then applied to calibrate the absolute scale of the jet energy~\cite{jec}.
 
-The \ETm is defined as the magnitude of the vector sum of the
-transverse momenta of all final state particles, that are reconstructed using PF.  
+The \ETm is defined as the magnitude of the vector sum of the $\pt$ 
+of all final state particles, that are reconstructed using PF.  
 Events with a large mis-reconstructed \ETm are removed by applying a quality filter on the tracker, 
 ECAL, HCAL and muon detector data.
 
-The angle between the \ETm direction and the leading jet in the plane transverse to the
+The azimuthal angle $\phi$ between the \ETm direction and the leading jet in the plane 
+transverse to the
 beam line, $\Delta\phi(\ETm,\rm{j})$, is required to be larger than 2 radians to reduce the
 contribution from QCD multijet events. Finally, events are vetoed if they
 contain at least one well-identified electron, photon or muon with
@@ -260,21 +261,21 @@ identified object be isolated using standard PF isolation algorithms~\cite{Beaud
 
 Selected events are classified according to the
 topology of the jets to distinguish initial or final state radiation 
-from hadronic V-boson decays which can be either highly boosted or resolved into 2 jets. 
-This results in three orthogonal categories of events which are referred to as monojet, V-boosted,  
+from hadronic V-boson decays, which can be either highly Lorentz-boosted or resolved into two jets. 
+This results in three orthogonal categories of events that are referred to as monojet, V-boosted,  
 and V-resolved. The V-boosted and V-resolved categories are collectively referred to as V-tag. 
 
 To compute the SM background expectation, simulated samples are
 produced at LO for the Z+jets, W+jets, $\mathrm{t\bar{t}}$,
 single top quark, and QCD multijet processes using
-{\sc Madgraph~5.1.3}~\cite{amcatnlo} interfaced with the {\sc CT10} PDF set~\cite{Gao:2013xoa},
-and with {\sc PYTHIA~6.4.26a} for
+{\sc Madgraph5.1.3}~\cite{amcatnlo} interfaced with,
+and with {\sc Pythia6.4.26a} for
 hadronisation and fragmentation, where jets from the matrix element calculations are matched
 to the parton shower following the MLM matching
-prescription~\cite{Mangano:2006rw}.  Additionally a single top quark background
-sample, produced at next-to-leading order (NLO) with {\sc Powheg~1.0} ~\cite{Nason:2004rx,Frixione:2007vw,powheg,Alioli:2010xd,Alioli:2009je}, and a set of diboson samples,
-produced at LO directly with {\sc Pythia6}; all samples are added using
-the CT10 pdfset~\cite{Gao:2013xoa}.  The MC samples are corrected to
+prescription~\cite{Mangano:2006rw}. Additionally a single top quark background
+sample, produced at next-to-leading order (NLO) with {\sc Powheg1.0} ~\cite{Nason:2004rx,Frixione:2007vw,powheg,Alioli:2010xd,Alioli:2009je}, and a set of diboson samples,
+produced at LO with {\sc Pythia6.4.26a}. All samples are generated using
+the {\sc CT10} PDF set~\cite{Gao:2013xoa}.  The MC samples are corrected to
 account for the distribution of the number of additional pileup 
 interactions observed in the 8 TeV dataset. Both signal and background samples are
 additionally corrected to account for the mismodelling of hadronic recoil in
@@ -293,11 +294,11 @@ a single reconstructed ``fat'' jet.  Events in the V-boosted category are
 required to have a reconstructed CA8 jet with $\pt>200$ \GeV and  $\ETm>250$
 \GeV.  Further selection criteria are applied to improve the vector boson jet purity by
 cutting on the ``N-subjettiness'' ratio $\tau_2/\tau_1$ as defined 
-in Refs.~\cite{Thaler:2010tr,Thaler:2011gf}, identifying jets with a two sub-jet
+in Refs.~\cite{Thaler:2010tr,Thaler:2011gf}, which identifies jets with a two pronged 
 topology, and the pruned jet mass ($m_{\mathrm{prune}}$)~\cite{Ellis:2009me}.
 The $\tau_2/\tau_1$ ratio is required to be smaller than 0.5 and $m_{\mathrm{prune}}$ 
 is required to be in the range 60-110 \GeV.  
-Events which contain additional jets close to the CA8 jet, but no closer than $\Delta R <
+Events which contain additional jets close to the CA8 jet, but no closer than $\Delta R=\sqrt{\delta\eta^{2}+\delta\phi^{2}} <
 0.5$, are selected to include the frequent cases in which ISR 
 yields additional jets. If an AK5 jet with $\pt>30$~\GeV and $|\eta|<2.5$
 is reconstructed, and the azimuthal angle between it and the CA8 jet
@@ -367,7 +368,10 @@ second AK5 jet close to the leading one ($\Delta\phi(\mathrm{j_{1},j_{2}}) < 2$ 
 $\pt>30$\GeV and $|\eta|<2.5$ are selected to allow the frequent cases where
 ISR yields two jets.  Events with three or more AK5 jets
 with $\pt>30$ \GeV and $|\eta|<2.5$ are rejected. Table~\ref{tab:selection} gives a 
-summary of the event selection in the three categories. 
+summary of the event selection in the three categories. The priority for event selection 
+is that events are first selected in the V-boosted, followed by the 
+V-resolved and finally the monojet. Events which pass a given selection are not 
+allowed to enter a subsequent category.
 
 
 \begin{table}[hbt]
@@ -375,8 +379,7 @@ summary of the event selection in the three categories.
 	The requirements 
 	on $\pt^{\mathrm{j}}$ and $|\eta|^{\mathrm{j}}$ refer to the highest $\pt$ CA8 or AK5 jet in the 
         V-boosted or monojet categories, and to both leading AK5 jets in the V-resolved category.
-	The priority for event selection is that events are first selected in the V-boosted, followed by the 
-	V-resolved and finally the monojet. Events which pass a given selection are not allowed to enter a subsequent category.}
+	}
  \label{tab:selection}
  \begin{center} 
  \begin{tabular}{l|c c c}
@@ -388,15 +391,15 @@ summary of the event selection in the three categories.
   $\ETm$     		     	     & $>250$\GeV & $>250$\GeV & $>200$\GeV  \\
   $\tau_2/\tau_1$      		     &  $<0.5$          & -           & - \\
   $\mathrm{V}\rightarrow{\mathrm{jj}}$ MVA output    &  -               & $>0.6$      & - \\
-  $m_{\mathrm{prune}}/m_{\mathrm{jj}}^{1}$    & $60-110$\GeV & $60-110$\GeV & -  \\
+  $m_{\mathrm{prune}}/m_{\mathrm{jj}}^{\dagger}$    & $60-110$\GeV & $60-110$\GeV & -  \\
   $\Delta\phi(\ETm,\mathrm{j})$      	     & $>2$ rad     & -  & $>2$ rad \\
-  $\mathrm{N}_{\mathrm{j}}^{2}$      & $=1$     & -  & $=1$ \\
+  $\mathrm{N}_{\mathrm{j}}^{\ddagger}$      & $=1$     & -  & $=1$ \\
  \hline
  \end{tabular}
  \end{center}\\
-\footnotesize{$^{1}$ The cut on the mass refers to $m_{\mathrm{prune}}$ in the V-boosted category and 
+\footnotesize{$^{\dagger}$ The cut on the mass refers to $m_{\mathrm{prune}}$ in the V-boosted category and 
 the dijet invariant mass $m_{\mathrm{jj}}$ in the V-resolved category.}\\ 
-\footnotesize{$^{2}$ An additional jet is allowed only if it falls within $\Delta\phi<2$ radians of the 
+\footnotesize{$^{\ddagger}$ An additional jet is allowed only if it falls within $\Delta\phi<2$ radians of the 
 leading AK5 or CA8 jet for the monojet or V-boosted category. The additional AK5 jets in the V-boosted category 
 must be further than $\Delta R>0.5$ for the event to fail this criteria.}
 \end{table}
@@ -429,12 +432,12 @@ of simulated events.} \label{fig:ptandmet}\end{center}\end{figure*}
 The presence of DM production will be observable as an excess of events above SM 
 backgrounds at high $\ETm$. 
 Significant improvements in terms of sensitivity can be
-expected if several bins in $\ETm$, yielding the $\ETm$ shape, are considered simultaneously. Further
-improvement is achieved by using control regions in data to 
+expected if several bins in $\ETm$, yielding the $\ETm$ shape, are considered simultaneously. 
+Further improvement is achieved by using control regions in data to 
 reduce the uncertainties on the predictions of the SM backgrounds. These regions are
 statistically independent from the signal region and designed such that the expected contribution 
 from a potential signal is negligible. 
-A binned likelihood fit is performed in the ranges 250-1000 \GeV and 200-1000 \GeV 
+A binned likelihood fit is performed in the ranges 250$-$1000\GeV and 200$-$1000\GeV 
 for the V-tag (V-boosted and V-resolved) and monojet events, respectively. The binning is chosen to
 ensure each corresponding bin of a set of control regions is populated. The
 width of the highest $\ETm$ bin is chosen to provide ease of comparison to the previous
@@ -447,19 +450,19 @@ two isolated muons are required with opposite charge, $\pt^{\mu_{1}},~\pt^{\mu}_
 invariant mass in the range $60-120$~\GeV. 
 
 As the decay branching ratio of \Zmm~is approximately six times smaller than that
-to neutrinos, the resulting statistical uncertainty on the \Zvvjets~background 
+to neutrinos, the resulting statistical uncertainty in the \Zvvjets~background 
 becomes a dominant systematic uncertainty at large values of \ETm.  A
 complementary approach is to use events in data that have a high-$\pt$ photon
 recoiling against jets to further constrain the \Zvvjets. 
 This is advantageous since the production
 cross section of \phojets~is roughly a factor of three times that of the \Zvvjets, yielding thereby a
-smaller statistical uncertainty on the predicted background. The theoretical uncertainties 
+smaller statistical uncertainty in the predicted background. The theoretical uncertainties 
 associated to the translation of the kinematics in $\phojets$ events to that of $\Zvvjets$ events 
 are however significant. A combination of both photon and dimuon control regions is therefore used 
 to maximally constrain the $\Zvvjets$ background.  
 
 The photon control region consists of events which are selected by a trigger requiring an 
-isolated photon with transverse momentum greater than 150\GeV~\cite{Khachatryan:2015iwa}. 
+isolated photon with $\pt>150$\GeV~\cite{Khachatryan:2015iwa}. 
 The selected events are required to have at least one photon with $p_{\mathrm{T}} > 170~\textrm{GeV}$ and 
 $|\eta|<2.5$, excluding photons in the ECAL transition region, $1.44 <
 |\eta|< 1.56$. All other kinematic selections are the smae as the
@@ -471,10 +474,11 @@ mass, calculated as $m_{\mathrm{T}}=\sqrt{2\ETm p_{\mathrm{T}}^{\mu} (1-\cos \ph
 is the azimuthal angle between the muon and $\ETm$ vector, is required to be in the range $50-100$ \GeV.
 
 The events in the control regions are
-divided into the three  categories, using the same selection criteria
+divided into the three categories, using the same selection criteria
 described in Section~\ref{sec:selection}, but in addition requiring the presence
 of a pair of oppositely charged muons consistent with a Z boson decay, a high
-$p_{\mathrm{T}}$ photon or a single muon consistent with being a leptonic W boson decay.
+$p_{\mathrm{T}}$ photon or a single muon consistent with being a leptonic W boson decay. This 
+yields a total of nine control regions; three for each event category. 
 In the control regions, the momenutm of the dimuon pair,
 single-muon or the photon is removed and the \ETm~is recalculated. This quantity is 
 referred to as pseudo-\ETm. The distribution of pseudo-$\ETm$ in 
@@ -498,7 +502,7 @@ control regions. The likelihood function for a particular category is
 given by   
 
 \begin{align*}
-\mathcal{L}(\boldsymbol{\mu}^{\Zvv},\boldsymbol{\mu}^{\Wlv},\boldsymbol{\beta},\boldsymbol{\alpha})
+\mathcal{L}(\boldsymbol{\mu}^{\Zvv},\boldsymbol{\mu}^{\Wlv},\boldsymbol{\alpha},\boldsymbol{\beta})
 &=        \prod_{i} \mathrm{Poisson}\left(d^{\gamma}_{i}
 |B^{\gamma}_{i}(\boldsymbol{\alpha}) +\frac{ \mu^{\Zvv}_{i}
 }{R^{\gamma}_{i}(\boldsymbol{\beta})}   \right) \\ &~\times
@@ -525,7 +529,7 @@ the $\Zjets$ and $\phojets$ processes, and the efficiency times acceptance of th
 photon selection for the $\phojets$ control region. The differential cross sections 
 of photon and Z production are first corrected using NLO    
 K-factors obtained from a comparison of their $\pt$ distributions in events generated
-with {\sc Madgraph5\_aMC@NLO V5.2.2.2}~\cite{amcatnlo}, to the
+with {\sc Madgraph5\_aMC@NLOV5.2.2.2}~\cite{amcatnlo}, to the
 distributions produced at LO. These K-factors are used to correct the factors 
 $R^{\gamma}_{i}$ to account for NLO QCD effects.
 
@@ -540,7 +544,7 @@ scale variation for an individual process on the ratio thereby ignoring any canc
 Electroweak corrections are not accounted for in 
 the simulation. Additional K-factors are applied as a function 
 of the boson (Z or $\gamma$) \pt, to account for higher order electroweak effects which are around 15\% 
-for a boson \pt around 1 TeV~\cite{Kuhn:2005gv}. The full correction is taken as an uncertainty on the 
+for a boson \pt around 1 TeV~\cite{Kuhn:2005gv}. The full correction is taken as an uncertainty in the 
 ratio. A conservative choice is made in assuming this
 uncertainty to be uncorrelated across bins of \ETm. The
 uncertainties in the muon selection efficiency, photon selection efficiency, and
@@ -595,7 +599,7 @@ and are estimated directly from the simulation.  Shape and normalisation
 systematic uncertainties from the recoil corrections applied to these
 backgrounds are included to account for the uncertainty in the jet energy scale and
 resolution. In addition, a systematic uncertainty of 4\% is included
-for the top backgrounds due to the uncertainty of the b-tagging efficiency for
+for the top quark backgrounds due to the uncertainty of the b-tagging efficiency for
 the b-jet veto in the V-resolved category~\cite{CMS-PAS-BTV-13-001}. Systematic uncertainties of 7\% and 10\%
 are included on the normalisations of the top~\cite{Khachatryan:2015oqa} and 
 diboson~\cite{tagkey2015250,Khachatryan:2015sga} backgrounds, respectively to account for the uncertainty in their
@@ -629,7 +633,7 @@ reflected in these numbers.
 
       200 - 210 & 17547  &  10740$\pm$270  &   6770$\pm$320  &    132$\pm$11  &    135$\pm$14  &    540$\pm$220  &  18330$\pm$600  \\
 
-      210 - 220 & 14303  &   9230$\pm$230  &   4990.5$\pm$240  &    104$\pm$13  &    112$\pm$11  &     58.0$\pm$4.3  &  14500$\pm$610  \\
+      210 - 220 & 14303  &   9230$\pm$230  &   4990$\pm$240  &    104$\pm$13  &    112$\pm$11  &     58.0$\pm$4.3  &  14500$\pm$610  \\
 
       220 - 230 & 11343  &   7320$\pm$190  &   3830$\pm$170  &     82.1$\pm$7.3  &     95.1$\pm$9.6  &     44.8$\pm$3.6  &  11370$\pm$400  \\
 
@@ -690,7 +694,7 @@ reflected in these numbers.
 
       400 - 450 & 20  &     20.1$\pm$6.4  &     14.5$\pm$8.5  &      1.5$\pm$0.2  &      0.6$\pm$0.3  &      6.3$\pm$1.4  &     38$\pm$11  \\
 
-      450 - 500 & 16  &      6.1$\pm$2.7  &      1.0$\pm$2.6  &      1.0$\pm$0.4  &      0.4$\pm$0.1   & -  &      8.5$\pm$3.6  \\
+      450 - 500 & 16  &      6.1$\pm$2.7  &      1.0$\pm$2.6  &      1.0$\pm$0.4  &      0.4$\pm$0.1   & $<1.4$  &      8.5$\pm$3.6  \\
 
       500 - 1000 & 17  &      6.9$\pm$3.0  &      2.6$\pm$1.7  &      0.3$\pm$0.2  &      0.5$\pm$0.0  &      7.6$\pm$1.4  &     11.6$\pm$3.5  \\
 
@@ -713,11 +717,11 @@ reflected in these numbers.
 
       350 - 400 & 160  &    118$\pm$13  &     38.3$\pm$8.7  &      5.6$\pm$1.0  &     22.2$\pm$3.3  &      0.2$\pm$0.1  &    184$\pm$18  \\
 
-      400 - 450 & 81  &     49.7$\pm$7.3  &      9.8$\pm$3.4  &      1.5$\pm$0.8  &     11.0$\pm$1.8   & -  &     72$\pm$29  \\
+      400 - 450 & 81  &     49.7$\pm$7.3  &      9.8$\pm$3.4  &      1.5$\pm$0.8  &     11.0$\pm$1.8   & $<0.1$  &     72$\pm$29  \\
 
-      450 - 500 & 30  &     31.2$\pm$6.1  &      5.0$\pm$2.6  &      0.5$\pm$0.1  &      7.4$\pm$1.1   & -  &     44.3$\pm$6.6  \\
+      450 - 500 & 30  &     31.2$\pm$6.1  &      5.0$\pm$2.6  &      0.5$\pm$0.1  &      7.4$\pm$1.1   & $<0.1$  &     44.3$\pm$6.6  \\
 
-      500 - 1000 & 39  &     39.8$\pm$7.8  &      6.4$\pm$3.4  &      0.2$\pm$0.0  &      7.8$\pm$1.1   & -  &     54.3$\pm$8.5  \\
+      500 - 1000 & 39  &     39.8$\pm$7.8  &      6.4$\pm$3.4  &      0.2$\pm$0.0  &      7.8$\pm$1.1   & $<0.1$  &     54.3$\pm$8.5  \\
 
 \hline 
     \end{tabular}
@@ -750,7 +754,7 @@ bin of the monojet category.
 observed in the signal region. The expected distributions are evaluated
 after fitting to the observed data simultaneously across the (a) monojet, 
 (b) V-resolved and (c) V-boosted categories.  The gray bands indicate the post-fit
-uncertainty on the background, assuming no signal. The expected distribution
+uncertainty in the background, assuming no signal. The expected distribution
 assuming vector mediated DM production is shown for $m_{\mathrm{DM}}=10$\GeV and 
 $m_{\mathrm{MED}} = 1 $ TeV.  } \label{fig:post_fit_plots}\end{center}\end{figure*}
 
@@ -800,7 +804,7 @@ mediators, to constraints obtained from the observed cosmological relic density
 of DM as determined from measurements of the cosmic microwave background by the
 WMAP and Planck experiments~\cite{Bennett:2003ba,Planck:2006aa}. The expected DM
 abundance is estimated, separately for each model, using a thermal freeze-out
-mechanism implemented in {\sc MadDM}~\cite{Backovic:2013dpa}, and compared to the
+mechanism implemented in {\sc MadDM1.0}~\cite{Backovic:2013dpa}, and compared to the
 observed cold DM density $\Omega_c h^2=0.12$~\cite{Ade:2013zuv} as described in 
 Ref.~\cite{Pree:2016hwc}. It is assumed that the simplified model hypothesised 
 provides the only relevant beyond SM dynamics for DM interactions.
@@ -865,7 +869,7 @@ In all of the models, the mediator width is determined using the minimum width a
 Figures~\ref{fig:xslims}(a) $-$~\ref{fig:xslims}(c) show
 the same exclusion contours, this time translated into the plane of
 $m_{\textrm{DM}}-\sigma_{\textrm{SI/SD}}$, where $\sigma_{\textrm{SI/SD}}$ are
-the spin-independent (SI) or spin-dependent (SD) (for vector and scalar or axial vector) DM-nucleon
+the SI or SD (for vector and scalar or axial vector) DM-nucleon
 scattering cross sections. These representations allow for a more direct
 comparison with limits from the DD experiments, which typically set
 upper limits on these cross sections. 
@@ -873,7 +877,7 @@ The translations are obtained following the procedures outlines in Ref.~\cite{Ma
 for the vector and axial vector mediators and Ref.~\cite{ ,Harris:2015kda} for the scalar mediator. 
 It should be noted that the limits set from this analysis are only valid
 for the simplified model, and in particular assuming
-$g_{\textrm{DM}}=g_{\textrm{SM}}==g_{\textrm{q}}=1$. For the scalar mediator model, it is assumed that
+$g_{\textrm{DM}}=g_{\textrm{SM}}=g_{\textrm{q}}=1$. For the scalar mediator model, it is assumed that
 only heavy quarks (top and bottom) contribute. Such a choice limits the
 sensitivity for DD experiments, but provide direct comparison
 between collider and DD experiments without an additional assumption on the
