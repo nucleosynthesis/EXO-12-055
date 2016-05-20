@@ -2,6 +2,9 @@ Albert de Roeck
 
 - do we follow the recommendations of the dark matter working group, as formulated in
    arXiv:1603.04156? I noted some (but perhaps not all) deviations and will report some below.
+
+   Not in full but this analysis was performed before the reccomendations existed. We have updated to follow those (eg which lines to plot on which planes) where possible.
+
 - This analysis replaces the previous monojet DM analysis result on the same data set, I presume.
   We should say that explicitly in the paper, so people know what they should show and discuss
   in future for CMS. Can we say how much better this one is in sensitivity, compared to the old
@@ -25,13 +28,13 @@ Stated.
    the AC and Kt algorithm in the use of the same particles. I strongly recommend you spell out
    very clearly how these two algorithms are used together in the analysis
 
-It is stated that the three event categories are orthogonal and the text reads as to how the selection flow is performed. Not sure what else can be spelled out.
+It is stated that the three event categories are orthogonal and the text reads as to how the selection flow is performed. There is partial overlap in particles for the reconstruction of both but we have stated what is done to avoid issues where appropriate, i.e in the boosted, AK5 veto jets are not considered if they are within deltaR of the CA8 jet
 
 - We give our results assuming Dirac fermions (as recommended by the DM group). I recommend
    however that we also comment how these limits change in a straight forward way, for the
    relevant channels, in case we deal with Majorana particles.
 
-Prefer not to give explicit mention of how results will change, that seems more appropriate for a pheno paper. Instead we already provide the Lagrangians and references for translation calculations which make assumptions on Dirac DM explicit.
+Added to the plots 
 
 Details
 -line 10-12: are these related to the problems that are being discussed on e.g. the W/lepton
@@ -64,13 +67,13 @@ Done
 - line 80 Geant4” is not written in the standard format as the authors
   like (see other CMS papers, or there Geant4 web page)
 
-This was a comment from our LE to use GEANT4, we have reverted back to Geant4
+This was a comment from our LE to use GEANT4, we have reverted back to sc Geant4
 
 - lines 82: “The impact of this choice was found to be 30%…” compared to what?
 
      The default generator scale choice? which is what?
 
-In fact the difference is somewhat larger than originally thought (closer to 80%). This is comparing to using sqrt(pt^{2}+m_{med}^{2}) which is instead what has been used for the 13 TeV POWHEG samples.
+In fact the difference is somewhat larger than originally thought (closer to 80%). This is comparing to using pt which is instead what has been used for the 13 TeV POWHEG samples. Text is updated
 
 
 - line 94: despite that we in CMS are over-familiar with it, it remains useful to explain in a
@@ -78,6 +81,7 @@ In fact the difference is somewhat larger than originally thought (closer to 80%
    few sentences what particle flow actually is, for the less CMS (or LHC experimental) readers.
 
 rephrased to read as
+
 "The \ETm is  calculated using the particle flow (PF) reconstruction
 algorithm [ref] which optimally combines information from various components
 of the CMS detector to reconstruct and identify individual particles."
@@ -112,7 +116,7 @@ Done
 
    presently (and in absence of tables with systematic errors!)
 
-They are ~10% in the pT range of the boson used. A statement has been added for this.
+They are ~8% each in the pT range of the boson used. A statement has been added for this.
 
 - line 239-241: is that determined in this analysis or do we have a reference for that?
 
@@ -137,7 +141,7 @@ correctly accounts for these correlations when deriving the local significance i
     I miss a somewhat coherent discussion on systematic errors in this paper, they come up
     at different places.
 
-These are calculated varying the scales up/down by a factor of 2. They do *not* however include the uncertainty due to the choice of the scale (i.e mMED -> sqrt(mMED^{2}+pt^{2}) which is mentioned at the start of the paper). We prefer to keep this discussion of signal systematics here rather than earlier with the others as they only pertain to the signal and more particular to the lines mentioned on the plot (they do not enter the limit setting)
+These are calculated varying the scales up/down by a factor of 2. They do *not* however include the uncertainty due to the choice of the scale (i.e mMED -> pt) which is mentioned at the start of the paper). We prefer to keep this discussion of signal systematics here rather than earlier with the others as they only pertain to the signal and more particular to the lines mentioned on the plot (they do not enter the limit setting)
 
 - line 288: The cold DM density determination has an uncertainty, which we should add here when
     we give the value.
