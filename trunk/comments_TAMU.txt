@@ -17,7 +17,7 @@
 => In this version of the analysis we had not done the full theory studies to add this. This was added later in the 13 TeV analysis. The g+jets still drives everything. 
 
 -line 242. I would have thought that the QCD background was dominated by jet mismeasurement, not well measured QCD events. Is the cross section really the most important uncertainty to worry about?
-=> good point, rephrased to cross section in phase space (still kind of vague)
+=> good point, rephrased to cross section in phase space
 
 -line 267 is a 90% CL exclusion common for this sort of result? 95% seems more common these days, and I see the previous 8 TeV monojet result reported 95% CL ULs.
 => We use 90% to consistent with DD. There is an ogoing debate about what is correct or not.  It is likely we will switch back to 95% for the next set of results.
