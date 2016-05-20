@@ -1,0 +1,693 @@
+Figures :
+12) Figs.2-4 and 6, in the legend of each plot, 
+  (a) the 1st letter on each line should be in the upper case, e.g.
+"top" -->
+"Top"
+  (b) the 2nd word on each line should be in the lower case, e.g.
+"... Mediator" -->
+"... mediator"
+
+=> updated
+
+(14) Fig.3, the labels of "pT < 160 GeV" and "pT > 160 GeV" should be added
+into somewhere of the plots (a) and (b), so that readers can quickly see the
+differences between two plots even without reading the caption.
+
+=> already removed by the LE 
+
+(19) Fig.5
+
+  (a) At the upper-left corners above the three upper plots and the horizontal 
+axis labels of all plots, the 1st letters should be in the upper case, i.e.
+
+at the upper-left corners:
+
+"monojet category" -->
+"Monojet category"
+
+in the horizontal axis labels: (also the "MET" should be changed to "EmissT")
+
+"fake MET [GeV]" -->
+"Fake EmissT [GeV]"
+
+
+=> updated
+
+(25) Fig.6, in addition to the item (12) above for the cases of letter in the
+legend, at the upper-left corner above each plot, the 1st letter should be in
+the upper case, e.g.
+
+the upper-left plot:
+"monojet category" -->
+"Monojet category"
+
+etc.
+
+
+=> updated
+
+(26) Figs.7 and 8, 
+
+  (a) In the legends of all plots, the non-leading words should be in the lower
+case, e.g.
+
+the upper-left plot of Fig.7:
+
+"Median Expected ...
+ +/- Scale Uncertainty
+ Observed
+ LUX
+ Planck+WMAP Relic" -->
+
+"Median expected ...
+ +/- Scale uncertainty
+ Observed
+ LUX
+ Planck+WMAP relic"
+
+All other plots should be changed similarly.
+
+=> updated 
+
+-----------------
+Page 1
+
+(1) L10-11,
+  (a) two commas may be better to be replaced by brackets and a word of "where"
+is added, 
+  (b) two spaces should be added before and after the symbol "=", i.e.
+
+"while mono-V, V=W or Z boson, searches [3–6] target ..." -->
+"while mono-V (where V = W or Z boson) searches [3–6] target ..."
+
+=> prefer to keep as is, minimize verbosity
+
+(2) L14, as the "EFT" has not been used afterward in whole paper, it eventually
+can be removed, i.e."(EFT) that assume heavy mediators and ..." -->
+"that assume heavy mediators and ..."
+
+ => updated
+
+
+(3) L34, the "pT" should be explained at its 1st appearance in text here, i.e.
+"study high-pT physics processes in ..." -->
+"study high-pT (transverse momentum) physics processes in ..."
+
+=> updated
+
+Page 2
+
+(4) Eqs.(1)-(4), in the term after the Sigma-summation symbol of each Eq., the
+subscript "SM" of "gSMq" should change the font to be consistent in this paper,
+i.e.
+"gSM(italic)q" -->
+"gSM(non-italic)q"
+
+=> Nice catch (updated)
+
+(5) L54, the duplication of "coupling" on this line can be fixed by removing
+the 1st one, i.e. "The couplings gDM and gSM denotes the coupling of" -->
+"The gDM and gSM denotes the coupling of"
+
+=> updated
+ 
+(6) L57, L67 and L74, three places may be shortened from
+  (a) L57: 
+"into spin-dependent and spin-independent" -->
+"into spin-dependent and -independent"
+
+=> We prefer to keep as is
+
+  (b) L67:
+"the production of Dark Matter in spin-0 mediated ..." -->
+"the production of DM in spin-0 mediated ..."
+
+=> Updated
+
+  (c) L74:
+"Yukawa coupling to standard model particles." -->
+"Yukawa coupling to SM particles."
+
+=> Given DM is used in the same sentance, we prefer to keep as is
+
+(7) L68, an extra space after "Fig." may should be removed, i.e.
+
+"loop (Fig.  1(a))." -->
+"loop (Fig.1(a))."
+
+=> updated
+
+(8) L79, I'm not sure whether a word of "the" should be added, i.e.
+
+"are generated at leading order," -->
+"are generated at the leading order,"
+
+ => we prefer to keep as is
+
+Page 3
+
+(9) L82, to be consistent with the tense in this Section, a verb "was" may
+should be changed from
+
+"choice was found to be up to 30% ..." -->
+"choice is found to be up to 30% ..."
+
+=> updated
+ 
+
+Page 4
+
+(10) L103, L124, and L133-134, three places may be shortened from
+
+  (a) L103: (to reduce the number (i.e. three) of the words of "of")
+
+"as the magnitude of the negative vector sum of 
+the transverse momenta of all final state particles," -->
+
+"as the magnitude of the negative vector pT sum of 
+all final state particles,"
+
+=> we prefer to keep as is
+
+
+  (b) L124:
+"has sufficiently high transverse momentum," -->
+"has sufficiently high pT,"
+
+=> updated
+
+  (c) L133-134: (also, as an angle can be measured in either the radians or
+degrees, therefore, the unit of phi may should be specified)
+
+"is smaller than 2," -->
+"is < 2 radians,"
+
+=> updated 
+
+(11) L128 and L131, 
+
+  (a) readers may appreciate it if the name of the variable "tau" can be
+mentioned around L128;
+
+=> its described one setence earlier, we prefer to leave it as is
+
+  (b) the name of the variable "DeltaR" may should be given on L131, i.e.
+
+"but no closer than DeltaR < 0.5," -->
+"but no closer than a 2-dimensional radius DeltaR < 0.5,"
+
+ => We prefer to leave it as is
+
+Pages 5-16
+
+(12) Figs.2-4 and 6, in the legend of each plot, 
+
+  (a) the 1st letter on each line should be in the upper case, e.g.
+"top" -->
+"Top"
+
+=> updated
+
+  (b) the 2nd word on each line should be in the lower case, e.g.
+"... Mediator" -->
+"... mediator"
+
+=> updated
+
+(13) L157-158, 173-176, L185, L189, L213, L231, L282, L291, Tables 1-3's
+caption (the 1st lines) and L323, the shortening may be made on these lines,
+i.e.
+ (a) L157-158: (and an article word of "a" should be changed or removed)
+
+"with pT greater than 150 GeV and a EmissT greater than 200 GeV ..." -->
+"with pT > 150 GeV and an EmissT > 200 GeV ..." 
+or
+"with pT > 150 GeV and EmissT > 200 GeV ..."
+
+=>  We will abstain from implementing, since we feel  that a less dense use of symbols improves reading
+
+  (b) L173-176: (three places; also a closing bracket should be added at the
+end of L176) 
+
+"by adding control regions, regions which are orthogonal to the signal with
+negligible contributions expected from signal, to simultaneously constrain the
+predictions of the standard model background. A binned likelihood fit is
+performed in the range 250-1000 GeV (200-1000" -->
+
+"by adding the control regions, which are orthogonal to the signal with
+negligible contributions expected from signal, to simultaneously constrain the
+predictions of the SM background. A binned likelihood fit is 
+performed in the range 250 (100)-1000"
+
+=> updated
+
+
+  (c) L185:
+"photon with transverse momentum greater than 150 GeV." -->
+"photon with pT > 150 GeV."
+
+=> updated
+
+  (d) L189:
+"with exactly one muon with pT larger than 20 GeV." -->
+"with exactly one muon with pT > 20 GeV."
+
+=> not updated
+
+  (e) L213:
+"signal region to control regions." -->
+"signal to control regions."
+
+=> prefer to separate since one is plurual and others are signular
+
+  (f) L231:
+"the uncertainty in the muon selection efficiency, photon selection efficiency"
+-->
+"the uncertainty in the muon and photon selection efficiencies"
+
+=> prefer to keep this separated since we don't select a muon and a photon, we do either
+
+  (g) L282 and L323: (two places)
+"dark matter" -->
+"DM"
+
+=> updated
+
+  (h) L291:
+"The expected 90% confidence level upper limit on ..." -->
+"The expected 90% CL upper limit on ..."
+
+=> We leave as is
+
+  (i) Tables 1-3's caption (the 1st lines):
+
+"Expected yields of the standard model processes and ..." -->
+"Expected yields of the SM processes and ..."
+
+ => we leave as is
+
+
+(14) Fig.3, the labels of "pT < 160 GeV" and "pT > 160 GeV" should be added
+into somewhere of the plots (a) and (b), so that readers can quickly see the
+differences between two plots even without reading the caption.
+
+=> updated
+
+ (15) From L179 to L219, to be consistent with the good examples in this paper
+(e.g. on 
+
+L115,
+L167,
+L206,
+L236 and 
+Table 1-3 (the header row), etc.)
+
+the spaces before and after the symbol "+" in all the expressions 
+of "xxx  +  jet", etc. should be removed, e.g.
+
+L179: (two places)
+
+"from Z(nunu)  +  jets (W(lnu)  +  jets) is determined ..." -->
+"from Z(nunu)+jets (W(lnu)+jets) is determined ..."
+
+=> updated
+
+Other places where also need to be changed by the similar way are
+
+L188,
+L198 (two places),
+L200,
+L202-204 (three places),
+L211 (two places),
+L219-220 (three places), etc.
+
+
+=> updated
+
+ (16) L186 and L190, to be consistent with elsewhere in this paper, the font of
+the subscript "T" in "pT" or "pmuT" at two places should be changed from
+
+"italic" -->
+"non-italic"
+
+=> updated 
+
+
+(17) L199, as the "BR" has been used on L217, it should be explained at its 1st
+appearance in text here, i.e.
+"As the decay branching ratio of ..." -->
+"As the decay branching ratio (BR(italic)) of ..."
+
+=> Not sure this is needed for just one use of branching ratio
+
+(18) L216 and L275, to be consistent with all other CMS papers, the Equation
+index should be put into a bracket, i.e. 
+
+(a) L216: (also, I'm not sure whether a word of "as" should be added)
+
+"are denoted Bgamma, BZ and BW in equation 5 respectively." -->
+"are denoted as Bgamma, BZ and BW in Eq.(5) respectively."
+
+=> updated (no as)
+
+  (b) L275:
+"under the Lagrangians given in Eq. 1." -->
+"under the Lagrangians given in Eq.(1)."
+
+ => updated
+
+(19) Fig.5
+
+  (a) At the upper-left corners above the three upper plots and the horizontal 
+axis labels of all plots, the 1st letters should be in the upper case, i.e.
+
+at the upper-left corners:
+
+"monojet category" -->
+"Monojet category"
+
+in the horizontal axis labels: (also the "MET" should be changed to "EmissT")
+
+"fake MET [GeV]" -->
+"Fake EmissT [GeV]"
+
+=> updated
+
+  (b) In the caption, the 4-5th lines, the colors of red and blue are
+mentioned, but can not be displayed in black-white; the problem can be solved
+by using different line styles (e.g. solid line and dash line, etc.)
+ 
+=> updated
+ 
+
+(20) L253, to be consistent with the tense in this Section, the verb "was"
+should be changed from
+
+"A simultaneous fit was performed to ..." -->
+"A simultaneous fit is performed to ..." or
+"A simultaneous fit has been performed to ..."
+
+ => updated
+
+(21) L266, L311, Figs.7 and 8's captions, in each 2-D pairs, it will be looked
+better if two spaces before and after the "-" are removed, i.e.
+
+  (a) L266:
+"regions in the mMED  -  mDM plane," -->
+"regions in the mMED-mDM plane,"
+
+=> updated
+
+  (b) L311:
+"of mDM  -  sSI/SD," -->
+"of mDM-sSI/SD,"
+
+=> updated
+
+  (c) Fig.7's caption, the 1st line: (also the subscript "med" should be in the
+upper case, to be consistent with elsewhere in this paper)
+
+"mmed  -  mDM plane ..." -->
+"mMED-mDM plane ..."
+
+=> updated
+
+  (d) Fig.8's caption, the 1st line:
+"in the mDM  -  sigmaDM plane ..." -->
+"in the mDM-sigmaDM plane ..."
+
+ => updated
+
+ (22) L267, the "CL" should be explained at its 1st appearance in text here,
+i.e.
+"is excluded at 90% CL or more." -->
+"is excluded at 90% Confidence Level (CL) or more."
+
+=> updated
+ 
+
+(23) L288, the variables "Ohmigac" and "h" may should be explained briefly,
+i.e.
+"Ohmigac*h2 = 0.12 [63] ..." -->
+"Ohmigac*h2 = 0.12 [63] (where Ohmigac is ... and h is ...) ..."
+
+=> The DM density is  Ohmigac*h2, its one term, no need for splitting
+
+(24) Tables 1-3, 
+
+  (a) in the header row of each Table, 
+
+    (i) in the 1st column, to be consistent in this paper, the subscript and
+superscript of EmissT, the "bin" and the unit should change the font, i.e.
+
+"EmissT(italic) bin(italic)(GeV(italic))" -->
+"EmissT(non-italic) bin(non-italic)(GeV(non-italic))"
+
+=> updated
+
+    (ii) in the 3rd column, the 2nd word should be in the lower case, i.e.
+"Total Bkg" -->
+"Total bkg"
+
+=> updated
+
+    (iii) in the 5th column, the 1st letter should be in the upper case, i.e.
+"top" -->
+"Top"
+
+=> updated
+
+  (b) All three Tables have the identical header row, and almost identical
+captions except one word each; thus they may be combined with replacing two
+header rows of Tables 2 and 3 by two double border lines, and with an extended
+caption of Table 1, 
+
+
+i.e. (together with the item (13i) above for "SM", and the "region" to be      
+     plural)
+
+"Table 1: Expected yields of the standard model processes and their
+uncertainties per bin for the monojet 
+category signal region after" -->
+
+"Table 1: Expected yields of the SM processes and their 
+uncertainties per bin for the monojet (upper Table), V-resolved (middle Table)
+and V-boosted (lower Table) 
+category signal regions after"
+
+=> we prefer to keep the separated, combining them all woud take up too much space to fit on one page
+ 
+
+(25) Fig.6, in addition to the item (12) above for the cases of letter in the
+legend, at the upper-left corner above each plot, the 1st letter should be in
+the upper case, e.g.
+
+the upper-left plot:
+"monojet category" -->
+"Monojet category"
+
+etc.
+
+ 
+(26) Figs.7 and 8, 
+
+  (a) In the legends of all plots, the non-leading words should be in the lower
+case, e.g.
+
+the upper-left plot of Fig.7:
+
+"Median Expected ...
+ +/- Scale Uncertainty
+ Observed
+ LUX
+ Planck+WMAP Relic" -->
+
+"Median expected ...
+ +/- Scale uncertainty
+ Observed
+ LUX
+ Planck+WMAP relic"
+
+All other plots should be changed similarly.
+
+=> updated
+
+  (b) In the caption of Fig.7, the 1st line, the 3rd word should be in the
+lower case, i.e. (together with the item (21c) above for the spacing and the
+subscript "med")
+
+"Figure 7: 90% CL Exclusion contours in the mmed  -  mDM plane ..." -->
+"Figure 7: 90% CL exclusion contours in the mMED-mDM plane ..."
+
+=> updated
+
+Page 17
+
+(27) L344 and L346, according to the guidelines of CMS PubComm, some acronyms
+in the Summary Section may should be spelled out at their 1st appearance in the
+Section, i.e.
+
+
+"from SM backgrounds is observed in the EmissT
+...
+describe the production of DM via vector," -->
+
+"from Standard Model backgrounds is observed in the EmissT
+...
+describe the production of dark matter via vector,"
+
+
+=> updated
+
+(28) After L348, the Acknowledgment Section is missing, it should be added
+without needing the Section index number.
+
+ => Added the standard letters versoin
+
+ 
+Pages 18-22, in the References Section,
+
+(29) L360, in [3], to be consistent in this Section, the spaces should be added
+between the words in the journal name, i.e.
+
+"Phys.Rev. D91 (2015) 092005," -->
+"Phys.  Rev. D91 (2015) 092005,"
+
+=> updated
+
+Other ones which also need to be changed by the similar way are [24], [47] and
+[52].
+
+=> update
+
+(30) L364, in [4], to be consistent in this Section, an extra index after the
+year number should be removed, i.e.
+
+"Rev. D90 (2014), no. 1, 012004," -->
+"Rev. D90 (2014) 012004,"
+
+Other ones which also need to be changed by the similar way are [5] and [36].
+
+=> updated
+
+(31) L371, in [6], to be consistent in this Section and this paper, the font 
+of "pp" in the article title should be changed from
+
+"transverse momentum in pp(italic) collisions at ..." -->
+"transverse momentum in pp(non-italic) collisions at ..."
+
+=> updated (ATLAS and their crap notation)
+
+Other ones which also need to be changed by the similar way are 
+[47] (for "pp") and 
+[35] (for "s-" and "t-" from non-italic to italic).
+
+=> updated
+
+(32) L380, in [9], to be consistent in this Section, an extra space before the
+volume index and an extra letter "C" after the volume index should be removed,
+i.e.
+"Phys. Lett. B  728C (2014) 412," -->
+"Phys. Lett. B728 (2014) 412,"
+
+=> updated
+
+(33) L383, in [10], to be consistent with other JHEP Refs. (e.g. [11], etc.) in
+this Section, the volume index should be shortened from
+
+"JHEP 1401 (2014) 025," -->
+"JHEP 01 (2014) 025,"
+
+Other ones which also need to be changed by the similar way are [32], [33] and
+[46].
+
+ => updated
+
+(34) The "year" number should be given for Refs.[12], [54], [64] and [67]. If
+there would be problems to display the year number with the default bib file,
+it may be fixed by changing from "article" to "unpublished" in the bib file.
+
+=>  updated
+
+(35) L388, in [12], the last word on the line in the article title should be in
+the lower case, i.e.
+"Dark matter benchmark models for early LHC Run-2 Searches:" -->
+"Dark matter benchmark models for early LHC Run-2 searches:"
+
+=>  updated
+
+Other ones which also need to be changed by the similar way are 
+[29] (for the "Jet Algorithm"), 
+[61] (for the 2nd word "Scientific") and [68] (for the 2nd word "Tale").
+
+
+=>  updated
+
+(36) L392, in [14], to be consistent in this Section, the month info should be
+removed before the year number, i.e.
+
+"Phys. Rev. D91 (Mar, 2015) 055009," -->
+"Phys. Rev. D91 (2015) 055009,"
+
+=> updated
+
+
+(37) L421, in [25], 
+"[25] T. Sjostrand, ..." -->
+"[25] T. Sjo(with two dots on the top of "o")strand, ..."
+
+=> updated
+
+(38) L423, in [26], it may be looked better if the hyphen in the article title
+is extended to a long dash symbol, i.e.
+
+"GEANT4 - a simulation toolkit" -->
+"GEANT4 --- a simulation toolkit"
+
+Another one which also needs to be changed by the similar way is [50].
+
+=> updated
+ 
+
+(39) L426, in [27], to be consistent with other PAS Refs. (e.g. [41], etc.) in
+this Section, the document index should be changed from
+
+"Technical Report CMS-PAS-PFT-09-001, CERN, 2009" -->
+"CMS Physics Analysis Summary CMS-PAS-PFT-09-001, 2009"
+
+Other ones which also need to be changed by the similar way are [29], [45] and
+[50].
+
+=> updated
+
+(40) L427, in [28], the 
+"k(t)" in the article title is expressed differently from L97 where it is
+"kT".
+I'm not sure whether they should be consistent.
+
+ => updated
+
+(41) L478, in [47], to be consistent in this Section, a space should be added
+after the symbol "=" in the article title at the end of line, i.e.
+
+"sqrt(s) =8" -->
+"sqrt(s) =  8"
+
+ => updated
+
+(42) L489-490, in [51], to be consistent with all other CMS papers on JPG
+Refs., the journal name can be shortened from
+
+"J. Phys. G: Nucl. Part. Phys. 28 (2002) 2693," -->
+"J. Phys. G28 (2002) 2693,"
+
+ => updated
+ 
+
+(43) L518, in [62], to be consistent in this Section, all references should
+have only one page index instead of two, i.e.
+
+"Phys. Dark Univ. 5-6 (2014) 18–28," -->
+"Phys. Dark Univ. 5-6 (2014) 18,"
+
+=> updated

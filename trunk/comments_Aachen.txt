@@ -1,0 +1,174 @@
+ype B:
+
+- l230: Is the choice really conservative? Is there an alternative choice that is (maybe not conservative, but) more exact?
+
+=> Yes, its conservative in the sense that the expected sensitivity is worse by decorrelating. This decision was the result of a long discussion of the treatment of the EWK uncertainty that was resolved by this choice. Its clear other potential options are possible. 
+
+- l267: Are the limits given at 90% CL to compare directly to the direct detection experiments? Are also plots at 95% CL available as supplement material?
+
+=> Yes, 90% is done to compare with Direct detection. We don't have 95% CL avaible however, one can go to a mu of roughly 1.2 to see the 95% CL. 
+
+Type A:
+
+- Abstract: "with a large missing transverse" : delete "a"
+=> Updated
+
+- Abstract: "at centre-of-mass energy" --> "at a centre-of-mass energy"
+=> Updated
+
+- l2: here "dark matter" but in l55 & l67 "Dark Matter"
+=> Switched to lower case
+- l3: introduce "pp", i.e. "in proton-proton (pp) collisions"
+=> Updated
+
+- l7 "standard model (SM) *of particle physics*"
+=> Updated
+- l10-11: "while mono-V, V=W or Z boson, searches": sounds not very elegant, rephrase it
+=> We prefer to leave it as is (this was  comment from the LE)
+
+- l23-24 the sentence is somehow broken
+=> Fixed
+
+- l30: "Section 5" --> "and Section 5"
+=> We prefer to leave it as is (no commas here)
+
+- l34 define p_T?
+=> Added
+
+- l52: add space after "mediator" and the parenthesis
+=> Added
+
+- l54 denotes -> denote
+=> Added
+
+- l62/63: "to the scalar and pseudoscalar can": a substantive is missing, e.g. "to the scalar and pseudoscalar interactions can"
+=> Added
+
+- l77: "simulation events" --> "simulated events"
+=> Added
+
+- Fig. 1: distinguish between "X" scalar mediator in (a,b) and "X" vector mediator in (c) using different labels and/or line styles?
+=> We would prefer to not
+
+- l92: "only using" --> "using only"
+=> Its only using in this case to be correct 
+
+- l92: "information from the calorimeter" --> "information from the calorimeters"
+=> Added
+
+- l94: add a comma : "algorithm [27], together"
+=> Added
+
+- l95: "set at 200 GeV" --> "set to 200 GeV"
+=> Added
+
+- l113: othogonal -> orthogonal
+=> Added
+
+- l127: "by cutting on “sub-jettiness”" --> "by cutting on the “sub-jettiness”"
+=> There are other jettiness quantities (hence not the)
+
+- l132: unit missing, "p_T > 30" --> "p_T > 30\,GeV"
+=>Added
+
+- l133/134: avoid line-break between "than 2"
+=>Added
+
+- l138: typo: "form" --> "from"
+=>Added
+
+- l168: avoid to have a single-line paragraph on top of the page
+=> This will get reformated later
+
+- l173 "orthogonal to the signal *region*"
+=> Added
+
+- Figures 2 & 3: the colors for Z+jets and Dibosons are rather similar, at least in my printout. Can more differing colors be chosen? Also the text size in the legend is rather small.
+=> We prefer to keep these colors
+
+- Fig. 3: might be useful to add the p_T cut to the legend.
+=> We prefer to not update the plot
+- Fig. 4: why is the plot style different from Figs. 3&4? why is a different model (red dashed line) used in these plots, compared to Figs. 3&4?
+=> We will consider updating the red line
+- l176: closing parenthesis after "GeV" is missing
+=> Added
+- l180 regions -> region
+=> Its plural
+
+- l191: the word "vector" seems to be in the mathmode environment (italic font), should be moved outside
+=> Fixed
+
+- l191: at the end of the line a full-stop (not comma).
+=> Fixed
+
+- l195 "semileptonic W boson decay" -> "leptonic W boson decay"
+=> Fixed
+
+- l199 and l203: the numbers 6 and 3 should better be spelled out
+=> updated
+
+- would the motivating paragraph 199ff not be fitting better around l180?
+=> Its a choice, we could introduce it before the definition of the categories, but here it flows better with teh rest later on
+
+- l208: remove the commas around the N_i formula
+=> removed
+
+- l209: remove the comma after the N_i formula
+=>removed 
+- l213: remove comma after "by"
+=>removed
+- l216: "equation" should be capitalized
+=> Added
+- l216: add comma before "respectively"
+=> Added
+- l222: remove comma
+=> Added
+- Fig. 5, caption: add comma before "respectively"
+=> Added
+- Fig. 5: write "E_T^miss" in plot axis labels, not "MET"
+=> We will consder
+- Fig. 6: in the plot top-labels, write "V-boosted" and "V-resolved" as in the text
+=> We will consder
+- l248 the space before "3" seems too wide
+=> Fixed
+- l249: "all of" --> "of all"
+=> Fixed
+- l259: "and another setting": sentence would be easier to digest by adding a noun and perhaps even a comma, e.g. "and another fit, setting"
+=> Fixed
+- l271: add comma before "respectively"
+=> Fixed
+- l275: here "Eq.", l216 "equation" -> unify
+=> Fixed
+- l332: why are there brackets around "qqbar" but not around "tautau" and "bbbar"?
+=> Not changed light qq here is to define light quarks
+- l336: "with a large missing transverse" : delete "a"
+=> Fixed
+- l336: "at centre-of-mass energy" --> "at a centre-of-mass energy"
+=> Pefer to keep as is
+- Fig. 7, caption: "shown in the orange line" --> "shown by the orange line"
+=> Fixed
+- Fig. 8, caption: "V-tag categories categories" --> remove once "categories"
+  "For the pseudoscalar" : add noun, e.g. "For the pseudoscalar mediator"
+  why are there parenthesis around "qqbar" and (tautau) but not around "bbbar"?
+=> Fixed, the parnes is for the light quarks denotation
+- l341: "categorising ... according to the origin of the jets ... as either quark/gluon radiation or from a hadronically decaying vector boson" : this sounds clumsy. Suggestion : "categorising ... according to the origin of the jets ... as either being quark/gluon radiation or a hadronically decaying vector boson"
+=> rephrase (your suggestiond didn't fit perfectly)
+- l379, Ref [9]: "Busoni, G." --> "G. Busoni"
+=>Fixed
+- l392, Ref [14]: "Mar," should be deleted
+=>Fixed
+
+
+---- Figures
+- Fig. 1: distinguish between "X" scalar mediator in (a,b) and "X" vector mediator in (c) using different labels and/or line styles?
+=> Updated
+- Figures 2 & 3: the colors for Z+jets and Dibosons are rather similar, at least in my printout. Can more differing colors be chosen? Also the text size in the legend is rather small.
+=> We prefer to keep these colors
+- Fig. 3: might be useful to add the p_T cut to the legend.
+=>  LE told us to remove this
+- Fig. 4: why is the plot style different from Figs. 3&4? why is a different model (red dashed line) used in these plots, compared to Figs. 3&4?
+=> We will consider updating the red line
+- Fig. 5: write "E_T^miss" in plot axis labels, not "MET"
+=> We will consder
+- Fig. 6: in the plot top-labels, write "V-boosted" and "V-resolved" as in the text
+=> We will consder

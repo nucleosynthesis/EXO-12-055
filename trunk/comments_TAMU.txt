@@ -1,0 +1,44 @@
+-line 110. give details on the isolation requirements for the vetos.
+=> rephrased to the default isolation and cited all the papers where this is discussed. 
+
+-line 139. It is not clear how the assigned systematics cover this data/MC discrepancy in tau2/tau1 or pruned mass. Could you add some more information here, or add the systematic uncertainties to the plots? A similar comment applies to the MVA selection as well.
+=> Added a sentance and referenced the paper where this is discussed
+
+-Fig. 2. Add what selection is made for these plots.
+=> added (was there, but not clear) using full signal selection
+
+-line 188. Is the muon for the muon control region really not required to be isolated?
+=> Yes, its not. This gave a small improvement in the analysis coming from larger yields and stronger signal vetoe.s 
+
+-Are the NLO k-factors and EW corrections for the Z/gamma ratios computed for your nJet selection? Does the partial 2nd jet and full 3rd jet veto change anything?
+=> The veto has very little effect on the analysis, it is taken into account in the k-factors. Given we only use the NLO corrections for the Z/Gamma ratio for Data/MC, this is effect is very tiny. 
+
+-Why do you not need NLO k-factors and EW corrections for the Z/W ratio?
+=> In this version of the analysis we had not done the full theory studies to add this. This was added later in the 13 TeV analysis. The g+jets still drives everything. 
+
+-line 242. I would have thought that the QCD background was dominated by jet mismeasurement, not well measured QCD events. Is the cross section really the most important uncertainty to worry about?
+=> good point, rephrased to cross section in phase space (still kind of vague)
+
+-line 267 is a 90% CL exclusion common for this sort of result? 95% seems more common these days, and I see the previous 8 TeV monojet result reported 95% CL ULs.
+=> We use 90% to consistent with DD. There is an ogoing debate about what is correct or not.  It is likely we will switch back to 95% for the next set of results.
+
+-line 268. Are there not other relevant uncertainties on the signal efficiency? What about uncertainty in the V-tagging? Or the MVA cut efficiency?
+=> The V-tagging and MVA cut are incorporated in the limit extraction. Only theory systematics pertaining to the production are listed as lines on the plot
+
+-General: I presume this result supersedes the previous 8 TeV monojet search. Perhaps you should make that explicit, and comment on how much the sensitivity improves.
+=> We have added a statement
+ 
+
+Type A
+
+line 27-31. The outline omits Sec. 2 on the CMS detector.
+=> updated
+
+line 71. Define "V-boson"
+=> V is defined in the introduction
+
+line 191. font on "vector"
+=> updated
+
+line 191 sentence ends with a comma.
+=> upated
