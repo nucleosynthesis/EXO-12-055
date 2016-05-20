@@ -1,0 +1,285 @@
+=> Figures
+The style of the figures should be made much more uniform: 
+=> updated
+Spacing in y-titles. Sometimes you use "Title/Unit" sometimes "Title / Unit": please uniformize. 
+=> updated
+The size of the legends should be increased and made uniform
+=> updated.
+It would be better to put "CMS" outside of the frame. In figure 5 you can then put the category name inside the frame.
+=> Its CMS procedure to put it inside the frame 
+Axes titles and label sizes should be increased in Figure 5. Also, the legend has a border in this figure but not in the others.
+=> updated
+fig5: would the figure be more readable with logx scale ?
+=> we prefer it without log 
+
+
+=== Type B comments:
+
+General: As mentioned in the detailed comments below, we think that the overall description of the signal model and corresponding uncertainties could/should be expanded. Also, the description of the event reconstruction/selection and objects definition could be improved.
+
+Abstract: Consider to add to the abstract the main result of this search, which is that "no significant deviation from the expectation from SM backgrounds is observed" 
+
+---------
+
+L20: Nothing is mentioned about ATLAS. Have mono-V signatures been exploited by them? In case, it should be mentioned. Also, previous results of similar searches should be quoted.
+=> We cited their work. We would prefer to not explicitly talk about ATLAS 
+
+L24: substructure of ? 
+=> Fixed
+
+L57: "the existing separation with direct detection": It can be roughly guessed what you want to say. Is this separation done so that your results can be easily compared to the ones from other DM direct detection experiments ? 
+=> correct thats what is meant. (no change)
+
+L61-62: The logic of this sentence should be inverted: it is not the interactions that have sensitivity, but the experiments.
+=> Fixed
+
+L64: it is not clear what electroweak symmetry has to do in this context. Eq 1-4 do not involve any SM gauge fields and nothing is said about the DM fields representation in the SM gauge group. Also, it is not clear what are the phenomenological consequences of this kind of models.
+=> These are discussed later. We prefer to introduce this here, for presentation later.
+
+L67-76: The whole paragraph can be tough for a non-expert. Is there any paper dedicated to these theoretical aspects that can be referenced ? 
+=> Yes, the references are already included in the paragraph
+
+L71: "initial state" --> "final state" ? 
+=> isn't an isr jet, also the sme for an isr v boson (slightly
+modified text anyway)
+
+L79: why the generator is Pythia? Could M5_aMC@NLO or Sherpa at NLO be used? NLO generators should have ensured better description of additional radiation (for instance a better distribution of the number of jets, and angular correlations) which is used as a discriminant against background events.
+=> We are using all these generators. The text says it is showered with Pythia, except the jargon of showered is not used. 
+
+L82: The 30% change in the signal yield must come from a variation of the parameters. What is being varied and in which range? In general, it is not clear if the fact that "The impact of this choice was found to be up to 30% in the expected signal yield in the relevant kinematic region for mediator masses above 400 GeV" is used as systematic uncertainty
+=> The point was to mention the shower scale can cause a large variation in cross section. There is no theory, nor standard choice and unc. convention. Hence we just quote the expted variation here. 
+
+L101 : if the std. rho method is used here, then a ref. should be given for the "observed energy density".
+=> Added
+
+L167: Why the corrections are not applied to make Fig.4? As the paper is now, it is a bit strange to say that the discrepancy is corrected in the analysis, without showing the effect of the correction on the control plots.
+=> The purpose is to demonstrate the method.  We put the post corrected plot after. This allows us to illustrate how critical this method is. 
+
+L172: ".. if several Etmiss bins are considered ... ": are you trying to say that doing a binned shape analysis improves the sensitivity? If yes, please say so.
+=> Added some text
+
+L179 : Why only muons and not also electrons?
+=> Electrons require a nother trigger. The tigger used here is MET no muons.
+
+L179: It is not clear if the control regions are used to derive the shape or the normalization of the backgrounds. Please clarify.
+=> We have the current text " to simultaneously constrain the predictions of the standard model background" , we find this is sufficient
+
+L184 : what exactly are the selections for the photon control region? For the dimuon control region, it is specified that the selections are the same as for the signal region, but that is not specified in the definition of the photon control region. Also, what kind of ID/Isolation selection is applied to the photons? Do fake-photons play any role in this part of the analysis? 
+=> We are using the loose photon Id. The kinematic selections are the same. Fake photons do play a role and are treated as a background, we are using the POG recommended approach. As a result we added citation to the photon paper and we expicitly stated kinematics ar ethe same.
+
+L206: The liekelihood fit is probably the same as the one mentioned in line 175. Please make it clear.
+=> Changed a likelihood fit to THE likelihood fit
+
+L221-223: why are you not using direcly fully simulated aMC@NLO samples?
+=> Unfortunately, no computing to do this. Unlikely for the near future as well. 
+
+L226: I guess that two nuisance parameters are used for PDF and scale uncertainties. This may be an aggressive choice if the data are able to constrain these uncertainties, as the correlation between different kinematic regions may be much lass than 100%. Are these uncertainties significant for the analysis? Have you checked pull and post-fit uncertainties for these nuisances?
+=> there are 7 nuisnaces used for the pdf and scale uncertainties, we don't think this is aggressive, given teh EWK uncertainties are larger. This has be reviewed at length. Here is the list : 
+      1. 1 nuisance for PDF
+      2. 6 (1 nuisance for renormaliaction Scale and 1 for factorization scale on Z/W/gamma separately)
+           a. Nuisances are partially correlated in the sense taht ren/fac have both a correlated and uncorrelated component
+    A sentance is added to explain how the potential cancellation is ignored thereby being conservative. 
+ 
+
+L230: What is the impact of the electroweak correction on the analysis? Are the nuiances moving (significantly) in different directions for the different bins?
+=> This is the largest systematic in the analysis. Improving this leads to a direct improvement in the analysis.  Regarding the pulls, they are all very small and statisitcally consistent with a signle correlated nuisance. 
+
+L251: a discussion of the signal model and related uncertainties is missing. Please add it.
+=> This is discussed in lines 267-273
+
+L262: Do you use asymptotic formulas? If so please say it.
+=> Added
+
+L267: As far as we understand you provide 90% exclusion for consistency with direct searches. Can we also make public (maybe in the support twiki) the 95% ones? Given the recommendation of the DM forum..
+=> The next iteration of the analysis will provide this with a consistent set of MC for the 8TeV. This analysis was done before the DM forum, we prefer to abstain from this.
+
+
+L323: The "Fermi-LAT excess" appears here for the first time and without reference. Consider to add a short explanation and please quote the relevant original papers.
+=> expanded and added references
+
+L348: The conclusions seems a bit dry. We should state what is the impact of this search compared to other direct detection and collider experiments to the very least. Is there a phase space that is explored by this analysis for the fist time? Please repeat in the summary section some of the most important quantitative statements present in section 6.
+=> updated
+
+
+
+=== Type A comments:
+
+The style of the figures should be made much more uniform: 
+Spacing in y-titles. Sometimes you use "Title/Unit" sometimes "Title / Unit": please uniformize. 
+The size of the legends should be increased and made uniform.
+It would be better to put "CMS" outside of the frame. In figure 5 you can then put the category name inside the frame.
+Axes titles and label sizes should be increased in Figure 5. Also, the legend has a border in this figure but not in the others.
+
+L13: .. LHC has generally .... (subject is interpretation?)
+=> We prefer to keep as is. We appreciate the statement that this is vague
+
+L13: utilized --> used
+=> we prefer utilized, it is less plebian
+
+L16: "DM pairs" --> "pairs of DM particles" 
+=> we prefer as is ( matter particles is redundant)
+
+L23: "utilses" --> "uses"
+=> again, we find utilize more appripriate here
+
+L24: jets --> hadronic jets
+=> We prefer to keep it as is since jets can include hadronic tau decays or even misindentified leptons
+last par. of the introduction: the section numbers need to be updated, since not correct
+=> >updated
+
+Section 2 and 3: unlike what is said in the introduction, the objects reconstruction (for example of leptons and photons) is not described neither in section 2 nor in section 3. The former has only the detector description, the latter is mostly about event selection. One of the two section should be expanded to include the description of the actual event reconstruction. If you want to keep it short, usual references to POG PASs can be added. 
+=>We added these in the detector section + and seciton 4. The POG references have been added
+
+L54: "couplings" twice --> rephrase eg as "The constants g_DM and g_SM parametrize the coupling ..." 
+=> fixed (couplings=> term)
+
+L55: "particles" should be probably replace with "fields" in this context
+=> We prefer to keep as is (more plebian)
+
+Figure 1: the diagrams use "X" for the mediator, while S,P,Z' and Z'' are used in the text. The connection must be made in the caption.
+=> updated
+
+L67: is predominantly ---> occurs predominantly 
+=> udpated
+
+L70: "a way analogous to Z boson production" --> "though s-channel production"
+=> We prefer to keep as is,since we intend to say s-channel production that is quark initiated (ie Z boson production)
+
+L92: only using information --> using only information 
+=> we prefer to keep as is, denoting only using denotes a differnt algorithm that a standard
+
+L100: the jargon pileup needs to be defined.
+=> updated => additional overlapping interactions occuring at the same time
+
+L109: electron instead of electon
+=> updated
+
+L112: According to the CERN writing guidelines http://writing-guidelines.web.cern.ch/entries/hyphens, one should not use hyphens to link an adverb to an adjective. Thus 'highly boosted' instead of 'highly-boosted'
+=> updated
+
+L113: orthogonal instead of othogonal
+=> updated
+
+L124 : large transverse
+=> updated
+
+L127: "Further cuts" --> "Further selections criteria"
+=> updated
+
+L128: tau2/tau1 is the ratio of two subjettiness moments. "Subjettiness ratio" would be probably a better naming. 
+=> agreed, updated
+
+L131: With "To include the frequent cases" you mean that you want to maintain high selection efficiency in these cases ? 
+=>  It is meant that jets often radiate  soft wide angle gluonst than then, themselves form jets.
+
+L133: "The AZIMUTHAL opening angle"
+=> updated
+
+L137: Please rephrase this sentence. "Some disagreement is present in the modelling between data and ..." As is, the modelling seems to be a property of data and simulation. You also use "modelling" twice in two close-by sentences.
+=> updated (modelling=>simulation)
+
+L138 : resulting from
+=> not sure where this fits
+
+L144: "from THE DECAY of a W or Z boson"
+=> disagree, you don't originate from a decay, that incites it
+
+L146: "multivariate variable selection" is ugly in our opinion. It should be "a selection based on a multivariate discriminant" or "a multivariate selection criterion". 
+=> Agree, took the second choice
+
+L152: "top backgrounds" --> "backgrounds processes involving the production of a top quark". 
+=> Agree (slightly reworded)
+
+L152: "the eventS ARE rejected" (you always use the plural elsewhere).
+=>  Updated
+
+L153: Put CSV medium in quotes.
+=>  Updated
+
+L159: phi should be defined somewhere as the azimuthal angle. Also, it should be |Delta phi|.
+=> We define this around here, basic coordintaes are cited.
+
+L170: "... DM production WOULD be observable ..."
+=> Not sure the conditional tense is needed (did not update)
+
+L174: remove simultaneously
+=> This is a key point of the analysis, many people decorrelate bins, we will keep this in
+
+L175: "... in the ETMISS range 250-1000 .."
+=> updated
+
+L176 "... to ensure THAT ..."
+=> not added (sounds better without THAT)
+
+L176: missing parenthesis after "range 250-1000 GeV (200-1000 GeV"
+=> updated
+
+L179: ... contribution ... is determined ...
+=> updated
+
+L180 : ... region is ....
+=> updated
+
+L188: "TO estimaTE.."
+=> updated
+
+
+L191 : space before "vector" and no use of italics
+=> updated
+
+L191: does the sentence end with a comma?
+=>updated
+
+L193: "criteria [remove as] described in Section 4. [remove but and make a new period] In addition [remove requiring], the presence of a pair of .... W boson decay IS REQUIRED."
+=> kept as is ( it is a long sentance, but it flows a little better connecting the ideas)
+
+L208: "given by" --> "parametrized as"
+=> parametrize implies modelling, here this is a well defined expression
+
+L210: mu is in bold here and not before
+=> updated
+
+Equation 5: several simbols are undefined: * Possion * phi, tetha * not clear on what the index i runs
+=> updated
+
+L242: QCD backgrounds --> QCD multijet backgrounds
+=> we prefer to label it as QCD to be more generic
+
+L253: "A simultaneous fit IS performed"
+=> updated
+
+L256: expected --> estimated (I think it's more appropriate as the plots are post-fit)
+=> expected is a technical term, we prefer to leave it
+
+L275: Largragians --> models
+=> The models are not completed models, Lagrangians is a clearer description of what we donte
+
+L277: "LUX COLLABORATION". Same for PICO-2L and Fermi-LAT.
+=> updated
+
+L288: remove "*"
+=> updated
+
+L292: "assuming THAT the mediator"
+=> we prefer to keep as is
+
+L299: island --> region
+=> we prefer to keep island, it is more descriptive of the feature
+
+L340: categorizing instead of categorising (American English)
+=> fixed to the queens english
+
+reference [31] missing DOI
+=> conferene proceedings not published
+
+reference [33] missing DOI
+=> updated
+
+reference [34] wrong citation for POWHEG. from http://powhegbox.mib.infn.it/ In addition to the specific subprocess reference, the following papers should always be cited while using the POWHEG BOX: P. Nason, JHEP 0411 (2004) 040, hep-ph/0409146 [paper] S. Frixione, P. Nason and C. Oleari, JHEP 0711 (2007) 070, arXiv:0709.2092 [paper] S. Alioli, P. Nason, C. Oleari and E. Re, JHEP 1006 (2010) 043, arXiv:1002.2581 [paper]
+=> updated
+
+reference [39] missing DOI: 10.1103/PhysRevD.81.094023
+=> updated
+
+reference [67] missing journal: Phys. Rev. D 93, 054030 (2016)
+=> updated

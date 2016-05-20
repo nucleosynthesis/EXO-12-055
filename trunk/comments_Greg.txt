@@ -1,0 +1,437 @@
+Figure :
+- Fig. 1: I think the caption for (c) should mention "either vector or axial vector mediator". Also, it would be better to use a curly line for the mediator in this diagram, clearly indicating its spin. Finally, you really need to add a gluon or a V decaying hadronically to one of the initial state quarks, to get the monojet signature. Thus, I suggest to split it in (c) and (d) with the two distinct initial state radiated particles.
+
+=> updated
+
+- Figures 2-4,6: use "Top quark" and "Other" in the legends. Move the legend pertinent to the signal a bit lower, so that it doesn't overlap with the background legends. Use mX to denote the mediator mass in the signal legend. For the Fig. 3 x-axis labels use "V → jj MVA output".
+
+=> We will not use mX, others all updated (MVA=>mvaouptut))
+
+- Figure 5: the y axis labels are illegible - please make them bigger. The "fake MET" x-axis labels should be made bigger too and read "Mismeasured EmissT. The "Expected" in the pre- and post-fit legends is misleading, as it sounds like "expected limits"; I think "Predicted" would work better. Also, calling the grey shaded region "Backgrounds" is very misleading, as the entire spectrum is due to the backgrounds; you should call it "Other bkg." or similar. All in all the figure really requires some work to reach a publication quality.
+
+=> We prefer the expected notation, this refers to the pre-fit ignoring the signal region or any data at all. Prediciton is done after the full dataset (including the signal). 
+
+- Figure 6: the top labels in the panes (b) and (c) should read V-resolved and V-boosted, respectively.
+
+=> updated
+
+- Figure 7 and related discussion: please add missing limits from SuperCDMS to pane (a), PICO60 and IceCube (ττ) and possibly SuperK (ττ) to pane (b), and cite them [see EXO-16-013 for detail].
+
+=> updated
+
+- Figure 8 and related discussion:  please add missing limits from SuperCDMS to panes (a) and (c), PIOC60 and IceCube (ττ), and possibly SuperK (ττ) to pane (b), and cite them [see EXO-16-013 for detail].
+
+=> updated
+
+
+PHYSICS COMMENTS:
+
+- General: in the 13 TeV version of the analysis you do a simultaneous fit across the control and signal regions, while here you first fit control regions alone to get the background and then do the fit in the signal region, allowing the background to float within the uncertainties of the first fit. The 13 TeV approach appears to be more streamlined and powerful - why didn't you use it for the 8 TeV, given that both sets of results appeared concurrently?
+
+=> The 13 TeV approach was a result of our work in 8TeV. At the time we did not have the fitting technology do do this in one fit. However, we effectively did the same by diagonalizing. We developed the technology as part of this analysis. In fact, for the HIggs invisible pas last September, we had already switched. 
+
+- Abstract, L5: delete "new" - one of the examples you use is a scalar mediator with the mass of 125 GeV, which is not new anymore.
+
+=> Agreed, it sounds clunky anyway
+
+- L9: give full set of references to the ATLAS and CMS monojet results, not just the latest papers.
+
+=> updated
+
+- LL23-24: the sentence doesn't make any sense grammatically - it looks to be truncated. Please, rephrase in proper English.
+
+=> rephrased
+
+- LL27-31: all the sections are shifted by one, as you are missing the detector section [clear example of reusing the PAS text verbatim without even bothering to check if its correct!]. Start with: "This paper is structured as follows: Section 2 contains a brief description of the CMS detector; Section 3 outlines ...; Section 4 provides ...; Section 5 describes ...; Section 6 presents ... for the DM production. The paper is summarized in Section 7."
+
+=> updated
+
+- L46: suggest: "Signal models" - the section describes more than just a hypothesis, but full model, including the simulation details.
+
+=> We prefer to not use the word models, since they are not complete models
+
+- L52 and further in the text: I find the notation mMED really ugly, as it's not an acronym and therefore should not be capitalized; moreover, you use mmed in Fig. 7 x-axis labels, making it inconsistent with the text. Since you introduced a symbol X for a generic mediator and use it, e.g., in Fig. 1, it would be most natural to replace all mMED and mmed with mX trough the paper. I urge you to do such a chance.
+
+=> We prefer to keep mMED, since this is the notation of many other papers. On a personal note mX sounds both cooler and simpler, but we feel this may lead to furhter complcations later on.
+
+- LL54-55: The couplings gDM and gSM denote the couplings of the mediator to a pair of DM particles and a pair of SM quarks, respectively [14]. [Note that in the Lagrangians (1-4) you only use gqSM and couplings to quarks, so you should simply drop the quark index and talk about gSM as couplings to quarks. This is also consistent with the minimal mediator width approach you use.]
+
+=> Updated, we agree.
+
+- LL61-62: the sentence is really awkwardly phrased, as "interactions" can hardly offer "sensitivity" - you are mixing the cause and the effect. Rephrase as: "Pseudoscalar-mediated DM-nucleon interactions are velocity suppressed, leading to a limited sensitivity of the DD experiments to this type of mediators [15]."
+
+=> updated, sounds better
+
+- LL72-73: In all models the coupling of the mediator to pairs of both the SM quarks and DM particles is taken as unity (gSM=gDM=1). For the scalar and pseudoscalar models this corresponds to the Yukawa-type couplings to quarks."
+
+=> Updated
+
+- LL78-79: give full versions of the MCFM, JHUGen, and Pythia 6 used in the analysis.
+
+=> Updated
+
+- LL78-80: the mention of leading order on L79 is very confusing, as it sounded like you used Pythia 6 for signal generation, not just hadronization; it would be much more logical to move "at leading order" to L78, just before the "using {\sc mcfm}".
+
+=> Updated
+
+- LL80-83: while I know what you meant by this sentence from the long discussions we had, the sentence is absolutely unclear to an external reader. 30% compared to what? Please, expand this discussion by stating not only the assumption used in MCFM, but also a more traditional assumption that completely decouples the hard-scattering renormalization/factorization scale from the parton showering scale (perhaps quoting the 30% difference as benchmarked with the Higgs production cross section?). Also, this discussion only applies to the (pseudo)scalar case, but it reads as if it applies also to the (axial) vector case. What generator was used to simulate the (axial) vector diagrams - was it also MCFM? All in all, this section needs to be significantly expanded and made more clear.
+
+=>This applies to the (axial) vector cases where MCFM is used. We expanded.
+
+- LL83-85: this is a bit cryptic sentence, which clearly only applies to the monojet case, as there is no top quark involved in the mono-V production. Why don't you make it more explicit and say that the MCFM simulation takes into account finite top quark effects both in inclusive and differential distributions?
+
+=> updated
+
+- Fig. 1: I think the caption for (c) should mention "either vector or axial vector mediator". Also, it would be better to use a curly line for the mediator in this diagram, clearly indicating its spin. Finally, you really need to add a gluon or a V decaying hadronically to one of the initial state quarks, to get the monojet signature. Thus, I suggest to split it in (c) and (d) with the two distinct initial state radiated particles.
+
+=> updated
+
+- LL77-85: please specify the PDF set used in the signal model generation.
+
+=> updated (NNPDF3.0)
+
+- LL88-89: the sentence is meaningless, as the events are not "reconstructed" with the detector. Perhaps you meant to say "are recorded with the CMS detector and reconstructed" but even that would not be necessary as you already described the detector used to collect the data. I suggest either shortening the sentence to a truism: "Events are reconstructed with a set of standard CMS algorithms [13]" or simply dropping it, which I'd prefer. In the latter case just combine the orphan sentence on LL87-88 with the next paragraph.
+
+=> Dropped, we agree its a dumb sentance
+
+- L94: give the two standard references to the PF algorithm: [27] and PFT-10-001. Also, add a standard short explanation of the PF reconstruction [see PubComm detector section recommendations] here, as well as the explanation of PF \MET reconstruction, which you should move her from LL103-104 after a slight improvement: "The missing transverse momentum is calculated as the negative vector sum of the transverse momenta of all PF candidates in the event. Its magnitude is denoted as \MET." [Later you define the \MET direction, which makes no sense unless you define missing transverse momentum vector first.]
+
+=> We added a citation and explanation
+
+- LL100-101: The jets are corrected for multiple interactions in the same bunch crossing (pileup) on the basis of the observed energy density in the event, calculated with {\sc FastJet} [xx]. Corrections derived using both data and simulation are then applied to calibrate the absolute scale of the jet energy [30].
+
+=> updated
+
+- L108: give references to "well-identified" electron, photon, muon, and tau or drop "well-identified".
+
+=> updated
+
+- LL109-110: are you sure that muons are not required to be isolated for the veto? Does it mean that you veto every charm or b quark jet with a reconstructed muon?
+
+=> Yes, we are sure, yes we veto. This was discussed thoroughly in the review. It is slightly more optimal that with very loose isolation.
+
+- LL111-112: Selected events ... distinguish initial- or final-state radiation from hadronic decays of V bosons that can be either highly Lorentz boosted, resulting in a single jet, or resolved into two jets.
+
+=> rephrased
+
+- LL118-120: Additionally, a single top quark background produced at next-to-leading order with {\sc Powheg} [34,35], and a set of diboson samples produced at leading order directly with {\sc Pythia6}, are added.
+
+=> updated
+
+- LL115-123: give full version of MadGraph and Powheg generators and the PDF sets used for LO and NLO (i.e., PowHeg) calculations.
+
+=> updated
+
+- L129 and further in the text: mprune sounds odd - we are not weighting prunes here! Please replace with mpruned or mp here and through the rest of the paper, including Fig. 2(b) x-axis label.
+
+=> We disagree this the standard in many papers, and substructure in general (see for example https://arxiv.org/pdf/1307.0007v2.pdf)
+
+- Figures 2-4,6: use "Top quark" and "Other" in the legends. Move the legend pertinent to the signal a bit lower, so that it doesn't overlap with the background legends. Use mX to denote the mediator mass in the signal legend. For the Fig. 3 x-axis labels use "V → jj MVA output".
+
+=> We will not use mX
+
+- LL152-153: ... contains a b-tagged jet, defined using a combined secondary vertex tagger operating at a medium working point [44].
+
+=> updated (slighlty modified)
+
+- LL163-164: The backgrounds are normalized to an integrated luminosity of the data samples and the expected distribution for the vector-mediated DM production ...
+
+=> updated (slightly modified)
+
+- LL190-191: where ϕ is the azimuthal angle between the direction of the muon momentum and the missing transverse momentum vector, must satisfy 50<mT<100 GeV.
+
+=> updated 
+
+- LL206-216: it's off to see the various parameters in the likelihood described before the likelihood is defined. Suggest starting this paragraph with postulating the likelihood via Eq. (5) and then explain the parameters. Also, vectors θ and ϕ have never been described, and the use of these two letters is really confusing as θ and ϕ are already used as the polar and azimuthal angle. Suggest replacing them with α and β in the equation and the definition.
+
+=> updated
+
+- LL212-213: I believe you meant to say "from the control regions to the signal regions" here.
+
+=> no its actually signal to control region. This is a subtle point about the likelhiood definition that forces the right definition of the scale factors to be minized.
+
+- Figure 5: the y axis labels are illegible - please make them bigger. The "fake MET" x-axis labels should be made bigger too and read "Mismeasured EmissT. The "Expected" in the pre- and post-fit legends is misleading, as it sounds like "expected limits"; I think "Predicted" would work better. Also, calling the grey shaded region "Backgrounds" is very misleading, as the entire spectrum is due to the backgrounds; you should call it "Other bkg." or similar. All in all the figure really requires some work to reach a publication quality.
+
+=> updated
+
+- L262: give two standard references to the CLS method: [51] and [Junk].
+
+=> updated
+
+- L271: what about the ME/PS matching scale and also 30% uncertainty due to the choice of the fragmentation/hadronization scale in MCFM - were those taken into account in theoretical uncertainties?
+
+=> No, these uncertainties are not part of the stand procedure. Nevertheless, This is noted in the text. Madgraph also uses the same choice as MCFM, both follow the stand LO procedure of using the same hadonrization scale as the generation. The typical hadronization uncertainties are defined to address the absence of ME-level jets, not the scale of the shower. 
+
+- Tables 1-3: the tables quote the numbers to a ridiculously high precision; please round all the numbers to match the uncertainty, which should be given with two significant digits, per CMS style, e.g., 18330±600, 10740±270, etc. The QCD column in Tables 1-2 doesn't make sense. You quote many 0.0±0.0 numbers in the middle of the table, whereas some higher bins have nonzero number of events. Clearly that means that the zero events in the intermediate bins is known with a large uncertainty, not a zero uncertainty. You need to improve the presentation of the QCD results, e.g. by putting "< x" in these entries. In Table 3, suggest removing the QCD column and putting a sentence in the caption stating that QCD background contribution is negligible instead.
+
+=> Updated
+
+- Figure 6: the top labels in the panes (b) and (c) should read V-resolved and V-boosted, respectively.
+
+updated ?
+
+- Figure 7 and related discussion: please add missing limits from SuperCDMS to pane (a), PICO60 and IceCube (ττ) and possibly SuperK (ττ) to pane (b), and cite them [see EXO-16-013 for detail].
+
+=> updated 
+
+- Figure 8 and related discussion:  please add missing limits from SuperCDMS to panes (a) and (c), PIOC60 and IceCube (ττ), and possibly SuperK (ττ) to pane (b), and cite them [see EXO-16-013 for detail].
+
+=> updated
+
+- LL348-349: the Acknowledgement section is completely amiss - please add a long version here.
+
+=> updated, we use the standard letters ones
+
+STYLE COMMENTS:
+
+General: the paper uses a mixture of particle names typeset incorrectly in math style (italics) and a proper Roman typesetting, per CMS style. All of this nuisance could have been easily avoided if you used pen names, which are properly typeset according to a style of a publication. I urge you to switch to the pen names through the paper, or at least go through all the occurrences of the italics and switch to Roman. A coupe of examples will be given in detailed style comments below, but they are too numerous to list them all.
+
+=> pen names are used
+
+Title: the title sounds odd ("with CMS" clearly breaks the flow of text, and also not needed "The CMS Collaboration" just below the title). Suggest shortening to: "Search for dark matter in events with missing transverse energy and jets, including those from W and Z boson decays".
+
+=> This has been discussed ad nausea
+
+Abstract:
+
+L3: at a centre-of-mass; => updated
+L4: collected with the CMS detector; => kept what we have
+LL4-5: interpreted within a set; => within is incorrect you don't interpret within a hypothesis
+L7: from a Lorentz-boosted hadronically; => updated
+
+Introduction:
+
+L3: at the CERN LHC at; => updated
+LL4-5: using the CMS detector; => updated
+L6: The existence of DM is; => updated
+L7: add a comma after "(SM)"; =>updated
+L8: nonbaryonic [PubComm style]; In many theories that extend; => updated (kept which)
+LL9-10: provide model-independent means [better yet "the means"];   =>  not updated use of the would demote other DM final states
+LL10-11: while mono-V searches [3-6], where V denotes a W or Z boson, targets associated production; => updated
+L12: nonuniversal; => updated
+LL13-14: utilized an effective field theory (EFT) approach that assumes heavy;  => kept what we have
+LL15-16: decaying to a pair of DM particles within a set of; => kept what we have DM particles sounds redudant (matter particles?)
+LL17-18: you use "direct detection" more than a dozen times in the paper - that certainly deserves introducing an acronym here and using it extensively later: "with respect to direct detection (DD) experiments, while; => updated
+L20: is the first in CMS; => used earlier now
+L22: moderately Lorentz-boosted vector bosons. => updated
+L25: is performed using a maximum likelihood fit to the distribution in missing transverse energy in each event category; => updated
+L26: to the previous CMS monojet analysis [1], based on the same data set.=> updated
+
+CMS detector:
+
+L32: The CMS detector; => updated
+L33: in Ref. [13], is a multipurpose apparatus; => updated
+L38: (ECAL), and a brass and scintillator hadron; => updated
+L41: steel flux-return yoke; => updated
+
+Signal hypotheses:
+
+LL47-48: simplified DM models [cf. L16];  => kept Mediator thats the basis
+LL48-49: fermionic DM candidate; => updated
+L52, Eqs. (1-3): all particle names: S, P, Z', Z", q should be typeset in Roman;  => updated 
+L54: the Z, P, Z', and Z" mediators, respectively. => updated
+L57: with DD experiments, into spin-depndent; => updated
+L59: between which DD experiments make no distinction; => updated
+LL62-63: An extension of scalar and pseudoscalar interactions can be achieved by allowing; => updated
+L67: production of DM in;  => updated
+L68: top quark loop; => updated
+L70: to the Z boson production;  => did not update
+L71: of a V boson or a jet in the initial state.  => updated
+L77: simulated events are;  => updated
+LL78-79: {\sc mcfm} generator [23] for the monojet signature and with {\sc JHUgen} [24] for the V boson signature. [V boson is not a final state!] =>  agreed, updated
+L79: using {\sc pythia6} [25] for parton showering and fragmentation, and; => updated
+L80: {\sd Geant4} for simulation of the CMS detector response. => updated
+L84: cross section; => updated
+
+Event selection and categorization:
+
+L87: on the basis of large values of missing transverse energy (EmissT) and one; => updated
+L93: data taking period [compound modifiers of the type noun-gerund are not hyphenated]; => updated 
+LL97-99: Jets are reconstructed via clustering of PF candidates using both the anti-kT algorithm [28] with a distance parameter of 0.5 (AK5 jet) and the Cambridge--Aachen algorithm [29] with a distance parameter of 0.8 (CA8 jet). [Note capitalized AK5, CA8, as proper acronyms as well as en en-dash, rather than a slash or a hyphen in "Cambridge--Aachen".]  => updated
+LL99-100: "further required to be well identified using a standard set of identification criteria [30]" is repetitious and unneeded; replace with "... further required to pass standard CMS identification criteria [30]" ; => updated
+L105: add a comma before "and";  => not using the oxford comma
+L106: between the direction of the missing transverse momentum and the leading jet;  = > updated
+L107: larger than 2 rad to reduce;  => updated
+L109: or a τ lepton with; The electron, τ lepton, and photons vetoes; => updated
+L113: events that are referred;  => updated
+L115: To comute the SM background expectation, simulated samples are produced at leading order for the; => updated
+L116: single top quark, and QCD; {\sc MadGraph5} [32] interfaced with {\sc Pythia6} for; => updated
+L117: jets from matrix element calculations are matched to the parton shower jets following the; => updated
+L122: mismodelling; => updated
+L123: add a comma before the "following"; => did not update 
+L125: its decay products within a single reconstructed CA8 jet. Events in;  => updated
+L126: reconstructed CA8 jet; => updated
+L127: Further selections are applied;  => did not update
+L128: with a two-subjet;  => update
+L130: 60--110 GeV [use an en-dash, not a hyphen]. Events that contain; => updated
+L131: close to the CA8 jet;  => updated
+L132: If an AK5 jets; => updated
+L133: and the CA8 jet, Δϕ(AK5,CA8, is; => update
+L134: 2 radians, the event is selected. Events with more than one AK5 jet;  => updatred
+L135: to the CA8 jet are rejected. => update
+L136: of the jet mass selection. => updated
+L138: resulting from imperfect; => updated
+L141: where the vector boson has;  => updated
+L142: single reconstructed CA8 jet, a selection; => updated
+LL142-143: into a pair of AK5 jets; => updated
+L144: 60--110 GeV [en-dash]; => updated
+Fig. 2 caption, L1: Distributions in Lorentz-boosted events before the jet mass selection of; L2: for CA8 jets. A requirement of; LL4-5: mX=125 GeV. => updated
+L145: a V boson. => did not update 
+L147: discriminators that distinguish quark-originating jets from gluon-originated jets [41]; add a comma before "and"; => prefer not to use the oxford comma
+LL148-149: with the highest MVA output variable value is taken as the candidate. The distribution of the MVA output variable for SM;  => output seems unweildy
+L150: in association with a V boson is; => did not update
+L152: from top quark backgrounds; => updated
+L155: of the two V-tagged categories; => updated
+L156: two high-pT jets; from a single quark or gluon. => kept as is
+LL157-158: one AK5 jet within |η|<2.0 with pT>150 GeV, and EmissT>200 GeV is required. => updated
+L159: AK5 jet; typeset j1, j2 in Roman; => updated
+L160: initial-state radiation;  => updated
+L161: AK5 jets; =>  updated 
+L166: mismodelling; => updated
+L167: of the V+jets processes. => did not update (we exclude photons)
+Fig. 3 caption, L1: The MVA output variable distribution for the V-tagged events in simulation and data after signal selection for; L4: and mX=125 GeV.  => updted
+L168: control samples in data, as described in the following section.  => updated
+
+Background estimation:
+
+LL170-171: backgrounds at high \MET. => updated
+L173; control regions, which are orthogonal to the signal region, with negligible;  => updated
+LL174-175: predictions of the SM background. => updated
+L175: 250--1000 (200--1000) [note en-dashes!] GeV for the V-tagged (monojet) events; => updated
+L178: comparison with the previous CMS search [1].  => did not update
+L179: Z and W in math; => did not update
+L182: two isolated muons of opposite charge, pμ1,μ2T>20, 10 GeV, and the dimuon invariant mass in the range of 60--120 GeV [note an en-dash] are required. => updated dash, not requited
+L184: of events that are selected; => did not update
+L188: W in Roman; => seems ok 
+L189: one muon with pT>20 GeV => did not update.
+Fig. 4 caption, L3: vector-mediated DM; L5: mX=1 TeV. => updated 
+L192: into three categories; => updated
+L193: add a comma before "but"; => updated
+LL193-194: pair of oppositely charged muons ; => updated
+L194: a high-pT photon, or a single muon; => no oxford comma
+LL195-196: In the control regions the momentum of the dimuon pair, single muon, or the photon is removed and;  => updated
+L192: misreconstructed \MET. The distribution of misreconstructed \MET in the control;  => not sure what you are refering to
+L198-200: Z and W in Roman; => updated
+L199: As the branching fraction of the Z→μ+μ− decay is; => updated
+L200: uncertainty in the Z(νν)+ jets; => in does not sound correct
+L203: cross section; => updated
+L204: uncertainty in the;  => again, seems weird
+L208: in a given bin i of misreconstructed \MET;  => misreconstructed is not the reight terminology here (its fake)
+LL208-212: all superscripts W, Z in Roman. =>  updated
+L213: remove the comma at the end of the line [or replace it with a colon]; => updated
+Eq. (5): all the superscripts W, Z should be typeset in Roman; =>  updated
+LL214,216: superscripts W and Z in Roman; add a comma before the "and"; => updated no oxford comma
+L216: add a comma before the "and" [twice]; and BW, respectively, in Eq. (5).  => no oxford comman
+L217: all Z should be typeset in Roman; suggest switching to  to denote the branching fractions [BR should technically become BF if you stick to the current convention, and typeset in Roman]; => updated
+L219: cross sections; Z + jets [Z in Roman]; add a comma before the second "and";  => here its ok
+L221: NLO K factors;  => updated
+L222: {\sc MadGraph5_aMC@NLO}; updated
+L223: superscript Z in Roman; => updated
+LL226-227: uncertainties in the ratio of the photon to Z differential cross sections from the renormalization and factorization scale uncertainties.  => not updated the implies theya re the same between processes
+LL227-228: Higher-order electroweak corrections for the ratio are not accounted for;  => 0th order is 1, we kept as is
+LL228-229: uncertainty in the ratio;  => not updated
+L233: for the top quark and diboson; => updated 
+L234: normalizations [you use "factorization" etc., so stick with the US spelling];  => switched to the redcoats
+L235: in Fig. 5. => updated
+L236: from V + jets [typeset the plus sign in math for consistencies with other occurrences] production and; => updated
+L240: for the top quark backgrounds due to the uncertainty in the b tagging efficiency for the b jet beto; => updated (no beto)
+L241: add a comma before the "and";  => no comma
+L242: top quark [48], diboson [47, 49], and QCD [1] backgrounds, respectively, to account; => updated
+L243: cross sections.  => updated
+L245: in the integrated luminosity measurement; => kept as is
+Fig. 5 caption, L1: Expected and observed misreconstructed \MET distributions; end the line with a comma; L4: add commas before the "and" and "respectively"; L7: indicate the combined statisticsl; => MET not changed
+L248: in Tables 1--3. => did not update
+LL250-251: between the different \MET bins are not reflected in these numbers. => updated
+
+Results:
+
+L258: background-only fit; => udpated
+L260: is 1.9 standard deviations and; => updated
+L262: using the CLS method; => not updated 
+L263: as the test statistic, in which;  => updated
+L264: cross section; => updated
+L265: cross section, denoted as μ=σ/σth. => updated
+L266: in the mX--mDM plane;  => updated
+LL266-267: and axial vector mediators;  => updated
+LL268-269: included in the signal model;  => updated (here in refers to a model)
+L270: vector and axial vector;  => updated
+L271: due to the renormalization and factorization scales, and PDF uncertainties; => not updated
+L273: full range of the mediator mass; => updated
+L274: To compare limits from DD experiments with those obtained here, the DD bounds;  => updated
+L275: given by Eqs. (1--4).  => updated
+L277: add a comma before the "which"; => updated
+L282: in which DM is annihilated;  => not updated
+L284: add a comma before "as determined";  =>  doesn't seem needed
+L287: {\sc MadDM} [also give the version number]; => updated
+L288: Ωch2=0.12 [63], as described; => updated
+LL288-289: that the hypothesized simplified model provides the; => not updated 
+L290: add a comma before the "and"; => not updated
+L291: The expected 90\% CL upper limit on the ratio; => updated
+L292: predicted cross section, when assuming that the mediator; => updated
+Tables 1-3 captions, L1: Event yields of the SM processes; L2: all corrections to the simulation.  => updated
+Tables 1-3 header line: EmissT bin (GeV) [all in Roman]; Total bkg; Top quark; => updated
+Fig. 6 caption, L3: add a comma before the "and"; L5: vector-mediated DM; L6: mX=1 TeV. => not updated 
+L294: the initial-state partons and the DM particles contribute; => updated
+L296: cross section; => updated
+L299: at low DM masses; to exclude this model. => updated
+L302: the DD bounds; => updated
+LL303-304: the DD limits; => updated
+L305: from DD experiments for; => updated
+L307: for the mediator masses greater; => updated
+L308: reach in mX; => not updated
+L309: over the entire region. => kept most
+L310: Figures 8 (a--c) show the same exclusion contours translated into; => updated
+L311: of mDM--σSI/SD [en-dash, not a minus sign]; are the spin-idenpendent/spin-dependent; => updated
+L312: cross sections. => updated
+L313: from the DD experiments, which;  => updated
+L314: cross sections; limits set in this analysis;  => not updated
+L315: are only valid within the simplified;  => not updated
+L316: For the scalar mediator model; => udpated
+L317: the sensitivity for DD experiments; however it allows; => updated
+L318: collider and DD experiments without an additional; => updated
+L319: light-quark couplings [67]. For the ... models, DD limits; => updated
+L321: For the axial vector mediator; => updated
+L323: that DM annihilation;  => updated
+L329: annihilation cross section;  => not updated 
+L331: light quarks; => updated
+L332: add a comma before the "or"; => not updated
+
+Summary:
+
+L335: with an energetic jet; => updated
+Fig. 7 caption, L1: The 90\% CL exclusion contours in the mX--mDM plane; L5: model points that; LL8-9: In all of the models, a minimum mediator width is assumed. => updated
+Fig. 8 caption, L1: The 90\% CL exclusion contours in the mDM--σDM plane; L5: add a comma before the "and"; L6: of the V-tagged categories is shown, for which; L7: In all of the models, a minimum mediator width; L9: to light quarks (qq¯), τ+τ−, and bb¯ are shown with the solid green, pink, and; => updated
+LL338-339: to utilize jet substructure techniques;  => updated
+L339: in both the Lorentz-boosted and resolved;  => updated
+L340: categorizing;  => not updated
+L344: from the standard model background prediction is observed;  => updated
+LL345-346: models that describe; => updated
+L346: add a comma before the "or"; => not updated
+L347: contrains the parameter space of these simplified models. The search; => not updated (constrain assume the interpreation is perfect, which it isn't)
+L348: interpreted within the simplified models of DM production. => updated
+
+References:
+
+Ref. [2]: typeset the Erratum properly: Eur. Phys. J {\bf C75} (2015) 408. => updated
+Refs. [3,24,47,52] separate parts of the journal names with spaces, e.g., Phys. Rev. => updated
+Ref. [4]: delete ", no. 1,". => updated
+Ref. [5]: delete ", no. 4,". => updated
+Ref. [9]: Phys. Lett. {\b B728} (2014) 412. => updated
+Ref. [10]: JHEP {\bf 01} (2014) 025. => updated
+Refs. [13,33,39,42,44]: add missing doi references. => updated
+Ref. [14]: delete "Mar, ". => updated
+Refs. [23,56]: add missing arXiv references. => updated
+Refs. [27,29,45,50]: replace "Technical Report" with "Physics Analysis Summary". => updated
+Ref. [31]: put the year in the parentheses: (2013); decide whether you use F. Beaudette or CMS Collaboration as the author and use just one. => decided
+Ref. [32]: JHEP {|bf 07} (2014) 079. => updated
+Ref. [33]: JHEP {\bf 01} (2007) 013. => updated
+Ref. [35]: typeset the Erratum properly: JHEP {\bf 02} (2010) 011. => updated
+Ref. [36]: delete ", no. 02,". => updated
+Ref. [45]: can't cite a physics PAS in a paper - please either replace with a published reference or remove. => Is this not allowed for pre-data taking? => removed citation
+Ref. [46]: JHEP {\bf 03} (2006) 059. => updated
+Ref. [49]: it's kind of odd that the paper hasn't been published 10 months after the submission - perhaps the PubComm may want to follow up? => odd but true
+Ref. [51]: J. Phys. {\bf G28} (2002) 2693. => updated
+Ref. [62]: give just the first page, not the range. => updated
+Ref. [67]: add the missing journal reference.  => added
+
+
