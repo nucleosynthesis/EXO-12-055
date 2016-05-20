@@ -445,7 +445,7 @@ width of the highest $\ETm$ bin is chosen to provide ease of comparison to the p
 CMS search~\cite{monojet1}. 
 
 The background contributions from \Zvvjets~(\Wlvjets)~is determined using data 
-from dimuon and photon (single-muon) control regions. The dimuon control region is defined 
+from dimuon and photon (single muon) control regions. The dimuon control region is defined 
 using the same selection as for the signal region, but removing the muon veto. Instead, exactly 
 two isolated muons are required with opposite charge, $\pt^{\mu_{1}},~\pt^{\mu}_{2}>20,~10$\GeV and an 
 invariant mass in the range $60-120$~\GeV. 
@@ -472,7 +472,7 @@ region, $1.44 <|\eta|< 1.56$ are excluded. All other kinematic selections are th
 signal region, except for the $\ETm$. The purity of the selection has been measured and is 
 used to estimate the contributions from other backgrounds in the photon control region~\cite{Khachatryan:2015iwa}. 
 
-To estimate the $\Wlvjets$ background, a single-muon control region is defined by selecting events 
+To estimate the $\Wlvjets$ background, a single muon control region is defined by selecting events 
 with exactly one muon with $\pt>20$\GeV. Additionally the transverse 
 mass, calculated as $m_{\mathrm{T}}=\sqrt{2\ETm p_{\mathrm{T}}^{\mu} (1-\cos \phi)}$, where $\phi$ 
 is the azimuthal angle between the muon and $\ETm$ vector, is required to be in the range $50-100$ \GeV.
@@ -484,7 +484,7 @@ of a pair of oppositely charged muons consistent with a Z boson decay, a high
 $p_{\mathrm{T}}$ photon or a single muon consistent with being a leptonic W boson decay. This 
 yields a total of nine control regions; three for each event category. 
 In the control regions, the momentum of the dimuon pair,
-single-muon or the photon is removed and the \ETm~is recalculated. This quantity is 
+single muon or the photon is removed and the \ETm~is recalculated. This quantity is 
 referred to as pseudo-\ETm~and it is this variable to which the $\ETm$ selection of the 
 corresponding signal region applies. The distribution of pseudo-$\ETm$ in 
 the control regions is used to estimate the distribution of $\ET$ expected from the \Zvvjets~and \Wlvjets~
@@ -498,7 +498,7 @@ as $N^{{\rm Z}_{\mu\mu}}_{i}=
 {{\mu^{\Zvv}_{i}}}/{R^{{\rm Z}}}$ and $N^{\gamma}_{i}=
 {{\mu^{\Zvv}_{i}}}/{R^{\gamma}}$ for the dimuon and photon control
 regions and  $N^{\rm W}_{i} = {{\mu^{\Wlv}_{i}}}/{R^{\rm W}_{i}}$, for the
-single-muon control region. The $\mu_{i}^{\Zvv}$ and
+single muon control region. The $\mu_{i}^{\Zvv}$ and
 $\mu_{i}^{\Wlv}$ terms are free parameters of the likelihood representing
 the yields of $\Zvvjets$ and $\Wlvjets$ in each bin of the signal region. The
 additional terms $R^{\rm W}_{i}$, $R^{{\rm Z}|\gamma}_{i}$ denote factors that 
@@ -520,10 +520,10 @@ given by
 \numberthis\label{eqn:candclh} \end{align*}
 
 where $d^{\gamma}_{i},~d^{\rm Z}_{i}$ and $d^{\rm W}_{i}$ are the observed number of events in each bin of
-the photon, dimuon and single-muon control regions. Additionally,
+the photon, dimuon and single muon control regions. Additionally,
 $\boldsymbol{\alpha,\beta}$ denote parameters profiled over during the
 likelihood minimisation, and Poisson denotes its eponymous distribution.  The expected contributions
-from background processes in the photon, dimuon and single-muon control regions
+from background processes in the photon, dimuon and single muon control regions
 are denoted $B^{\gamma}$, $B^{\rm Z}$ and $B^{\rm W}$ in Equation (\ref{eqn:candclh}),
 respectively.
 
@@ -553,17 +553,17 @@ for a boson \pt around 1 TeV~\cite{Kuhn:2005gv}. The full correction is taken as
 ratio. A conservative choice is made in assuming this
 uncertainty to be uncorrelated across bins of \ETm. The
 uncertainties in the muon selection efficiency, photon selection efficiency, and
-photon purity are included and fully correlated across the event categories and
-fit to the control regions are shown in 
-Figs.~\ref{fig:combined_fit_result_VB},~\ref{fig:combined_fit_result_VR}, and~\ref{fig:combined_fit_result_MJ}.
+photon purity are included and fully correlated across the control regions for the three event categories. The results 
+of the fit to the control regions for the V-boosted, V-resolved and monojet categories are shown in 
+Figs.~\ref{fig:combined_fit_result_VB},~\ref{fig:combined_fit_result_VR}, and~\ref{fig:combined_fit_result_MJ}, respectively.
  
 \begin{figure*}[hbtp]\begin{center}
-\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_boosted.pdf}
-\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_boosted.pdf}\\
-\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_boosted.pdf}\\
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_boosted.pdf}}
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_boosted.pdf}}\\
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_boosted.pdf}}
 \end{center} \caption{Expected and observed pseudo-\ETm distributions in the
-photon~(\cmsLeft), dimuon (middle) and single-muon~(\cmsRight) control regions
-after performing the simultaneous likelihood fit to the control regions for the V-boosted category.  
+photon~(a), dimuon (b) and single muon~(c) control regions, before and 
+after performing the simultaneous likelihood fit to the data in the control regions, for the V-boosted category.  
 The red line represents the expected
 distribution before fitting the control regions, while the blue line shows
 the expectation after the fit. The bottom panels show the ratio of the 
@@ -572,12 +572,12 @@ indicate the combined statistical and systematic uncertainties from the fit.\lab
 \end{figure}
 
 \begin{figure*}[hbtp]\begin{center}
-\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_resolved.pdf}
-\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_resolved.pdf}\\
-\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_resolved.pdf}
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_resolved.pdf}
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_resolved.pdf}}\\
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_resolved.pdf}}
 \end{center} \caption{Expected and observed pseudo-\ETm distributions in the
-photon~(\cmsLeft), dimuon (middle) and single-muon~(\cmsRight) control regions
-after performing the simultaneous likelihood fit to the control regions for the V-resolved category.  
+photon~(a), dimuon (b) and single muon~(c) control regions, before and 
+after performing the simultaneous likelihood fit to the data in the control regions, for the V-resolved category.  
 The red line represents the expected
 distribution before fitting the control regions, while the blue line shows
 the expectation after the fit. The bottom panels show the ratio of the 
@@ -586,12 +586,12 @@ indicate the combined statistical and systematic uncertainties from the fit.\lab
 \end{figure}
 
 \begin{figure*}[hbtp]\begin{center}
-\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_monojet.pdf}
-\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_monojet.pdf}\\
-\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_monojet.pdf}
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_monojet.pdf}}
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_monojet.pdf}}\\
+\subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_monojet.pdf}}
 \end{center} \caption{Expected and observed pseudo-\ETm distributions in the
-photon~(\cmsLeft), dimuon (middle) and single-muon~(\cmsRight) control regions
-after performing the simultaneous likelihood fit to the control regions for the monojet category.  
+photon~(a), dimuon (b) and single muon~(c) control regions before and 
+after performing the simultaneous likelihood fit to the data in the control regions, for the monojet category.  
 The red line represents the expected
 distribution before fitting the control regions, while the blue line shows
 the expectation after the fit. The bottom panels show the ratio of the 
