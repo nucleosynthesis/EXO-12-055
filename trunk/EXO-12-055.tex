@@ -231,7 +231,7 @@ greater than 120 \GeV, calculated only using information from the calorimeters,
 while the second requires $\ETm>95$\GeV or $\ETm>105$\GeV, depending on
 the data taking period, together with at least one jet of \pt$>80$ \GeV and
 $|\eta|<2.6$. The $\ETm$ is  calculated using the particle flow (PF) reconstruction
-algorithm~\cite{CMS-PAS-PFT-09-001}, which optimally combines information from various components 
+algorithm~\cite{CMS-PAS-PFT-09-001,CMS-PAS-PFT-10-001}, which optimally combines information from various components 
 of the CMS detector to reconstruct and identify individual particles. 
 The lowest threshold on \ETm for event selection is set at 200 \GeV  
 to ensure Done a trigger efficiency greater than 99\% for selected events. 
@@ -274,7 +274,8 @@ and with {\sc Pythia6.4.26a} for
 hadronisation and fragmentation, where jets from the matrix element calculations are matched
 to the parton shower following the MLM matching
 prescription~\cite{Mangano:2006rw}. Additionally a single top quark background
-sample, produced at next-to-leading order (NLO) with {\sc Powheg1.0} ~\cite{Nason:2004rx,Frixione:2007vw,powheg,Alioli:2010xd,Alioli:2009je}, and a set of diboson samples,
+sample, produced at next-to-leading order (NLO) with {\sc Powheg1.0} ~\cite{Nason:2004rx,Frixione:2007vw,powheg,Alioli:2010xd,Alioli:2009je}, 
+and a set of diboson samples,
 produced at LO with {\sc Pythia6.4.26a}. All samples are generated using
 the {\sc CT10} PDF set~\cite{Gao:2013xoa}.  The MC samples are corrected to
 account for the distribution of the number of additional pileup 
@@ -364,9 +365,9 @@ required to have one or two high \pt jets showing characteristics indicative of
 originating from a single quark or gluon. This final category is referred to 
 herein as the monojet category. For the monojet category, at
 least one AK5 jet within $|\eta|<2.0$ with $\pt >150$\GeV is required and the event must have $\ETm>200$\GeV.  
-As in the V-boosted category, events with a
-second AK5 jet close to the leading one ($\Delta\phi(\mathrm{j_{1},j_{2}}) < 2$ radians) with
-$\pt>30$\GeV and $|\eta|<2.5$ are selected to allow the frequent cases where
+Events containing a second AK5 jet with
+$\pt>30$\GeV and $|\eta|<2.5$ are selected, providing the azimuthal angle between it and the highest \pt jet with $|\eta|<2|$  
+is less than 2 radians. This is to allow the frequent cases where
 ISR yields two jets.  Events with three or more AK5 jets
 with $\pt>30$ \GeV and $|\eta|<2.5$ are rejected. Table~\ref{tab:selection} gives a 
 summary of the event selection in the three categories. The priority for event selection 
@@ -534,7 +535,7 @@ the $\Zjets$ and $\phojets$ processes, and the efficiency times acceptance of th
 photon selection for the $\phojets$ control region. The differential cross sections 
 of photon and Z production are first corrected using NLO    
 K-factors obtained from a comparison of their $\pt$ distributions in events generated
-with {\sc Madgraph5\_aMC@NLOV5.2.2.2}~\cite{amcatnlo}, to the
+with {\sc Madgraph5\_aMC@NLO 2.2.2}~\cite{amcatnlo}, to the
 distributions produced at LO. These K-factors are used to correct the factors 
 $R^{\gamma}_{i}$ to account for NLO QCD effects.
 
@@ -611,7 +612,7 @@ diboson~\cite{tagkey2015250,Khachatryan:2015sga} backgrounds, respectively to ac
 cross sections in the relevant kinematic phase-space. These individual backgrounds have been studied
 separately using dedicated control regions in data to validate these
 systematic uncertainties. A systematic uncertainty of 50\% is included on the expected 
-contribution from  QCD multijet events. This uncertainty was obtained by taking the largest differences 
+contribution from QCD multijet events. This uncertainty was obtained by taking the largest differences 
 observed between data and simulation in events selected by inverting the requirement on $\Detla(\ETm,\textrm{j})$.
 Finally, a systematic uncertainty of 2.6\% in the
 luminosity measurement~\cite{lumi} is included for all of the  
