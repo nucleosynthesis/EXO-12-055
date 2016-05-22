@@ -196,7 +196,7 @@ events are generated using {\sc MCFM6.8\cite{mcfm}} for the monojet final state,
 {\sc JHUGen5.2.5}~\cite{Anderson:2013afp} for the V-boson signature.
 All signal models are generated at leading order (LO), using  
 {\sc Pythia6.4.26}~\cite{Sjostrand:2006za} for parton showers and hadronisation, and {\sc Geant4}~\cite{geant4} for simulation of the CMS detector response.  
-For the monojet signal, the generation is performed using the mediator mass for the renormalisation and factorisation scales used to generate the events. 
+For the monojet signal, the generation is performed using the mediator mass for the renormalisation and factorisation scales.
 The mediator mass is also used for the scale in the parton showering (PS).  
 An alternative choice taking the boson $\pt$ for the PS scale is found to result in reductions of    
 $30-80$\% in the expected signal yield in the relevant kinematic region for mediator masses above 400\GeV. 
@@ -234,7 +234,7 @@ $|\eta|<2.6$. The $\ETm$ is  calculated using the particle flow (PF) reconstruct
 algorithm~\cite{CMS-PAS-PFT-09-001,CMS-PAS-PFT-10-001}, which optimally combines information from various components 
 of the CMS detector to reconstruct and identify individual particles. 
 The lowest threshold on \ETm for event selection is set at 200 \GeV  
-to ensure Done a trigger efficiency greater than 99\% for selected events. 
+to ensure a trigger efficiency greater than 99\% for selected events. 
 
 Jets are reconstructed by clustering of PF objects using both 
 the anti-$k_{\textrm{T}}$ algorithm~\cite{Cacciari:2008gp} with 0.5 (AK5 jet) as
@@ -273,7 +273,7 @@ single top quark, and QCD multijet processes using
 and with {\sc Pythia6.4.26a} for
 hadronisation and fragmentation, where jets from the matrix element calculations are matched
 to the parton shower following the MLM matching
-prescription~\cite{Mangano:2006rw}. Additionally a single top quark background
+prescription~\cite{Mangano:2006rw}. Additionally, a single top quark background
 sample, produced at next-to-leading order (NLO) with {\sc Powheg1.0} ~\cite{Nason:2004rx,Frixione:2007vw,powheg,Alioli:2010xd,Alioli:2009je}, 
 and a set of diboson samples,
 produced at LO with {\sc Pythia6.4.26a}. All samples are generated using
@@ -366,7 +366,7 @@ originating from a single quark or gluon. This final category is referred to
 herein as the monojet category. For the monojet category, at
 least one AK5 jet within $|\eta|<2.0$ with $\pt >150$\GeV is required and the event must have $\ETm>200$\GeV.  
 Events containing a second AK5 jet with
-$\pt>30$\GeV and $|\eta|<2.5$ are selected, providing the azimuthal angle between it and the highest \pt jet with $|\eta|<2|$  
+$\pt>30$\GeV and $|\eta|<2.5$ are selected, providing the azimuthal angle between it and the highest \pt jet with $|\eta|<2$  
 is less than 2 radians. This is to allow the frequent cases where
 ISR yields two jets.  Events with three or more AK5 jets
 with $\pt>30$ \GeV and $|\eta|<2.5$ are rejected. Table~\ref{tab:selection} gives a 
@@ -482,13 +482,13 @@ The events in the control regions are
 divided into the three categories, using the same selection criteria
 described in Section~\ref{sec:selection}, but in addition requiring the presence
 of a pair of oppositely charged muons consistent with a Z boson decay, a high
-$p_{\mathrm{T}}$ photon or a single muon consistent with being a leptonic W boson decay. This 
+$p_{\mathrm{T}}$ photon or a single muon consistent with being from a leptonic W boson decay. This 
 yields a total of nine control regions; three for each event category. 
 In the control regions, the momentum of the dimuon pair,
 single muon or the photon is removed and the \ETm~is recalculated. This quantity is 
 referred to as pseudo-\ETm~and it is this variable to which the $\ETm$ selection of the 
 corresponding signal region applies. The distribution of pseudo-$\ETm$ in 
-the control regions is used to estimate the distribution of $\ET$ expected from the \Zvvjets~and \Wlvjets~
+the control regions is used to estimate the distribution of $\ETm$ expected from the \Zvvjets~and \Wlvjets~
 backgrounds in the signal region.
 
  
@@ -619,8 +619,8 @@ luminosity measurement~\cite{lumi} is included for all of the
 backgrounds obtained from simulation.
 
 The expected yields in each bin of \ETm from all SM backgrounds,
-after the fit in the control regions, for each of the three signal regions, are given in 
-Tables~\ref{tab:bkgmonojet},~\ref{tab:bkgresolved} and~\ref{tab:bkgboosted}. 
+after the fit in the control regions, are given in 
+Tables~\ref{tab:bkgmonojet},~\ref{tab:bkgresolved} and~\ref{tab:bkgboosted} for each of the three signal regions,. 
 The uncertainties represent the sum in quadrature of the effects of all the relevant 
 sources of systematic uncertainty in each bin of \ETm. 
 The potential correlations of the uncertainties between the different \ETm bins are not 
@@ -739,8 +739,8 @@ reflected in these numbers.
 A simultaneous fit is performed to the signal region across the three event categories,
 allowing for systematic uncertainties in the background expectations. 
 The corresponding comparisons between data and background in the
-\ETm distributions, for each of the three categories, after this fit are shown
-in Fig.~\ref{fig:post_fit_plots}.   Agreement between the expected SM
+\ETm distributions after this fit are shown
+in Fig.~\ref{fig:post_fit_plots} for each of the three categories.   Agreement between the expected SM
 backgrounds and data is observed at the percent level across the three
 categories. A local significance of the data in each bin is calculated by
 comparing the likelihood between the background-only fit  
@@ -877,9 +877,8 @@ the same exclusion contours, this time translated into the plane of
 $m_{\textrm{DM}}-\sigma_{\textrm{SI/SD}}$, where $\sigma_{\textrm{SI/SD}}$ are
 the SI or SD (for vector and scalar or axial vector) DM-nucleon
 scattering cross sections. These representations allow for a more direct
-comparison with limits from the DD experiments, which typically set
-upper limits on these cross sections. 
-The translations are obtained following the procedures outlines in Ref.~\cite{Malik:2014ggr} 
+comparison with limits from the DD experiments.
+The translations are obtained following the procedures outlined in Ref.~\cite{Malik:2014ggr} 
 for the vector and axial vector mediators and Ref.~\cite{ ,Harris:2015kda} for the scalar mediator. 
 It should be noted that the limits set from this analysis are only valid
 for the simplified model, and in particular assuming
@@ -887,11 +886,7 @@ $g_{\textrm{DM}}=g_{\textrm{SM}}=g_{\textrm{q}}=1$. For the scalar mediator mode
 only heavy quarks (top and bottom) contribute. Such a choice limits the
 sensitivity for DD experiments, but provide direct comparison
 between collider and DD experiments without an additional assumption on the
-light-quark couplings~\cite{Harris:2015kda}.  For vector and scalar mediator
-models, DD limits are stronger than those obtained in this
-analysis except in the scenario where the DM mass is less than around 6
-\GeV. For the axial vector mediator model, the limits obtained in this analysis
-dominate up to around $m_{\mathrm{DM}}=300$ \GeV. 
+light-quark couplings~\cite{Harris:2015kda}.  
 
 %and Super CDMS~\cite{Cheung:2013pfa} 
 For the vector and scalar models, the limits are compared with those from the 
@@ -901,14 +896,14 @@ For axial vector couplings, the limits are compared with DM$-$proton scattering 
 from the PICO-2L~\cite{Amole:2015lsj}, PICO-60~\cite{Amole:2015pla}, IceCube~\cite{Aartsen:2016exj} and 
 Super-Kamiokande~\cite{Choi:2015ara} experiments.  For pseudoscalar interactions, direct
 detection bounds are strongly velocity suppressed.  The most appropriate
-comparison is therefore to the most sensitive bounds from indirect detection
+comparison is therefore to the most sensitive bounds on indirect detection
 from the Fermi LAT collaboration~\cite{Ackermann:2011wa,Abdo:2010ex}.  These limits apply to the
 scenario in which dark matter is annihilated in the center of a galaxy, producing
 a $\gamma$ ray signature.
 
 In the vector mediator model, the constraints from this analysis are stronger than those from the DD experiments 
 for $m_{\rm{DM}}<4$\GeV as shown in Fig.~\ref{fig:xslims}(a).  
-In the axial vector model, the limits from this analysis are stronger than the DD limits for much larger DM masses. 
+In the axial vector model, the limits from this analysis are stronger than the DD limits for DM masses up to $m_{\mathrm{DM}}=300$ \GeV. 
 Limits in the scalar mediator scenario are more sensitive than those from the DD experiments for
 $m_{\rm{DM}}<6$\GeV as shown in Fig.~\ref{fig:xslims}(c). 
  
@@ -933,8 +928,7 @@ The 68\% CL preferred regions in this plane assuming the annihilation of DM
 pairs to light-quarks ($\mathrm{q\bar{q}}$), $\tau^{+}\tau^{-}$ or $\mathrm{b\bar{b}}$, 
 using data from Fermi LAT, are shown as solid colour regions. 
 For the simplified model, and assuming that $g_{\mathrm{DM}}=g_{\mathrm{q}}=1$, 
-all of these regions are excluded by this analysis. The limits from this analysis are 
-stronger than those from Fermi LAT when the DM mass is below 100\GeV.
+all of these regions are excluded by this analysis. The limits from this analysis exceed those from Fermi LAT when the DM mass is below 100\GeV.
 
 
 \begin{figure}[htbp] \centering \subfloat[][]{
