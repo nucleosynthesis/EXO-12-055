@@ -172,17 +172,17 @@ with mass $m_{\mathrm{DM}}$, and a scalar ($\rm{S}$), pseudoscalar ($\rm{P}$), v
 mediator with mass $m_{\mathrm{MED}}$ as, 
 
 \begin{align}\label{eg:LS}
-\mathcal{L}_{\mathrm{scalar}}  & \supset - \frac{1}{2} m_{\mathrm {MED}}^2 \mathrm{S}^2 - g_{\mathrm {DM}}  \mathrm{S} \bar{\chi}\chi - g_{\mathrm q} \sum_{q=b,t} \frac{m_{q}}{v} \mathrm{S} \bar{q}q  - m_{\mathrm {DM}} \bar{\chi}\chi,  \\ \label{eq:LP}
-\mathcal{L}_{\mathrm{pseudoscalar}}&\supset -\frac{1}{2}m_{\mathrm MED}^2 \mathrm{P}^2 - ig_{\mathrm {DM}}  \mathrm{P}  \bar{\chi} \gamma^5\chi - i g_{\mathrm q}\sum_{q=b,t} \frac{m_{q}}{v}  \mathrm{P}  \bar{q}\gamma^5q  - m_{\mathrm {DM}} \bar{\chi}\chi, \\ \label{eq:LV}
-\mathcal{L}_{\mathrm{vector}}&\supset \frac{1}{2}m_{\mathrm MED}^2 \mathrm{Z'}_{\mu} \mathrm{Z'}^{\mu} - g_{\mathrm {DM}}\mathrm{Z'}_{\mu} \bar{\chi}\gamma^{\mu}\chi - g_{\mathrm {SM}} \sum_q \mathrm{Z'}_{\mu} \bar{q}\gamma^{\mu}q - m_{\mathrm {DM}} \bar{\chi}\chi, \\ \label{eq:LA}
-\mathcal{L}_{\mathrm{axial~vector}}&\supset  \frac{1}{2}m_{\mathrm MED}^2 \mathrm{A}_{\mu} \mathrm{A}^{\mu} - g_{\mathrm {DM}} \mathrm{A}_{\mu} \bar{\chi}\gamma^{\mu}\gamma^5\chi -g_{\mathrm {SM}}\sum_q  \mathrm{A}_{\mu} \bar{q}\gamma^{\mu}\gamma^5q - m_{\mathrm {DM}} \bar{\chi}\chi,
+\mathcal{L}_{\mathrm{scalar}}  & \supset - \frac{1}{2} m_{\mathrm {MED}}^2 \mathrm{S}^2 - g_{\mathrm {DM}}  \mathrm{S} \bar{\chi}\chi - g_{\mathrm \mathrm{q}} \sum_{\mathrm{q=b,t}} \frac{m_{\mathrm{q}}}{v} \mathrm{S} \mathrm{\bar{q}q}  - m_{\mathrm {DM}} \bar{\chi}\chi,  \\ \label{eq:LP}
+\mathcal{L}_{\mathrm{pseudoscalar}}&\supset -\frac{1}{2}m_{\mathrm MED}^2 \mathrm{P}^2 - ig_{\mathrm {DM}}  \mathrm{P}  \bar{\chi} \gamma^5\chi - i g_{\mathrm{q}}\sum_{\mathrm{q=b,t}} \frac{m_{\mathrm{q}}}{v}  \mathrm{P}  \mathrm{\bar{q}}\gamma^{5}\mathrm{q}  - m_{\mathrm {DM}} \bar{\chi}\chi, \\ \label{eq:LV}
+\mathcal{L}_{\mathrm{vector}}&\supset \frac{1}{2}m_{\mathrm MED}^2 \mathrm{Z'}_{\mu} \mathrm{Z'}^{\mu} - g_{\mathrm {DM}}\mathrm{Z'}_{\mu} \bar{\chi}\gamma^{\mu}\chi - g_{\mathrm {SM}} \sum_{\mathrm{q}} \mathrm{Z'}_{\mu} \mathrm{\bar{q}}\gamma^{\mu}\mathrm{q} - m_{\mathrm {DM}} \bar{\chi}\chi, \\ \label{eq:LA}
+\mathcal{L}_{\mathrm{axial~vector}}&\supset  \frac{1}{2}m_{\mathrm MED}^2 \mathrm{A}_{\mu} \mathrm{A}^{\mu} - g_{\mathrm {DM}} \mathrm{A}_{\mu} \bar{\chi}\gamma^{\mu}\gamma^5\chi -g_{\mathrm {SM}}\sum_{\mathrm{q}}  \mathrm{A}_{\mu} \mathrm{\bar{q}}\gamma^{\mu}\gamma^{5}\mathrm{q} - m_{\mathrm {DM}} \bar{\chi}\chi,
 \end{align}
 
 where $v=246$\GeV is the Higgs potential vacuum expectation value~\cite{Harris:2014hga}. 
 For the vector and axial vector mediators, the terms $g_{\mathrm{DM}}$ and $g_{\mathrm{SM}}$ denote the couplings  
 of the mediator to the DM particle and to SM particles, respectively.  
 In all models considered, these couplings are assumed to be unity ($g_{\mathrm{SM}}=g_{\mathrm{DM}}=1$). 
-For the scalar and pseudoscalar models, $g_{\rm q}=1$ is assumed for all quark flavours, which implies 
+For the scalar and pseudoscalar models, $g_{\mathrm{q}}=1$ is assumed for all quark flavours, which implies 
 a Yukawa coupling of the mediator to the SM fermions.  
 The split in terms of axial vector and vector mediators in the Lagrangian is to
 parallel the existing separation in DD experiments, into spin-dependent (SD) and
@@ -279,8 +279,8 @@ than 99\% for all events used in the analysis.
 The azimuthal angle $\phi$ between the \ETm direction and the highest-\pt (leading) jet, $|\Delta\phi(\ETm,\rm{j})|$, is 
 required to be larger than 2 radians to reduce the contribution from QCD multijet events.   
 Events are vetoed if they contain at least one well-identified electron, photon or muon with
-$\pt>10$~\gev, or a $\tau$ lepton with
-$\pt>15$~\gev~\cite{Khachatryan:2015iwa,Khachatryan:2015hwa,Khachatryan:2015dfa,Chatrchyan:2013sba}. The
+$\pt>10$\GeV, or a $\tau$ lepton with
+$\pt>15$\GeV~\cite{Khachatryan:2015iwa,Khachatryan:2015hwa,Khachatryan:2015dfa,Chatrchyan:2013sba}. The
 electron, $\tau$ lepton and photon vetoes require that the  
 identified object be isolated using standard PF isolation algorithms~\cite{Beaudette:2014cea}.
 
@@ -289,13 +289,6 @@ topology of the jets to distinguish between ISR of a quark or gluon,
 and hadronic V-boson decays, which can be either highly Lorentz-boosted or resolved into two jets. 
 This results in three orthogonal categories of events that are referred to as the monojet, V-boosted,  
 and V-resolved categories. The V-boosted and V-resolved categories are collectively referred to as the V-tagged categories. 
-
-%between initial or final state
-%radiation of gluons or quarks and jets arising from hadronic vector boson
-%decays.  The events are first distinguished by the presence of an single jet
-%containing the full quark decays of a vector boson (boosted category),
-%subsequently for a resolved vector boson (resolved category), and finally the
-%remaining events are collected into the monojet category. 
 
 If the V-boson decays hadronically and has sufficiently large~\pt, both its hadronic decay products are captured as 
 a single reconstructed ``fat'' jet.  Events in the V-boosted category are
@@ -320,10 +313,10 @@ the data, and is attributed to the modelling the parton shower and detector simu
 This disagreement is within the systematic uncertainties of the
 analysis, a detailed discussion of which can be found in Ref.~\cite{Khachatryan:2014vla}.  
 
-\begin{figure*}[hbtp]\begin{center} \subfigure[]{
-\includegraphics[width=0.49\textwidth]{figures/t2t1_sig_baseline.pdf} }
-\subfigure[]{
-\includegraphics[width=0.49\textwidth]{figures/mass_sig_nomasscut.pdf} }
+\begin{figure}[hbtp]
+\begin{center} 
+\subfigure[][]{\includegraphics[width=0.49\textwidth]{figures/t2t1_sig_baseline.pdf}}
+\subfigure[][]{\includegraphics[width=0.49\textwidth]{figures/mass_sig_nomasscut.pdf}}
 \caption{
 Distributions in highly Lorentz-boosted events before the jet mass selection of (a) $\tau_2/\tau_1$ 
 and (b) $m_{\mathrm{prune}}$ for CA8 jets. A requirement of $\tau_2/\tau_1 < $ 0.5 has been applied in (b). 
@@ -332,7 +325,7 @@ The dashed red line shows the expected distribution for scalar-mediated DM produ
 $m_{\mathrm{DM}} = 10$\GeV and $m_{\mathrm{MED}} = 125$\GeV. The gray bands in the bottom panels 
 indicate the statistical uncertainty from the limited number
 of simulated events.}
-\label{fig:boostvtagvars}\end{center}\end{figure*}
+\label{fig:boostvtagvars}\end{center}\end{figure}
 
 In cases where the V-boson has insufficient boost for
 its hadronic decay to be fully contained in a single reconstructed fat jet, a
@@ -351,21 +344,23 @@ mediator produced in association with either a W or Z boson is shown in
 Fig.~\ref{fig:vtagger}. Events are selected in the V-resolved category in they have an 
 MVA output greater than 0.6.
 
-\begin{figure*}[hbtp]\begin{center} \subfloat[][]{
-\includegraphics[width=0.49\textwidth]{figures/res_vmvalog_0.pdf} }
-\subfloat[][]{ \includegraphics[width=0.49\textwidth]{figures/res_vmvalog_1.pdf}
-} \caption{ 
-MVA output distribution for V-tagged events in simulation and data after signal selection for 
-(a) $\pt < 160$\GeV and (b) $\pt > 160$\GeV. At a $\pt$ of about 160\GeV, 
-the jets from the V-boson decay begin to overlap. The dashed red line shows the expected distribution 
-for scalar-mediated DM production with $m_{\mathrm{DM}} = 10$\GeV and $m_{\mathrm{MED}} = 125$\GeV. 
+\begin{figure}[hbtp]\begin{center} 
+\subfloat[][]{\includegraphics[width=0.49\textwidth]{figures/res_vmvalog_0.pdf}}
+\subfloat[][]{\includegraphics[width=0.49\textwidth]{figures/res_vmvalog_1.pdf}} 
+\caption{ MVA output distribution for V-tagged events in simulation and 
+data after signal selection for (a) $\pt < 160$\GeV and (b) $\pt > 160$\GeV. At a $\pt$ of about 160\GeV, 
+the jets from the V-boson decay begin to overlap. The dashed red line shows the expected 
+distribution for scalar-mediated DM production with $m_{\mathrm{DM}} = 10$\GeV and $m_{\mathrm{MED}} = 125$\GeV. 
 The gray bands in the bottom panels indicate the statistical uncertainty from the limited number
-of simulated events.}\label{fig:vtagger}\end{center}\end{figure*}
+of simulated events.}
+\label{fig:vtagger}
+\end{center}
+\end{figure}
 
 To reduce contamination from top quark backgrounds, events are rejected if they
 contain a b-tagged jet, defined using an MVA discriminator, which uses secondary
 vertex information and is operated at a medium efficiency working point (``CSV
-medium'')~\cite{BTAG}. Finally, the events are required to have $\ETm>250$ \gev. 
+medium'')~\cite{BTAG}. Finally, the events are required to have $\ETm>250$\GeV. 
 
 The events that do not qualify for either of the two V-tagged categories are
 required to have one or two high \pt jets showing characteristics indicative of
@@ -405,10 +400,10 @@ allowed to enter any subsequent category.
   $\mathrm{N}_{\mathrm{j}}^{\ddagger}$      & $=1$     & -  & $=1$ \\
  \hline
  \end{tabular}
- \end{center}\\
-\footnotesize{$^{\dagger}$ The cut on the mass refers to $m_{\mathrm{prune}}$ in the V-boosted category and 
-the dijet invariant mass $m_{\mathrm{jj}}$ in the V-resolved category.}\\ 
-\footnotesize{$^{\ddagger}$ An additional jet is allowed only if it falls within $|\Delta\phi|<2$ radians of the 
+ \end{center}
+\footnotesize{$^{\dagger}$The cut on the mass refers to $m_{\mathrm{prune}}$ in the V-boosted category and 
+the dijet invariant mass $m_{\mathrm{jj}}$ in the V-resolved category.} 
+\footnotesize{$^{\ddagger}$An additional jet is allowed only if it falls within $|\Delta\phi|<2$ radians of the 
 leading AK5 or CA8 jet for the monojet or V-boosted category. The additional AK5 jets in the V-boosted category 
 must be further than $\Delta R>0.5$ for the event to fail this criteria.}
 \end{table}
@@ -416,23 +411,23 @@ must be further than $\Delta R>0.5$ for the event to fail this criteria.}
 Figure~\ref{fig:ptandmet} shows the \ETm and leading jet $\pt$ distributions
 in data and simulation after selection combining the three event classes combined. The
 backgrounds are normalised to an integrated luminosity of 19.7\fbinv. The expected distribution for
-vector mediated DM production assuming $\m_{\mathrm{DM}}=$10\GeV and $m_{\mathrm{MED}}=$1\TeV is overlaid.  
+vector mediated DM production assuming $m_{\mathrm{DM}}=$10\GeV and $m_{\mathrm{MED}}=$1\TeV 
+is overlaid.  
 The discrepancy between the data and simulation is a result of
 both detector resolution and an imperfect theoretical
 description of the kinematics of the $\Vjets$ processes, which are
 corrected using control samples in data described in the
 following section. 
 
-\begin{figure*}[hbtp]\begin{center} \subfloat[][]{
-\includegraphics[width=0.49\textwidth]{figures/plot_config_combsignal_category_monojet.pdf}
-} \subfloat[][]{
-\includegraphics[width=0.49\textwidth]{figures/plot_config_combsignal_jpt_category_monojet.pdf}\\
-} \caption{ Distributions in (a) \ETm and (b) leading jet $\pt$ in simulated
+\begin{figure}[hbtp]\begin{center} 
+\subfloat[][]{\includegraphics[width=0.49\textwidth]{figures/plot_config_combsignal_category_monojet.pdf}}
+\subfloat[][]{\includegraphics[width=0.49\textwidth]{figures/plot_config_combsignal_jpt_category_monojet.pdf}} 
+\caption{ Distributions in (a) \ETm and (b) leading jet $\pt$ in simulated
 events and data, combining the signal selections for the three event categories. 
 The dashed red line shows the expected distribution assuming vector
 mediated DM production with $m_{\mathrm{DM}}=10$\GeV and $m_{\mathrm{MED}}=1$\TeV.  
 The gray bands in the bottom panels indicate the statistical uncertainty from the limited number
-of simulated events.} \label{fig:ptandmet}\end{center}\end{figure*}
+of simulated events.} \label{fig:ptandmet}\end{center}\end{figure}
 
 \clearpage
 
@@ -467,7 +462,7 @@ the control regions is used to estimate the distribution of $\ETm$ expected from
 and $\Wlvjets$ backgrounds in the signal region.
 
 The dimuon control region is defined using the same selection as for the signal region, but removing the muon veto. 
-Instead, exactly two isolated muons with opposite charge, $\pt^{\mu_{1}},~\pt^{\mu}_{2}>20,~10$\GeV and an invariant mass in the range $60-120$~\GeV are required. 
+Instead, exactly two isolated muons with opposite charge, $\pt^{\mu_{1}},~\pt^{{\mu}_{2}}>20,~10$\GeV and an invariant mass in the range $60-120$~\GeV are required. 
 As the decay branching ratio of \Zmm~is approximately six times smaller than that
 to neutrinos, the resulting statistical uncertainty in the \Zvvjets~background 
 becomes a dominant systematic uncertainty at large values of \ETm.  A
@@ -495,7 +490,7 @@ mass, calculated as $m_{\mathrm{T}}=\sqrt{2\ETm p_{\mathrm{T}}^{\mu} (1-\cos \ph
 is the azimuthal angle between the muon and $\ETm$ vector, is required to be in the range $50-100$\GeV.
 
  
-The \ETm spectra of the $\vjets$ backgrounds are determined through the
+The \ETm spectra of the $\Vjets$ backgrounds are determined through the
 use of the binned likelihood fit, to the data in all the bins of the three control regions.
 The expected number of events $N_{i}$ in a given bin $i$ of pseudo-\ETm, is defined 
 as $N^{{\rm Z}_{\mu\mu}}_{i}=
@@ -561,7 +556,7 @@ photon purity are included and fully correlated across the control regions for t
 of the fit to the data in the control regions for the V-boosted, V-resolved and monojet categories are shown in 
 Figs.~\ref{fig:combined_fit_result_VB},~\ref{fig:combined_fit_result_VR}, and~\ref{fig:combined_fit_result_MJ}, respectively.
  
-\begin{figure*}[hbtp]\begin{center}
+\begin{figure}[hbtp]\begin{center}
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_boosted.pdf}}
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_boosted.pdf}}\\
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_boosted.pdf}}
@@ -575,7 +570,7 @@ observed data to the expectations before (pre) and after (post) the fit. The blu
 indicate the combined statistical and systematic uncertainties from the fit.\label{fig:combined_fit_result_VB} } 
 \end{figure}
 
-\begin{figure*}[hbtp]\begin{center}
+\begin{figure}[hbtp]\begin{center}
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_resolved.pdf}}
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_resolved.pdf}}\\
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_resolved.pdf}}
@@ -589,7 +584,7 @@ observed data to the expectations before (pre) and after (post) the fit. The blu
 indicate the combined statistical and systematic uncertainties from the fit.\label{fig:combined_fit_result_VR} } 
 \end{figure}
 
-\begin{figure*}[hbtp]\begin{center}
+\begin{figure}[hbtp]\begin{center}
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_photon_monojet.pdf}}
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_zmm_monojet.pdf}}\\
 \subfloat[][]{\includegraphics[width=0.48\textwidth]{figures/post_fit_wmn_monojet.pdf}}
@@ -738,8 +733,8 @@ reflected in these numbers.
 
 
 \clearpage
-\begin{section}{Results}
 
+\section{Results}
 A simultaneous fit to the data in the three event category signal regions is performed,
 allowing for systematic uncertainties in the background expectations. 
 The corresponding comparisons between the data and the expected backgrounds in the
@@ -754,7 +749,7 @@ observed using this procedure is $1.9$ standard deviations and corresponds to th
 bin of the monojet category.
 
 
-\begin{figure*}[hbtp]\begin{center} \subfloat[][]{
+\begin{figure}[hbtp]\begin{center} \subfloat[][]{
 \includegraphics[width=0.5\textwidth]{figures/plot_config_boosted.pdf} }
 \subfloat[][]{
 \includegraphics[width=0.5\textwidth]{figures/plot_config_resolved.pdf} }\\
@@ -766,7 +761,7 @@ after fitting to the observed data simultaneously across the (a) V-boosted,
 (b) V-resolved and (c) monojet categories.  The gray bands indicate the post-fit
 uncertainty in the background, assuming no signal. The expected distribution
 assuming vector mediated DM production is shown for $m_{\mathrm{DM}}=10$\GeV and 
-$m_{\mathrm{MED}}=1$\TeV.  } \label{fig:post_fit_plots}\end{center}\end{figure*}
+$m_{\mathrm{MED}}=1$\TeV.  } \label{fig:post_fit_plots}\end{center}\end{figure}
 
 The results are interpreted using the set of simplified models for DM production 
 described in Section~\ref{sec:signals}. 
@@ -787,14 +782,6 @@ theoretical systematic uncertainties on the inclusive cross section (20\% and
 respectively) due to QCD scale and PDF uncertainties are instead added as
 additional contours on the exclusion limits. These uncertainties are chosen for 
 the full range of the mediator mass from 10\GeV to 3\TeV.
-
-%To compare direct detection experiments with collider experiments, the direct
-%detection bounds can be interpreted under the Lagrangians given in
-%Eq.~\ref{eq:LS}. The limits obtained in the simplified models use the
-%standard approaches to compute $t$-channel
-%scattering~\cite{Kurylov:2003ra,Hisano:2010ct,
-%Cheung:2013pfa,Buchmueller:2014yoa}.  
-
 
 Figure~\ref{fig:masslims} shows the 90\% CL exclusions for the vector,
 axial vector, scalar and pseudoscalar mediator models. The 90\%  
@@ -820,41 +807,6 @@ observed cold DM density $\Omega_c h^2=0.12$~\cite{Ade:2013zuv}, as described in
 Ref.~\cite{Pree:2016hwc}. It is assumed that the simplified model hypothesised 
 provides the only relevant beyond SM dynamics for DM interactions.
 
-%To compare limits from direct detection experiments with those
-%obtained here, the DD bounds can be interpreted under the Lagrangians given by
-%Eq.~\ref{eq:LS}-Eq.~\ref{eq:LA}. The limits obtained in the simplified models use the
-%standard approaches to compute $t$-channel
-%scattering~\cite{Kurylov:2003ra,Hisano:2010ct,
-%Cheung:2013pfa,Buchmueller:2014yoa}.  For the vector and scalar  models,
-%the limits are compared with the measurements by the
-%LUX collaboration~\cite{Akerib:2012ys}, which currently
-%provide the strongest constraints for $m_{\rm{DM}} \gtrsim 4$ GeV~\cite{PhysRevLett.116.161301}. 
-%For axial vector couplings, the limits are compared with DM-proton scattering limits
-%from PICO-2 collaborationL~\cite{Amole:2015lsj}.  For pseudoscalar interactions, direct
-%detection bounds are strongly velocity suppressed.  The most appropriate
-%comparison is therefore to the most sensitive bounds from indirect detection
-%from FermiLAT collaboration~\cite{Ackermann:2011wa,Abdo:2010ex}.  These limits apply to the
-%scenario in which DM is annihilated in the center of a galaxy, producing
-%a $\gamma$ ray signature.  The results are also compared, for all four types of
-%mediators, to constraints obtained from the observed cosmological relic density
-%of DM as determined from measurements of the cosmic microwave background by the
-%WMAP and Planck experiments~\cite{Bennett:2003ba,Planck:2006aa}. The expected DM
-%abundance is estimated, separately for each model, using a thermal freeze-out
-%mechanism implemented in {\sc MadDM 1.0}~\cite{Backovic:2013dpa}, and compared to the
-%observed cold DM density $\Omega_c h^2=0.12$~\cite{Ade:2013zuv}, as described in 
-%Ref.~\cite{Pree:2016hwc}. It is assumed that the simplified model hypothesised 
-%provides the only relevant beyond SM dynamics for DM interactions.
-
-
-%Under the vector mediator model, the DD bounds dominate across
-%most of the plane, while for the axial vector, there is good complementarity
-%between the DD limits and those from this analysis as shown in Fig.~\ref{fig:masslims}(b). 
-%Limits in the scalar mediator scenario are more sensitive than those
-%from DD experiments for small DM masses as shown in Fig.~\ref{fig:masslims}(c). Additional sensitivity is gained for mediator
-%masses greater than 350 \GeV, due to the rise in cross section of the
-%gluon fusion loop process for masses greater than twice the top quark mass. In
-%the pseudoscalar mediator scenario, the limits from this analysis exceed the
-%reach in $m_{\mathrm{MED}}$ beyond those from FermiLAT over the whole region.
 
 \begin{figure}[htbp] \centering \subfloat[][]{
 \includegraphics[angle=0,width=0.50\textwidth]{figures/MassLimit_1_800_0_Both.pdf}
@@ -900,13 +852,7 @@ For axial vector couplings, the limits are compared with DM$-$proton scattering 
 from the PICO-2L~\cite{Amole:2015lsj}, PICO-60~\cite{Amole:2015pla}, IceCube~\cite{Aartsen:2016exj} and 
 Super-Kamiokande~\cite{Choi:2015ara} experiments. In this model, the limits obtained in this analysis
 are dominant for DM masses up to $300$\GeV.
-%axial vector mediator model, 
 
-%For vector and scalar mediator
-%models, DD limits are stronger than those obtained in this
-%analysis except for  $m_{\mathrm{DM}}<$6\GeV. 
-
-%and Super CDMS~\cite{Cheung:2013pfa} 
 Pseudoscalar-mediated DM-nucleon interactions are velocity suppressed. The most appropriate
 comparison is therefore to the most sensitive bounds on indirect detection
 from the Fermi LAT collaboration~\cite{Ackermann:2011wa,Abdo:2010ex}. 
@@ -927,12 +873,6 @@ The results shown from Fermi LAT have been scaled by a factor of two compared
 to Ref.~\cite{Ackermann:2011wa} to translate the assumption of a Majorana DM 
 fermion used in that analysis. 
 
-%In the vector mediator model, the constraints from this analysis are stronger than those from the DD experiments 
-%for $m_{\rm{DM}}<4$\GeV as shown in .  
-%In the axial vector model, the limits from this analysis are stronger than the DD limits for much larger DM masses. 
-%Limits in the scalar mediator scenario are more sensitive than those from the DD experiments for
-%$m_{\rm{DM}}<6$\GeV as shown in Fig.~\ref{fig:xslims}(c). 
- 
 An excess in $\gamma$ ray emission, consistent with the annihilation of DM, at the galactic 
 centre has been reported in several studies using data from Fermi LAT~\cite{Gordon:2013vta,Abazajian:2012pn,Hooper:2010mq}. 
 Further studies of this excess suggest that DM 
