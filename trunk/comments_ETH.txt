@@ -1,14 +1,19 @@
 => Figures
 The style of the figures should be made much more uniform: 
 => updated
+
 Spacing in y-titles. Sometimes you use "Title/Unit" sometimes "Title / Unit": please uniformize. 
 => updated
+
 The size of the legends should be increased and made uniform
 => updated.
+
 It would be better to put "CMS" outside of the frame. In figure 5 you can then put the category name inside the frame.
 => Its CMS procedure to put it inside the frame 
+
 Axes titles and label sizes should be increased in Figure 5. Also, the legend has a border in this figure but not in the others.
-=> updated
+=> updated, we have remvoed the border and separated into 3 figures to allow for larger sizes.
+
 fig5: would the figure be more readable with logx scale ?
 => we prefer it without log 
 

@@ -23,6 +23,7 @@ Type A:
 
 - l7 "standard model (SM) *of particle physics*"
 => Updated
+
 - l10-11: "while mono-V, V=W or Z boson, searches": sounds not very elegant, rephrase it
 => We leave this to the LE
 
@@ -116,46 +117,66 @@ Type A:
 
 - l209: remove the comma after the N_i formula
 =>removed 
+
 - l213: remove comma after "by"
 =>removed
+
 - l216: "equation" should be capitalized
 => Added
+
 - l216: add comma before "respectively"
 => Added
+
 - l222: remove comma
 => Added
+
 - Fig. 5, caption: add comma before "respectively"
 => Added
+
 - Fig. 5: write "E_T^miss" in plot axis labels, not "MET"
 => We will consder
+
 - Fig. 6: in the plot top-labels, write "V-boosted" and "V-resolved" as in the text
 => We will consder
+
 - l248 the space before "3" seems too wide
 => Fixed
+
 - l249: "all of" --> "of all"
 => Fixed
+
 - l259: "and another setting": sentence would be easier to digest by adding a noun and perhaps even a comma, e.g. "and another fit, setting"
 => Fixed
+
 - l271: add comma before "respectively"
 => Fixed
+
 - l275: here "Eq.", l216 "equation" -> unify
 => Fixed
+
 - l332: why are there brackets around "qqbar" but not around "tautau" and "bbbar"?
 => Not changed light qq here is to define light quarks
+
 - l336: "with a large missing transverse" : delete "a"
 => Fixed
+
 - l336: "at centre-of-mass energy" --> "at a centre-of-mass energy"
 => Pefer to keep as is
+
 - Fig. 7, caption: "shown in the orange line" --> "shown by the orange line"
 => Fixed
+
 - Fig. 8, caption: "V-tag categories categories" --> remove once "categories"
   "For the pseudoscalar" : add noun, e.g. "For the pseudoscalar mediator"
   why are there parenthesis around "qqbar" and (tautau) but not around "bbbar"?
 => Fixed, the parnes is for the light quarks denotation
+
 - l341: "categorising ... according to the origin of the jets ... as either quark/gluon radiation or from a hadronically decaying vector boson" : this sounds clumsy. Suggestion : "categorising ... according to the origin of the jets ... as either being quark/gluon radiation or a hadronically decaying vector boson"
 => rephrase (your suggestiond didn't fit perfectly)
+
 - l379, Ref [9]: "Busoni, G." --> "G. Busoni"
 =>Fixed
+
 - l392, Ref [14]: "Mar," should be deleted
 =>Fixed
 
