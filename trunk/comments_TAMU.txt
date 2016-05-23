@@ -17,16 +17,16 @@
 => In this version of the analysis we had not done the full theory studies to add this. This was added later in the 13 TeV analysis. The g+jets still drives everything. 
 
 -line 242. I would have thought that the QCD background was dominated by jet mismeasurement, not well measured QCD events. Is the cross section really the most important uncertainty to worry about?
-=> good point, rephrased to cross section in phase space
+=> good point, rephrased to cross section in phase space. The QCD is actually from a separate CR so this part has been put into a separate sentence. 
 
 -line 267 is a 90% CL exclusion common for this sort of result? 95% seems more common these days, and I see the previous 8 TeV monojet result reported 95% CL ULs.
-=> We use 90% to consistent with DD. There is an ogoing debate about what is correct or not.  It is likely we will switch back to 95% for the next set of results.
+=> We use 90% to consistent with DD. There is an ogoing debate about what is correct or not.  It is likely we will switch back to 95% for the next set of results as are in the (recent) reccomendations.
 
 -line 268. Are there not other relevant uncertainties on the signal efficiency? What about uncertainty in the V-tagging? Or the MVA cut efficiency?
 => The V-tagging and MVA cut are incorporated in the limit extraction. Only theory systematics pertaining to the production are listed as lines on the plot
 
 -General: I presume this result supersedes the previous 8 TeV monojet search. Perhaps you should make that explicit, and comment on how much the sensitivity improves.
-=> We have added a statement
+=> We have added a statement for this comparison. 
  
 
 Type A

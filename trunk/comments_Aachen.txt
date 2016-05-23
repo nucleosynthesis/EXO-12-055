@@ -24,7 +24,7 @@ Type A:
 - l7 "standard model (SM) *of particle physics*"
 => Updated
 - l10-11: "while mono-V, V=W or Z boson, searches": sounds not very elegant, rephrase it
-=> We prefer to leave it as is (this was  comment from the LE)
+=> We leave this to the LE
 
 - l23-24 the sentence is somehow broken
 => Fixed

@@ -1,6 +1,4 @@
-Thank you for your comments, we were able to read the PDF and have adopted most of the recommendations.
-
-Please find responses below to the overview comments
+Thank you for your comments. We were able to read the PDF and have adopted the majority of the recommendations. Please find responses below to the overview comments which were made. Let us know if you would like a detailed response to the PDF annotations in addition to these. 
 
 (i) The chosen symbols are very confusing. Please consider the overall consistency of the nomenclature.
 
@@ -12,20 +10,24 @@ These were requested during the review as the (more familiar) reader is able to 
 
 (iii) You should become better acquainted with the CMS PubComm guidelines for authors, you have violated quite a few of these. Ask your LE to help with these issues. You use symbols that do not correspond to the CMS standards.
 
+The only symbol which may not correspond to any standard is the use of the "superset" symbil in Eqn 1-4. These are in fact the symbols used by the authors referenced and are used in physics papers. 
+
 (iv) The end of the intro should be fixed, as you do not give all the sections correctly.
 
 Fixed,  thankyou
 
 (v) Defining a vector or even a scalar ETmiss, especially when it is unnecessary, is like a horror from ancient time, as you already have the imbalance in transverse momentum pTslash and its magnitude pTslash. Let's forget how this quantity used to be measured. We now use PF tracks, with simpler jet definitions, and no need to involve incomprehensible quantities that bear little resemblance to science.
 
-We leave this to LE as we were asked to stick to ETmiss during the review from the LE.
+We leave this to LE as we were asked to stick to ETmiss during the review from the LE. As you mention in the detailed comments, the use of ETmiss is in the Guidelines provided it is defined so we will stick to it. 
 
 (vi) It's hard to imagine that the authors or their LE do not know about the CMS use of "cross section," or the Oxford comma! Please fix all those problems in the text, as I have indicated.
 
+We have inserted the oxford comma where we feel it is necessary to clarify. Several cases were also added thanks to your comments. 
+
 (vii) I find it exceedingly annoying to see those special designations often used to confuse the readers, usually intended to represent choices, but never explained, such as "green/blue" or Table 1 (2) gives XXX (YYY) in June (July)... At times it's clear what is meant by those "space savers," but they do not belong in formal writing. Just spell out everything in all detail, as I have shown.
 
-We see no reason to drop these in all cases and do not see the guidelines which specify we should.
+We see no reason to drop these in all cases and do not see the guidelines which specify we should. We will discuss this with the LE.
 
 (viii) Please set Tables 1-3 into reasonable format, e.g., landscape, but certainly do not leave the alternatively rotated formats.
 
-We have done this but at the cost of reducing the font size.
+We tried a number of fixes to remove the alternating rotation but none of them seem to work with the tdr latex compiler so have instead rotated them. 

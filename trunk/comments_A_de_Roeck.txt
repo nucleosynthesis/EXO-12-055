@@ -67,7 +67,7 @@ Done
 - line 80 Geant4” is not written in the standard format as the authors
   like (see other CMS papers, or there Geant4 web page)
 
-This was a comment from our LE to use GEANT4, we have reverted back to sc Geant4
+we have used \sc for all software titles including now Geant4
 
 - lines 82: “The impact of this choice was found to be 30%…” compared to what?
 
